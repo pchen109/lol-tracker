@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "449a7d4d-5252-4b5d-833d-bb6228e7e64e",
+		"name": "lol-tracker",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41177123"
+	},
+	"item": [
+		{
+			"name": "LOLActivity-201",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"user_id\": \"zebra-#zoo\",\r\n  \"region\": \"NA\",\r\n  \"login_counts\": 7,\r\n  \"timestamp\": \"2016-08-29T09:12:33.001000+00:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/lol/activity",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"lol",
+						"activity"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LOLActivity-400",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"user_id\": \"zebra-#zoo\",\r\n  \"region\": \"NA\",\r\n  \"login_counts\": \"7\",\r\n  \"timestamp\": \"2016-08-29T09:12:33.001000+00:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/lol/activity",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"lol",
+						"activity"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LOLMatch-201",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"match_id\": \"d290f1ee-6c54-4b01-90e6-d701748f0851\",\r\n  \"user_id\": \"zebra-#zoo\",\r\n  \"kill\": 5,\r\n  \"death\": 2,\r\n  \"assist\": 8,\r\n  \"timestamp\": \"2016-08-29T09:12:33.001000+00:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/lol/match",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"lol",
+						"match"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LOLMatch-400",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"match_id\": \"d290f1ee-6c54-4b01-90e6-d701748f0851\",\r\n  \"user_id\": \"zebra-#zoo\",\r\n  \"kill\": \"5\",\r\n  \"death\": 2,\r\n  \"assist\": 8,\r\n  \"timestamp\": \"2016-08-29T09:12:33.001000+00:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/lol/match",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"lol",
+						"match"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
