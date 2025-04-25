@@ -154,6 +154,9 @@
 	- `python app.py haha` → `len(sys.agrv)` is 2
 - `sys.argv[1]`	- second argument
 	- `python app.py drop` → `sys.argv[1]` is "drop"
+- `r = httpx.post(url, json=data)`
+	- `r.text`		- response content
+	- `r.status_code`	- response status code
 
 ##### Documents
 - [JMeter Timestamp](https://www.perfmatrix.com/jmeter-timestamp/)
