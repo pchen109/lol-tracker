@@ -1,22 +1,32 @@
-# lol-tracker
-### Purpose
-This application gathers user login activity and performance from League of Legends API. This data will be processed and displayed on a dashboard for users to analyze their own and others' performances. 
+# Lab2 - Receiver 
+### Tasks
+- create receiver service to receive HTTP requests
+- use Swagger UI to test one event at a time
+- use JMeter to test multiple event concurrently
 
-### Event 1 - User Activity
-The receiver service will gather user activity cosisting of `user_id`, `region`, `login_counts` and `timestamp`.
+### Result
+- Receiver listens to HTTP requests.
+- Reciever stores processed requests in a JSON file.
 
-### Event 2 - Performance
-The receiver service will gather user permforance in a match consisting of `match_id`, `user_id`, `kill`, `death`, `assist` and `timestamp`. 
+### How to Run
+1. clone thhis git repo
+2. navigate (`cd`) to lab2 direcotry 
+3. run `app.py` in Receiver directory
 
-### Peak Events
-These two events surge significantly on Friday and Saturday nights when students finish school. We anticipate a peak activity rate of 5,000 players logging in per second and 10,000 matches starting per second.
+### How to Use Swagger
+1. access Swagger UI with `http:/localhost:8080/ui`
+2. send at least one event from each event type
 
-### Types of User
-- **Players**
-  - Access their in-game performance
-- **Game developers**
-  - Track whether champions are balanced
-  - Analyze whether two teams are matched in skill
-- **Streamers**
-  - Schedule streams based on user activity
+### How to Use JMeter
+1. open JMeter app
+2. load `lab2_jmeter.jmx` in `~\lab2\others` directory
+3. change number of threads and loop count for your own needs
+4. press start to send events
 
+### How to Verify
+1. open `events.json` in `~\lab2\receiver`
+
+### How to Close
+1. stop (`ctrl + c`) `app.py`
+
+# End
