@@ -1,4 +1,4 @@
-# lab1 - OpenAPI
+# Lab1 - OpenAPI
 
 ### Tasks
 - plan and understand the appplication
