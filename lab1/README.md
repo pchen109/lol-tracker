@@ -1,4 +1,9 @@
-# lol-tracker
+# lab1 - OpenAPI
+
+### Tasks
+- plan and understand the appplication
+- write a YAML file used for furthre labs
+
 ### Purpose
 This application gathers user login activity and performance from League of Legends API. This data will be processed and displayed on a dashboard for users to analyze their own and others' performances. 
 
