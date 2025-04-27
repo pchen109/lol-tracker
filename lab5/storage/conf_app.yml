@@ -1,0 +1,7 @@
+version: 1
+database:
+  user: riot
+  password: riot
+  hostname: localhost
+  port: 3306
+  db_name: riot
