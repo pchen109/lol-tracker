@@ -1,10 +1,12 @@
 from sqlalchemy.orm import DeclarativeBase, mapped_column
 from sqlalchemy import Integer, String, DateTime, func
+from sqlalchemy_serializer import SerializerMixin
+
 
 class Base(DeclarativeBase):
     pass
 
-class UserActivity(Base):
+class UserActivity(Base, SerializerMixin):
     __tablename__ = "user_activity"
     user_id = mapped_column(String(50), primary_key=True)
     region = mapped_column(String(5), nullable=False)
@@ -13,7 +15,7 @@ class UserActivity(Base):
     date_created = mapped_column(DateTime, nullable=False, default=func.now())
     trace_id = mapped_column(String(50), nullable=False)
 
-class UserMatch(Base):
+class UserMatch(Base, SerializerMixin):
     __tablename__ = "user_match"
     match_id = mapped_column(String(50), primary_key=True)
     user_id = mapped_column(String(50), nullable=False)

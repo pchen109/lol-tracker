@@ -37,7 +37,7 @@ def store_events(payload):
             user_id = payload["user_id"],
             region = payload["region"],
             login_counts = payload["login_counts"],
-            timestamp = dt.strptime(payload["timestamp"], "%Y-%m-%d--%I:%M:%S.%f--%z"),
+            timestamp = dt.strptime(payload["timestamp"], "%Y-%m-%dT%I:%M:%S.%f%z"),
             trace_id = payload["trace_id"],
         )
     if "match_id" in payload:
@@ -47,7 +47,7 @@ def store_events(payload):
             kill = payload["kill"],
             death = payload["death"],
             assist = payload["assist"],
-            timestamp = dt.strptime(payload["timestamp"], "%Y-%m-%d %I:%M:%S.%f %z"),
+            timestamp = dt.strptime(payload["timestamp"], "%Y-%m-%dT%I:%M:%S.%f%z"),
             trace_id = payload["trace_id"],
         )
     session.add(event)
@@ -56,12 +56,12 @@ def store_events(payload):
 
 ### GET Method
 def get_activity(start_timestamp, end_timestamp):
-    get_events(start_timestamp, end_timestamp, UserActivity)
+    return get_events(start_timestamp, end_timestamp, UserActivity)
 
 def get_match(start_timestamp, end_timestamp):
-    get_events(start_timestamp, end_timestamp, UserMatch)
+    return get_events(start_timestamp, end_timestamp, UserMatch)
 
-def get_events(start_timestamp, end_timestamp, class_name):
+def get_events(start_timestamp, end_timestamp, class_name): 
     session = make_session()
     start = dt.fromisoformat(start_timestamp)
     end = dt.fromisoformat(end_timestamp)
@@ -75,7 +75,9 @@ def get_events(start_timestamp, end_timestamp, class_name):
     ]
     
     session.close()
-    logger.info("Found %d %s (start: %s, end: %s)", len(results), class_name, start, end)
+    logger.info("Found %d %s event (start: %s, end: %s)", len(results), class_name.__table__.name , start, end)
+    logger.debug(f"{type(results)}")
+    return results, 200
 ### End of GET Method
 
 app = connexion.FlaskApp(__name__, specification_dir='')

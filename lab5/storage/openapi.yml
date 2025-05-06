@@ -69,7 +69,7 @@ paths:
               schema:
                 type: array
                 items:
-                  $ref: '$/components/schema/LOLMatch'
+                  $ref: '$/components/schemas/LOLMatch'
     post:
       description: adds a match result to the system
       operationId: app.add_match

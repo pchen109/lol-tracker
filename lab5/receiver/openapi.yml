@@ -61,7 +61,7 @@ components:
           type: string
           description: last time user login
           format: date-time
-          example: "2025-04-24 06:24:09.856 -07:00"
+          example: "2025-04-24T06:24:09.856-07:00"
         
     LOLMatch:
       required:
@@ -98,4 +98,4 @@ components:
           type: string
           description: time of starting match
           format: date-time
-          example: "2025-04-24 06:24:09.856 -07:00"
+          example: "2025-04-24T06:24:09.856-07:00"
