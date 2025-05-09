@@ -1,0 +1,8 @@
+version: 1
+urls:
+  activity: http://localhost:8090/lol/activity
+  match: http://localhost:8090/lol/match
+kafka:
+  hostname: localhost
+  port: 9092
+  topic: events

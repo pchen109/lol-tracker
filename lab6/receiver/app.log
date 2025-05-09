@@ -1,0 +1,892 @@
+2025-04-25 16:32:49,026 - basicLogger - INFO - RECEIVED - add_activity (trace id: ff91acc1-da6a-4108-a2c7-cdc370339de0)
+2025-04-25 16:32:49,107 - basicLogger - INFO - RESPONSE - add_activity (trace id: ff91acc1-da6a-4108-a2c7-cdc370339de0) has status 500
+2025-04-25 16:36:03,069 - basicLogger - INFO - RECEIVED - add_activity (trace id: 7eaf6a5b-0cd6-4cec-a935-c473e02ac2e9)
+2025-04-25 16:36:03,125 - basicLogger - INFO - RESPONSE - add_activity (trace id: 7eaf6a5b-0cd6-4cec-a935-c473e02ac2e9) has status 500
+2025-04-25 16:36:14,048 - basicLogger - INFO - RECEIVED - add_match (trace id: 7ccd984f-1fa0-4f16-b24f-1884ac4dfbcf)
+2025-04-25 16:36:14,075 - basicLogger - INFO - RESPONSE - add_match (trace id: 7ccd984f-1fa0-4f16-b24f-1884ac4dfbcf) has status 500
+2025-04-25 16:39:52,363 - basicLogger - INFO - RECEIVED - add_activity (trace id: be3d729a-7cbc-4dfb-8b80-66681f51fe7b)
+2025-04-25 16:39:52,430 - basicLogger - INFO - RESPONSE - add_activity (trace id: be3d729a-7cbc-4dfb-8b80-66681f51fe7b) has status 201
+2025-04-25 16:41:33,243 - basicLogger - INFO - RECEIVED - add_match (trace id: b01d10d0-efe0-4779-a123-75997254e9d4)
+2025-04-25 16:41:33,290 - basicLogger - INFO - RESPONSE - add_match (trace id: b01d10d0-efe0-4779-a123-75997254e9d4) has status 201
+2025-04-25 16:43:57,133 - basicLogger - INFO - RECEIVED - add_activity (trace id: 7dafba86-aef5-42c9-bdb3-cbcf3e78aa84)
+2025-04-25 16:43:57,137 - basicLogger - INFO - RECEIVED - add_activity (trace id: df6d5965-039e-4e78-b1d5-db030fb02bab)
+2025-04-25 16:43:57,197 - basicLogger - INFO - RESPONSE - add_activity (trace id: df6d5965-039e-4e78-b1d5-db030fb02bab) has status 201
+2025-04-25 16:43:57,200 - basicLogger - INFO - RESPONSE - add_activity (trace id: 7dafba86-aef5-42c9-bdb3-cbcf3e78aa84) has status 201
+2025-04-25 16:43:57,207 - basicLogger - INFO - RECEIVED - add_match (trace id: 30beb25c-2578-4b4b-b4ec-34226208d630)
+2025-04-25 16:43:57,207 - basicLogger - INFO - RECEIVED - add_match (trace id: 3e3f0446-3697-4435-8d0c-b022540fb587)
+2025-04-25 16:43:57,237 - basicLogger - INFO - RECEIVED - add_activity (trace id: 34745b45-dd83-4569-88e0-542e2895d56a)
+2025-04-25 16:43:57,258 - basicLogger - INFO - RESPONSE - add_match (trace id: 30beb25c-2578-4b4b-b4ec-34226208d630) has status 201
+2025-04-25 16:43:57,262 - basicLogger - INFO - RECEIVED - add_activity (trace id: 0834405f-8b74-490d-9471-c0e01beecb87)
+2025-04-25 16:43:57,263 - basicLogger - INFO - RESPONSE - add_match (trace id: 3e3f0446-3697-4435-8d0c-b022540fb587) has status 201
+2025-04-25 16:43:57,266 - basicLogger - INFO - RECEIVED - add_activity (trace id: b721ae91-48fd-4663-b2c7-da8666806401)
+2025-04-25 16:43:57,277 - basicLogger - INFO - RESPONSE - add_activity (trace id: 34745b45-dd83-4569-88e0-542e2895d56a) has status 201
+2025-04-25 16:43:57,281 - basicLogger - INFO - RECEIVED - add_match (trace id: dc340ee1-ea28-4a32-968e-78c9c0d93628)
+2025-04-25 16:43:57,318 - basicLogger - INFO - RESPONSE - add_activity (trace id: 0834405f-8b74-490d-9471-c0e01beecb87) has status 201
+2025-04-25 16:43:57,322 - basicLogger - INFO - RECEIVED - add_match (trace id: 749dad5d-7eca-4492-96dd-f1b4fb3f7aa4)
+2025-04-25 16:43:57,329 - basicLogger - INFO - RESPONSE - add_activity (trace id: b721ae91-48fd-4663-b2c7-da8666806401) has status 201
+2025-04-25 16:43:57,341 - basicLogger - INFO - RECEIVED - add_activity (trace id: 955be275-4a4a-4af2-a933-614b0e47e1a0)
+2025-04-25 16:43:57,341 - basicLogger - INFO - RECEIVED - add_match (trace id: 241c328e-e697-4af9-85f6-7b4d713db119)
+2025-04-25 16:43:57,342 - basicLogger - INFO - RESPONSE - add_match (trace id: dc340ee1-ea28-4a32-968e-78c9c0d93628) has status 201
+2025-04-25 16:43:57,345 - basicLogger - INFO - RECEIVED - add_activity (trace id: 6234b1f2-b3dc-4e86-9b25-bde2b4283e0f)
+2025-04-25 16:43:57,363 - basicLogger - INFO - RESPONSE - add_match (trace id: 749dad5d-7eca-4492-96dd-f1b4fb3f7aa4) has status 201
+2025-04-25 16:43:57,366 - basicLogger - INFO - RECEIVED - add_activity (trace id: 4af7cef5-776d-42e4-8b64-9c6b5a99a930)
+2025-04-25 16:43:57,439 - basicLogger - INFO - RECEIVED - add_activity (trace id: e4d0e914-d06a-4a40-9eaf-0608f5f1bd45)
+2025-04-25 16:43:57,442 - basicLogger - INFO - RESPONSE - add_activity (trace id: 955be275-4a4a-4af2-a933-614b0e47e1a0) has status 201
+2025-04-25 16:43:57,447 - basicLogger - INFO - RECEIVED - add_match (trace id: 0416fa32-67c0-42cb-a04c-7f0656555295)
+2025-04-25 16:43:57,448 - basicLogger - INFO - RESPONSE - add_match (trace id: 241c328e-e697-4af9-85f6-7b4d713db119) has status 201
+2025-04-25 16:43:57,453 - basicLogger - INFO - RECEIVED - add_activity (trace id: a2fad440-18e0-49a0-aaa8-1ae7deefb4cb)
+2025-04-25 16:43:57,453 - basicLogger - INFO - RESPONSE - add_activity (trace id: 4af7cef5-776d-42e4-8b64-9c6b5a99a930) has status 201
+2025-04-25 16:43:57,455 - basicLogger - INFO - RESPONSE - add_activity (trace id: 6234b1f2-b3dc-4e86-9b25-bde2b4283e0f) has status 201
+2025-04-25 16:43:57,457 - basicLogger - INFO - RECEIVED - add_match (trace id: 00b64845-bd6f-46a5-8107-8cdc83006499)
+2025-04-25 16:43:57,460 - basicLogger - INFO - RECEIVED - add_match (trace id: 572094fb-380c-42ec-864a-ee14153e9254)
+2025-04-25 16:43:57,509 - basicLogger - INFO - RESPONSE - add_activity (trace id: e4d0e914-d06a-4a40-9eaf-0608f5f1bd45) has status 201
+2025-04-25 16:43:57,514 - basicLogger - INFO - RECEIVED - add_match (trace id: c7231edf-5fdd-493b-b935-eb7e7c70f3d4)
+2025-04-25 16:43:57,532 - basicLogger - INFO - RECEIVED - add_activity (trace id: bd1f6007-3046-4758-ae81-fe5832de90f4)
+2025-04-25 16:43:57,562 - basicLogger - INFO - RESPONSE - add_match (trace id: 0416fa32-67c0-42cb-a04c-7f0656555295) has status 201
+2025-04-25 16:43:57,568 - basicLogger - INFO - RECEIVED - add_activity (trace id: 302fcca8-4379-4e57-afb6-602ae913b855)
+2025-04-25 16:43:57,572 - basicLogger - INFO - RESPONSE - add_match (trace id: 572094fb-380c-42ec-864a-ee14153e9254) has status 201
+2025-04-25 16:43:57,576 - basicLogger - INFO - RECEIVED - add_activity (trace id: 4a0abf28-83db-492a-b875-aa5fb68c55eb)
+2025-04-25 16:43:57,578 - basicLogger - INFO - RESPONSE - add_match (trace id: 00b64845-bd6f-46a5-8107-8cdc83006499) has status 201
+2025-04-25 16:43:57,582 - basicLogger - INFO - RECEIVED - add_activity (trace id: 2879cfad-5e8d-4161-a0d2-6fb1c50f9e84)
+2025-04-25 16:43:57,588 - basicLogger - INFO - RESPONSE - add_activity (trace id: a2fad440-18e0-49a0-aaa8-1ae7deefb4cb) has status 201
+2025-04-25 16:43:57,593 - basicLogger - INFO - RECEIVED - add_match (trace id: 9f18bc98-c6d1-4c68-b069-b51ed8c77947)
+2025-04-25 16:43:57,630 - basicLogger - INFO - RESPONSE - add_match (trace id: c7231edf-5fdd-493b-b935-eb7e7c70f3d4) has status 201
+2025-04-25 16:43:57,632 - basicLogger - INFO - RECEIVED - add_activity (trace id: f5a1ba6f-2263-43b1-8059-452290b81122)
+2025-04-25 16:43:57,636 - basicLogger - INFO - RECEIVED - add_activity (trace id: 8cc33d64-dabe-419c-bc41-67b78f279262)
+2025-04-25 16:43:57,659 - basicLogger - INFO - RESPONSE - add_activity (trace id: bd1f6007-3046-4758-ae81-fe5832de90f4) has status 201
+2025-04-25 16:43:57,664 - basicLogger - INFO - RECEIVED - add_match (trace id: a095aa24-c31d-4e99-98e3-aeb5185ef8ed)
+2025-04-25 16:43:57,689 - basicLogger - INFO - RESPONSE - add_activity (trace id: 302fcca8-4379-4e57-afb6-602ae913b855) has status 201
+2025-04-25 16:43:57,693 - basicLogger - INFO - RECEIVED - add_match (trace id: e8641dea-7f64-492f-a6d9-9554898148bd)
+2025-04-25 16:43:57,702 - basicLogger - INFO - RESPONSE - add_activity (trace id: 4a0abf28-83db-492a-b875-aa5fb68c55eb) has status 201
+2025-04-25 16:43:57,705 - basicLogger - INFO - RECEIVED - add_match (trace id: 4cf2d3f2-4146-4432-9181-8a77de53b6d8)
+2025-04-25 16:43:57,715 - basicLogger - INFO - RESPONSE - add_activity (trace id: 2879cfad-5e8d-4161-a0d2-6fb1c50f9e84) has status 201
+2025-04-25 16:43:57,719 - basicLogger - INFO - RECEIVED - add_match (trace id: adb785fe-83d2-479f-bd08-0187df49476c)
+2025-04-25 16:43:57,729 - basicLogger - INFO - RESPONSE - add_match (trace id: 9f18bc98-c6d1-4c68-b069-b51ed8c77947) has status 201
+2025-04-25 16:43:57,732 - basicLogger - INFO - RECEIVED - add_activity (trace id: bb04f721-24e0-4a63-b232-ff30f06343a7)
+2025-04-25 16:43:57,735 - basicLogger - INFO - RECEIVED - add_activity (trace id: c8ae608b-085e-4a4c-a72d-545d1c0c7477)
+2025-04-25 16:43:57,779 - basicLogger - INFO - RESPONSE - add_activity (trace id: f5a1ba6f-2263-43b1-8059-452290b81122) has status 201
+2025-04-25 16:43:57,784 - basicLogger - INFO - RECEIVED - add_match (trace id: fdc86d7a-64a0-445e-8403-585f5d48ad87)
+2025-04-25 16:43:57,786 - basicLogger - INFO - RESPONSE - add_activity (trace id: 8cc33d64-dabe-419c-bc41-67b78f279262) has status 201
+2025-04-25 16:43:57,790 - basicLogger - INFO - RECEIVED - add_match (trace id: 1213e255-7381-4d87-9e97-1cf60396de25)
+2025-04-25 16:43:57,833 - basicLogger - INFO - RECEIVED - add_activity (trace id: a19f9667-3932-4173-aa88-3d2bfc0d965d)
+2025-04-25 16:43:57,850 - basicLogger - INFO - RESPONSE - add_match (trace id: e8641dea-7f64-492f-a6d9-9554898148bd) has status 201
+2025-04-25 16:43:57,853 - basicLogger - INFO - RESPONSE - add_match (trace id: a095aa24-c31d-4e99-98e3-aeb5185ef8ed) has status 201
+2025-04-25 16:43:57,855 - basicLogger - INFO - RECEIVED - add_activity (trace id: 1a762c37-5b53-4075-b84a-79bdbdeaf300)
+2025-04-25 16:43:57,859 - basicLogger - INFO - RECEIVED - add_activity (trace id: 538bbf2c-d2f0-4598-a15c-75c70e64feb8)
+2025-04-25 16:43:57,877 - basicLogger - INFO - RESPONSE - add_match (trace id: 4cf2d3f2-4146-4432-9181-8a77de53b6d8) has status 201
+2025-04-25 16:43:57,887 - basicLogger - INFO - RECEIVED - add_activity (trace id: 593aa8a2-ced1-4227-8f23-309af0dafedd)
+2025-04-25 16:43:57,896 - basicLogger - INFO - RESPONSE - add_activity (trace id: bb04f721-24e0-4a63-b232-ff30f06343a7) has status 201
+2025-04-25 16:43:57,900 - basicLogger - INFO - RECEIVED - add_match (trace id: 6403cc41-90e3-4814-bf93-ececff966dfc)
+2025-04-25 16:43:57,932 - basicLogger - INFO - RECEIVED - add_activity (trace id: 82b98056-e33d-4ccb-8eed-ffa1f990c99d)
+2025-04-25 16:43:57,934 - basicLogger - INFO - RESPONSE - add_activity (trace id: c8ae608b-085e-4a4c-a72d-545d1c0c7477) has status 201
+2025-04-25 16:43:57,940 - basicLogger - INFO - RECEIVED - add_match (trace id: 57055740-056d-49f5-a47b-de3094bb4159)
+2025-04-25 16:43:57,946 - basicLogger - INFO - RESPONSE - add_match (trace id: adb785fe-83d2-479f-bd08-0187df49476c) has status 201
+2025-04-25 16:43:57,950 - basicLogger - INFO - RECEIVED - add_activity (trace id: 3ba4b2a5-8545-4fb3-80aa-37de22c347a7)
+2025-04-25 16:43:57,964 - basicLogger - INFO - RESPONSE - add_match (trace id: 1213e255-7381-4d87-9e97-1cf60396de25) has status 201
+2025-04-25 16:43:57,967 - basicLogger - INFO - RECEIVED - add_activity (trace id: eb4ab4bd-d1cf-4610-80c0-d80077a26794)
+2025-04-25 16:43:58,010 - basicLogger - INFO - RESPONSE - add_activity (trace id: a19f9667-3932-4173-aa88-3d2bfc0d965d) has status 201
+2025-04-25 16:43:58,014 - basicLogger - INFO - RECEIVED - add_match (trace id: 8486c79f-f367-43bf-b09c-a390e2c617f5)
+2025-04-25 16:43:58,035 - basicLogger - INFO - RESPONSE - add_activity (trace id: 1a762c37-5b53-4075-b84a-79bdbdeaf300) has status 201
+2025-04-25 16:43:58,040 - basicLogger - INFO - RECEIVED - add_match (trace id: 21c12d99-a321-4541-b65e-bba943bb45d3)
+2025-04-25 16:43:58,041 - basicLogger - INFO - RESPONSE - add_match (trace id: fdc86d7a-64a0-445e-8403-585f5d48ad87) has status 201
+2025-04-25 16:43:58,044 - basicLogger - INFO - RESPONSE - add_activity (trace id: 538bbf2c-d2f0-4598-a15c-75c70e64feb8) has status 201
+2025-04-25 16:43:58,045 - basicLogger - INFO - RECEIVED - add_activity (trace id: 3c325ef7-699e-4499-bb85-63ce4eb9c3b8)
+2025-04-25 16:43:58,048 - basicLogger - INFO - RECEIVED - add_match (trace id: bd22ba64-58a8-44ba-b070-197ff523935d)
+2025-04-25 16:43:58,105 - basicLogger - INFO - RESPONSE - add_activity (trace id: 593aa8a2-ced1-4227-8f23-309af0dafedd) has status 201
+2025-04-25 16:43:58,108 - basicLogger - INFO - RESPONSE - add_match (trace id: 6403cc41-90e3-4814-bf93-ececff966dfc) has status 201
+2025-04-25 16:43:58,109 - basicLogger - INFO - RECEIVED - add_match (trace id: 365155e6-e1ad-428a-bfce-1742e6c50f70)
+2025-04-25 16:43:58,113 - basicLogger - INFO - RECEIVED - add_activity (trace id: 6357a627-3430-4f09-861f-24f54ff07828)
+2025-04-25 16:43:58,130 - basicLogger - INFO - RESPONSE - add_match (trace id: 57055740-056d-49f5-a47b-de3094bb4159) has status 201
+2025-04-25 16:43:58,130 - basicLogger - INFO - RESPONSE - add_activity (trace id: 82b98056-e33d-4ccb-8eed-ffa1f990c99d) has status 201
+2025-04-25 16:43:58,136 - basicLogger - INFO - RECEIVED - add_match (trace id: ddef0c57-7092-4aa3-85dc-12262ce022d3)
+2025-04-25 16:43:58,136 - basicLogger - INFO - RECEIVED - add_activity (trace id: e6c32c66-aa78-4174-b6b5-d458bfa027ae)
+2025-04-25 16:43:58,138 - basicLogger - INFO - RESPONSE - add_activity (trace id: 3ba4b2a5-8545-4fb3-80aa-37de22c347a7) has status 201
+2025-04-25 16:43:58,140 - basicLogger - INFO - RECEIVED - add_match (trace id: 8f52541d-342b-43f3-aea9-82c01d392d05)
+2025-04-25 16:43:58,192 - basicLogger - INFO - RESPONSE - add_match (trace id: 8486c79f-f367-43bf-b09c-a390e2c617f5) has status 201
+2025-04-25 16:43:58,197 - basicLogger - INFO - RECEIVED - add_activity (trace id: 6c3bd835-fb3d-451e-8a27-63cf1e720f88)
+2025-04-25 16:43:58,203 - basicLogger - INFO - RESPONSE - add_activity (trace id: eb4ab4bd-d1cf-4610-80c0-d80077a26794) has status 201
+2025-04-25 16:43:58,207 - basicLogger - INFO - RECEIVED - add_match (trace id: 0fc09d71-a1b1-435c-91b0-0a5c9a4ffd72)
+2025-04-25 16:43:58,224 - basicLogger - INFO - RESPONSE - add_match (trace id: 21c12d99-a321-4541-b65e-bba943bb45d3) has status 201
+2025-04-25 16:43:58,228 - basicLogger - INFO - RECEIVED - add_activity (trace id: d8f860bb-6f4f-458e-8a7d-37251c7f2cfe)
+2025-04-25 16:43:58,243 - basicLogger - INFO - RESPONSE - add_match (trace id: bd22ba64-58a8-44ba-b070-197ff523935d) has status 201
+2025-04-25 16:43:58,246 - basicLogger - INFO - RECEIVED - add_activity (trace id: 7126b645-a97e-4725-b9b7-9ee9a41dfbc5)
+2025-04-25 16:43:58,304 - basicLogger - INFO - RESPONSE - add_activity (trace id: 6357a627-3430-4f09-861f-24f54ff07828) has status 201
+2025-04-25 16:43:58,309 - basicLogger - INFO - RECEIVED - add_match (trace id: 987a0401-3049-45ea-afa9-2c24a90e2e8e)
+2025-04-25 16:43:58,310 - basicLogger - INFO - RESPONSE - add_activity (trace id: 3c325ef7-699e-4499-bb85-63ce4eb9c3b8) has status 201
+2025-04-25 16:43:58,312 - basicLogger - INFO - RESPONSE - add_match (trace id: 365155e6-e1ad-428a-bfce-1742e6c50f70) has status 201
+2025-04-25 16:43:58,314 - basicLogger - INFO - RECEIVED - add_match (trace id: b2ce1cb7-9353-462e-ba79-b024e0275ab6)
+2025-04-25 16:43:58,317 - basicLogger - INFO - RESPONSE - add_activity (trace id: e6c32c66-aa78-4174-b6b5-d458bfa027ae) has status 201
+2025-04-25 16:43:58,318 - basicLogger - INFO - RECEIVED - add_activity (trace id: 4703463a-3003-477e-9d3f-8aebb90eb786)
+2025-04-25 16:43:58,321 - basicLogger - INFO - RECEIVED - add_match (trace id: edfbe163-e962-40b8-84be-a5e3b456774e)
+2025-04-25 16:43:58,341 - basicLogger - INFO - RESPONSE - add_match (trace id: ddef0c57-7092-4aa3-85dc-12262ce022d3) has status 201
+2025-04-25 16:43:58,347 - basicLogger - INFO - RECEIVED - add_activity (trace id: ec5c869a-4169-4abc-9325-4724b746100e)
+2025-04-25 16:43:58,347 - basicLogger - INFO - RESPONSE - add_match (trace id: 8f52541d-342b-43f3-aea9-82c01d392d05) has status 201
+2025-04-25 16:43:58,350 - basicLogger - INFO - RECEIVED - add_activity (trace id: 66498286-348a-4485-84b3-b8150b7148f7)
+2025-04-25 16:43:58,374 - basicLogger - INFO - RESPONSE - add_activity (trace id: d8f860bb-6f4f-458e-8a7d-37251c7f2cfe) has status 201
+2025-04-25 16:43:58,378 - basicLogger - INFO - RECEIVED - add_match (trace id: 4518cfc3-40bb-4831-baed-21d8c821e9bf)
+2025-04-25 16:43:58,447 - basicLogger - INFO - RESPONSE - add_activity (trace id: 7126b645-a97e-4725-b9b7-9ee9a41dfbc5) has status 201
+2025-04-25 16:43:58,451 - basicLogger - INFO - RECEIVED - add_match (trace id: a3396810-b417-405f-ad75-74e551dfb822)
+2025-04-25 16:43:58,458 - basicLogger - INFO - RESPONSE - add_match (trace id: 0fc09d71-a1b1-435c-91b0-0a5c9a4ffd72) has status 201
+2025-04-25 16:43:58,464 - basicLogger - INFO - RECEIVED - add_activity (trace id: 55fe9d0d-b276-48fc-96c3-928672ac74b2)
+2025-04-25 16:43:58,472 - basicLogger - INFO - RESPONSE - add_activity (trace id: 6c3bd835-fb3d-451e-8a27-63cf1e720f88) has status 201
+2025-04-25 16:43:58,476 - basicLogger - INFO - RECEIVED - add_match (trace id: c70e22f4-1adc-43a9-88c5-ff4ac46d86b6)
+2025-04-25 16:43:58,503 - basicLogger - INFO - RESPONSE - add_match (trace id: edfbe163-e962-40b8-84be-a5e3b456774e) has status 201
+2025-04-25 16:43:58,507 - basicLogger - INFO - RECEIVED - add_activity (trace id: ca23e446-8c5c-4ccc-bba7-c103a22e9031)
+2025-04-25 16:43:58,519 - basicLogger - INFO - RESPONSE - add_match (trace id: b2ce1cb7-9353-462e-ba79-b024e0275ab6) has status 201
+2025-04-25 16:43:58,523 - basicLogger - INFO - RECEIVED - add_activity (trace id: 69ba90f6-e26a-4199-90b4-c392d6fed1e9)
+2025-04-25 16:43:58,533 - basicLogger - INFO - RESPONSE - add_match (trace id: 987a0401-3049-45ea-afa9-2c24a90e2e8e) has status 201
+2025-04-25 16:43:58,537 - basicLogger - INFO - RECEIVED - add_activity (trace id: 1213f0e5-eb48-40d1-af26-ecc2688125e9)
+2025-04-25 16:43:58,538 - basicLogger - INFO - RESPONSE - add_activity (trace id: 66498286-348a-4485-84b3-b8150b7148f7) has status 201
+2025-04-25 16:43:58,542 - basicLogger - INFO - RECEIVED - add_match (trace id: 45b5cf0a-5891-4ad2-bf99-9c312b56fb22)
+2025-04-25 16:43:58,543 - basicLogger - INFO - RESPONSE - add_activity (trace id: ec5c869a-4169-4abc-9325-4724b746100e) has status 201
+2025-04-25 16:43:58,545 - basicLogger - INFO - RESPONSE - add_activity (trace id: 4703463a-3003-477e-9d3f-8aebb90eb786) has status 201
+2025-04-25 16:43:58,547 - basicLogger - INFO - RECEIVED - add_match (trace id: be1b4f73-c72d-40de-8965-ce2a17ded55d)
+2025-04-25 16:43:58,549 - basicLogger - INFO - RECEIVED - add_match (trace id: ed1dd89d-8d99-46a1-b5cd-eda5b1e4024f)
+2025-04-25 16:43:58,572 - basicLogger - INFO - RESPONSE - add_match (trace id: 4518cfc3-40bb-4831-baed-21d8c821e9bf) has status 201
+2025-04-25 16:43:58,575 - basicLogger - INFO - RECEIVED - add_activity (trace id: 6f9a0af5-7674-4e1e-b6fb-06f7d1be9e69)
+2025-04-25 16:43:58,680 - basicLogger - INFO - RESPONSE - add_match (trace id: a3396810-b417-405f-ad75-74e551dfb822) has status 201
+2025-04-25 16:43:58,685 - basicLogger - INFO - RECEIVED - add_activity (trace id: 73c1f509-7745-49e6-8cec-cb24651eecd0)
+2025-04-25 16:43:58,694 - basicLogger - INFO - RESPONSE - add_activity (trace id: ca23e446-8c5c-4ccc-bba7-c103a22e9031) has status 201
+2025-04-25 16:43:58,698 - basicLogger - INFO - RECEIVED - add_match (trace id: f4ce6c53-2386-4a83-93db-6848f7dab219)
+2025-04-25 16:43:58,704 - basicLogger - INFO - RESPONSE - add_match (trace id: c70e22f4-1adc-43a9-88c5-ff4ac46d86b6) has status 201
+2025-04-25 16:43:58,709 - basicLogger - INFO - RECEIVED - add_activity (trace id: d0af7f21-cd7b-4a3d-914d-7c3c4c2918d2)
+2025-04-25 16:43:58,710 - basicLogger - INFO - RESPONSE - add_activity (trace id: 55fe9d0d-b276-48fc-96c3-928672ac74b2) has status 201
+2025-04-25 16:43:58,713 - basicLogger - INFO - RECEIVED - add_match (trace id: 01f77757-a9ba-4e80-bbea-1368d82b5773)
+2025-04-25 16:43:58,717 - basicLogger - INFO - RESPONSE - add_activity (trace id: 69ba90f6-e26a-4199-90b4-c392d6fed1e9) has status 201
+2025-04-25 16:43:58,720 - basicLogger - INFO - RECEIVED - add_match (trace id: dd4d4964-df9c-499f-ba56-653d63a6971f)
+2025-04-25 16:43:58,732 - basicLogger - INFO - RESPONSE - add_match (trace id: ed1dd89d-8d99-46a1-b5cd-eda5b1e4024f) has status 201
+2025-04-25 16:43:58,736 - basicLogger - INFO - RECEIVED - add_activity (trace id: 78576342-ad14-4c4e-ae09-25cf0146eb60)
+2025-04-25 16:43:58,747 - basicLogger - INFO - RESPONSE - add_activity (trace id: 1213f0e5-eb48-40d1-af26-ecc2688125e9) has status 201
+2025-04-25 16:43:58,753 - basicLogger - INFO - RECEIVED - add_match (trace id: 1410eef7-4693-4939-9ef7-71bb4c4e8784)
+2025-04-25 16:43:58,764 - basicLogger - INFO - RESPONSE - add_match (trace id: be1b4f73-c72d-40de-8965-ce2a17ded55d) has status 201
+2025-04-25 16:43:58,768 - basicLogger - INFO - RESPONSE - add_activity (trace id: 6f9a0af5-7674-4e1e-b6fb-06f7d1be9e69) has status 201
+2025-04-25 16:43:58,770 - basicLogger - INFO - RECEIVED - add_activity (trace id: bfacdbef-6c0b-430a-bf2d-e36a29aadc65)
+2025-04-25 16:43:58,773 - basicLogger - INFO - RECEIVED - add_match (trace id: 921787da-32ac-428e-a57b-176286dc91a0)
+2025-04-25 16:43:58,792 - basicLogger - INFO - RESPONSE - add_match (trace id: 45b5cf0a-5891-4ad2-bf99-9c312b56fb22) has status 201
+2025-04-25 16:43:58,796 - basicLogger - INFO - RECEIVED - add_activity (trace id: ef4207e4-bfa7-43cf-b93b-15bcb1c44f12)
+2025-04-25 16:43:59,748 - basicLogger - INFO - RESPONSE - add_match (trace id: f4ce6c53-2386-4a83-93db-6848f7dab219) has status 201
+2025-04-25 16:43:59,765 - basicLogger - INFO - RESPONSE - add_activity (trace id: 73c1f509-7745-49e6-8cec-cb24651eecd0) has status 201
+2025-04-25 16:43:59,768 - basicLogger - INFO - RECEIVED - add_activity (trace id: c3f1524f-330d-4fa0-8df4-3e1ebc8d798c)
+2025-04-25 16:43:59,773 - basicLogger - INFO - RECEIVED - add_match (trace id: 8ac9ef45-1900-4760-a0dc-572b90a432a5)
+2025-04-25 16:43:59,774 - basicLogger - INFO - RESPONSE - add_activity (trace id: d0af7f21-cd7b-4a3d-914d-7c3c4c2918d2) has status 201
+2025-04-25 16:43:59,779 - basicLogger - INFO - RECEIVED - add_match (trace id: 06da73cf-390a-4673-a5e0-93296971c5e2)
+2025-04-25 16:43:59,792 - basicLogger - INFO - RESPONSE - add_activity (trace id: 78576342-ad14-4c4e-ae09-25cf0146eb60) has status 201
+2025-04-25 16:43:59,799 - basicLogger - INFO - RECEIVED - add_match (trace id: 2917c470-d2b4-4419-8352-42d094181b72)
+2025-04-25 16:43:59,799 - basicLogger - INFO - RESPONSE - add_match (trace id: 01f77757-a9ba-4e80-bbea-1368d82b5773) has status 201
+2025-04-25 16:43:59,802 - basicLogger - INFO - RESPONSE - add_match (trace id: 1410eef7-4693-4939-9ef7-71bb4c4e8784) has status 201
+2025-04-25 16:43:59,805 - basicLogger - INFO - RECEIVED - add_activity (trace id: 3b1d634c-c18c-449a-8343-d253f36d0cee)
+2025-04-25 16:43:59,808 - basicLogger - INFO - RECEIVED - add_activity (trace id: bb6f93d1-4529-4ef2-a260-d3c408a635e7)
+2025-04-25 16:43:59,808 - basicLogger - INFO - RESPONSE - add_match (trace id: dd4d4964-df9c-499f-ba56-653d63a6971f) has status 201
+2025-04-25 16:43:59,811 - basicLogger - INFO - RECEIVED - add_activity (trace id: c39125be-2bf4-4734-bdc8-542fb4e3b41c)
+2025-04-25 16:43:59,832 - basicLogger - INFO - RESPONSE - add_match (trace id: 921787da-32ac-428e-a57b-176286dc91a0) has status 201
+2025-04-25 16:43:59,835 - basicLogger - INFO - RESPONSE - add_activity (trace id: bfacdbef-6c0b-430a-bf2d-e36a29aadc65) has status 201
+2025-04-25 16:43:59,837 - basicLogger - INFO - RECEIVED - add_activity (trace id: c1da4624-69e3-4502-a3a1-114ddd6e0481)
+2025-04-25 16:43:59,840 - basicLogger - INFO - RECEIVED - add_match (trace id: 0c4c5fd9-f6d8-4250-9690-90df312c1dac)
+2025-04-25 16:43:56,708 - basicLogger - INFO - RESPONSE - add_activity (trace id: ef4207e4-bfa7-43cf-b93b-15bcb1c44f12) has status 201
+2025-04-25 16:43:56,724 - basicLogger - INFO - RECEIVED - add_match (trace id: 7fe905ca-f97d-452e-b7af-2717906560f9)
+2025-04-25 16:43:56,806 - basicLogger - INFO - RESPONSE - add_match (trace id: 8ac9ef45-1900-4760-a0dc-572b90a432a5) has status 201
+2025-04-25 16:43:56,812 - basicLogger - INFO - RECEIVED - add_activity (trace id: e4563630-484f-456c-9176-9d9311a72985)
+2025-04-25 16:43:56,819 - basicLogger - INFO - RESPONSE - add_activity (trace id: c3f1524f-330d-4fa0-8df4-3e1ebc8d798c) has status 201
+2025-04-25 16:43:56,824 - basicLogger - INFO - RECEIVED - add_match (trace id: e2e99ee2-a152-4a9c-83fb-1665b9e621dd)
+2025-04-25 16:43:56,828 - basicLogger - INFO - RESPONSE - add_match (trace id: 06da73cf-390a-4673-a5e0-93296971c5e2) has status 201
+2025-04-25 16:43:56,834 - basicLogger - INFO - RECEIVED - add_activity (trace id: 440a0e6c-ee8e-457d-8d60-7c95b9f8e4b0)
+2025-04-25 16:43:56,841 - basicLogger - INFO - RESPONSE - add_activity (trace id: 3b1d634c-c18c-449a-8343-d253f36d0cee) has status 201
+2025-04-25 16:43:56,847 - basicLogger - INFO - RECEIVED - add_match (trace id: 7a3e1dc0-da5b-4d05-8d08-f0bf9076bf50)
+2025-04-25 16:43:56,848 - basicLogger - INFO - RESPONSE - add_match (trace id: 2917c470-d2b4-4419-8352-42d094181b72) has status 201
+2025-04-25 16:43:56,853 - basicLogger - INFO - RECEIVED - add_activity (trace id: 7f48b899-66f4-499d-adf9-4a308143eb13)
+2025-04-25 16:43:56,853 - basicLogger - INFO - RESPONSE - add_activity (trace id: c39125be-2bf4-4734-bdc8-542fb4e3b41c) has status 201
+2025-04-25 16:43:56,857 - basicLogger - INFO - RESPONSE - add_activity (trace id: bb6f93d1-4529-4ef2-a260-d3c408a635e7) has status 201
+2025-04-25 16:43:56,858 - basicLogger - INFO - RECEIVED - add_match (trace id: faa74bdf-4581-4e45-9bcc-95c2c65173cb)
+2025-04-25 16:43:56,864 - basicLogger - INFO - RECEIVED - add_match (trace id: 5a47873f-c274-473a-8b4c-4492b37bc2ab)
+2025-04-25 16:43:56,872 - basicLogger - INFO - RESPONSE - add_match (trace id: 0c4c5fd9-f6d8-4250-9690-90df312c1dac) has status 201
+2025-04-25 16:43:56,890 - basicLogger - INFO - RECEIVED - add_activity (trace id: 183892b1-4d79-42b0-ae19-1aeea5bb6f75)
+2025-04-25 16:43:56,891 - basicLogger - INFO - RESPONSE - add_activity (trace id: c1da4624-69e3-4502-a3a1-114ddd6e0481) has status 201
+2025-04-25 16:43:56,896 - basicLogger - INFO - RECEIVED - add_match (trace id: f4c73ff2-ddd4-43aa-b28f-130e84c20473)
+2025-04-25 16:43:56,907 - basicLogger - INFO - RESPONSE - add_match (trace id: 7fe905ca-f97d-452e-b7af-2717906560f9) has status 201
+2025-04-25 16:43:56,912 - basicLogger - INFO - RECEIVED - add_activity (trace id: 838cef93-6283-4b29-968f-283921947914)
+2025-04-25 16:43:57,007 - basicLogger - INFO - RESPONSE - add_activity (trace id: e4563630-484f-456c-9176-9d9311a72985) has status 201
+2025-04-25 16:43:57,011 - basicLogger - INFO - RECEIVED - add_match (trace id: 35c861e9-cfb9-491c-aa04-1337041d3e88)
+2025-04-25 16:43:57,041 - basicLogger - INFO - RESPONSE - add_match (trace id: faa74bdf-4581-4e45-9bcc-95c2c65173cb) has status 201
+2025-04-25 16:43:57,047 - basicLogger - INFO - RECEIVED - add_activity (trace id: 5e119781-cca1-469d-be4c-fe16ba46ba85)
+2025-04-25 16:43:57,050 - basicLogger - INFO - RESPONSE - add_activity (trace id: 440a0e6c-ee8e-457d-8d60-7c95b9f8e4b0) has status 201
+2025-04-25 16:43:57,053 - basicLogger - INFO - RESPONSE - add_match (trace id: e2e99ee2-a152-4a9c-83fb-1665b9e621dd) has status 201
+2025-04-25 16:43:57,058 - basicLogger - INFO - RECEIVED - add_match (trace id: f7d421b7-9298-4225-94f4-9e9cd2110f90)
+2025-04-25 16:43:57,060 - basicLogger - INFO - RESPONSE - add_activity (trace id: 7f48b899-66f4-499d-adf9-4a308143eb13) has status 201
+2025-04-25 16:43:57,060 - basicLogger - INFO - RECEIVED - add_activity (trace id: 57796159-e406-47d0-b3b4-3ca9bfd8a93a)
+2025-04-25 16:43:57,064 - basicLogger - INFO - RESPONSE - add_activity (trace id: 183892b1-4d79-42b0-ae19-1aeea5bb6f75) has status 201
+2025-04-25 16:43:57,066 - basicLogger - INFO - RECEIVED - add_match (trace id: 36441b5b-fcff-4ba0-9c86-57888a06584c)
+2025-04-25 16:43:57,070 - basicLogger - INFO - RECEIVED - add_match (trace id: 4b5ca859-dfd1-4784-b18b-878a2b05fd8f)
+2025-04-25 16:43:57,083 - basicLogger - INFO - RESPONSE - add_match (trace id: 5a47873f-c274-473a-8b4c-4492b37bc2ab) has status 201
+2025-04-25 16:43:57,084 - basicLogger - INFO - RESPONSE - add_match (trace id: 7a3e1dc0-da5b-4d05-8d08-f0bf9076bf50) has status 201
+2025-04-25 16:43:57,094 - basicLogger - INFO - RECEIVED - add_activity (trace id: 66d2306a-5ae9-4411-aa9a-fd8275a5bd29)
+2025-04-25 16:43:57,095 - basicLogger - INFO - RECEIVED - add_activity (trace id: 6192048d-805c-47d3-b88a-7c09aba86e08)
+2025-04-25 16:43:57,100 - basicLogger - INFO - RESPONSE - add_match (trace id: f4c73ff2-ddd4-43aa-b28f-130e84c20473) has status 201
+2025-04-25 16:43:57,104 - basicLogger - INFO - RECEIVED - add_activity (trace id: 147661a6-99f6-4627-a245-1a49b2e3defc)
+2025-04-25 16:43:57,106 - basicLogger - INFO - RESPONSE - add_activity (trace id: 838cef93-6283-4b29-968f-283921947914) has status 201
+2025-04-25 16:43:57,110 - basicLogger - INFO - RECEIVED - add_match (trace id: 4f670910-cef8-47a7-954f-a478f44ac065)
+2025-04-25 16:43:57,195 - basicLogger - INFO - RESPONSE - add_match (trace id: 35c861e9-cfb9-491c-aa04-1337041d3e88) has status 201
+2025-04-25 16:43:57,200 - basicLogger - INFO - RECEIVED - add_activity (trace id: b5664bf3-01db-4a63-8db7-7aded8911e3f)
+2025-04-25 16:43:57,241 - basicLogger - INFO - RESPONSE - add_activity (trace id: 5e119781-cca1-469d-be4c-fe16ba46ba85) has status 201
+2025-04-25 16:43:57,245 - basicLogger - INFO - RECEIVED - add_match (trace id: c1789f1f-6fe8-4e3a-86e5-3957d429356d)
+2025-04-25 16:43:57,266 - basicLogger - INFO - RESPONSE - add_match (trace id: 4b5ca859-dfd1-4784-b18b-878a2b05fd8f) has status 201
+2025-04-25 16:43:57,266 - basicLogger - INFO - RESPONSE - add_match (trace id: f7d421b7-9298-4225-94f4-9e9cd2110f90) has status 201
+2025-04-25 16:43:57,274 - basicLogger - INFO - RECEIVED - add_activity (trace id: 8ec5f2db-0e0d-4a87-9abd-8f3614e27b26)
+2025-04-25 16:43:57,274 - basicLogger - INFO - RECEIVED - add_activity (trace id: c0e65822-cf30-4f57-b42b-01954dc8fce1)
+2025-04-25 16:43:57,277 - basicLogger - INFO - RESPONSE - add_activity (trace id: 57796159-e406-47d0-b3b4-3ca9bfd8a93a) has status 201
+2025-04-25 16:43:57,281 - basicLogger - INFO - RECEIVED - add_match (trace id: c5bc34e8-cd1b-4e47-9caa-4b68b16fd404)
+2025-04-25 16:43:57,285 - basicLogger - INFO - RESPONSE - add_match (trace id: 36441b5b-fcff-4ba0-9c86-57888a06584c) has status 201
+2025-04-25 16:43:57,290 - basicLogger - INFO - RECEIVED - add_activity (trace id: 6b2bba96-9ec9-4328-ba7d-ca34ebfeffbb)
+2025-04-25 16:43:57,292 - basicLogger - INFO - RESPONSE - add_activity (trace id: 147661a6-99f6-4627-a245-1a49b2e3defc) has status 201
+2025-04-25 16:43:57,295 - basicLogger - INFO - RESPONSE - add_activity (trace id: 66d2306a-5ae9-4411-aa9a-fd8275a5bd29) has status 201
+2025-04-25 16:43:57,296 - basicLogger - INFO - RECEIVED - add_match (trace id: aff81edf-4d57-48ff-bf76-a4aec2021055)
+2025-04-25 16:43:57,308 - basicLogger - INFO - RECEIVED - add_match (trace id: bd2cf123-0c42-4d03-9c1f-ea43fd43e132)
+2025-04-25 16:43:57,318 - basicLogger - INFO - RESPONSE - add_match (trace id: 4f670910-cef8-47a7-954f-a478f44ac065) has status 201
+2025-04-25 16:43:57,323 - basicLogger - INFO - RECEIVED - add_activity (trace id: 2cf7b8a0-5a6b-4944-9de7-0b424284c41d)
+2025-04-25 16:43:57,324 - basicLogger - INFO - RESPONSE - add_activity (trace id: 6192048d-805c-47d3-b88a-7c09aba86e08) has status 201
+2025-04-25 16:43:57,329 - basicLogger - INFO - RECEIVED - add_match (trace id: a0268054-bdde-4bf7-a461-5d99a4142bcc)
+2025-04-25 16:43:57,418 - basicLogger - INFO - RESPONSE - add_activity (trace id: b5664bf3-01db-4a63-8db7-7aded8911e3f) has status 201
+2025-04-25 16:43:57,423 - basicLogger - INFO - RECEIVED - add_match (trace id: 014edf52-5097-4e47-bcae-ac79e12cf619)
+2025-04-25 16:43:57,458 - basicLogger - INFO - RESPONSE - add_match (trace id: c1789f1f-6fe8-4e3a-86e5-3957d429356d) has status 201
+2025-04-25 16:43:57,461 - basicLogger - INFO - RESPONSE - add_activity (trace id: 8ec5f2db-0e0d-4a87-9abd-8f3614e27b26) has status 201
+2025-04-25 16:43:57,463 - basicLogger - INFO - RECEIVED - add_activity (trace id: 166cba55-e8e4-4bd8-a712-75486d713df8)
+2025-04-25 16:43:57,468 - basicLogger - INFO - RECEIVED - add_match (trace id: d5ae8110-90e7-4474-bddf-b092c1f14c4d)
+2025-04-25 16:43:57,475 - basicLogger - INFO - RESPONSE - add_activity (trace id: c0e65822-cf30-4f57-b42b-01954dc8fce1) has status 201
+2025-04-25 16:43:57,479 - basicLogger - INFO - RECEIVED - add_match (trace id: f8f0cdb0-0d09-4539-97a7-1324874f652a)
+2025-04-25 16:43:57,480 - basicLogger - INFO - RESPONSE - add_match (trace id: c5bc34e8-cd1b-4e47-9caa-4b68b16fd404) has status 201
+2025-04-25 16:43:57,485 - basicLogger - INFO - RECEIVED - add_activity (trace id: c8b87940-6018-421d-b694-673a5b77c326)
+2025-04-25 16:43:57,493 - basicLogger - INFO - RESPONSE - add_match (trace id: aff81edf-4d57-48ff-bf76-a4aec2021055) has status 201
+2025-04-25 16:43:57,499 - basicLogger - INFO - RECEIVED - add_activity (trace id: 76e0a43f-e5f4-4e31-a132-b6b8229f0c83)
+2025-04-25 16:43:57,500 - basicLogger - INFO - RESPONSE - add_activity (trace id: 6b2bba96-9ec9-4328-ba7d-ca34ebfeffbb) has status 201
+2025-04-25 16:43:57,503 - basicLogger - INFO - RECEIVED - add_match (trace id: 433c554f-720e-497b-a682-2b10e928f103)
+2025-04-25 16:43:57,514 - basicLogger - INFO - RESPONSE - add_match (trace id: bd2cf123-0c42-4d03-9c1f-ea43fd43e132) has status 201
+2025-04-25 16:43:57,519 - basicLogger - INFO - RECEIVED - add_activity (trace id: f23bb3bd-3876-49c4-a3f6-cf02e5d294b1)
+2025-04-25 16:43:57,547 - basicLogger - INFO - RESPONSE - add_activity (trace id: 2cf7b8a0-5a6b-4944-9de7-0b424284c41d) has status 201
+2025-04-25 16:43:57,547 - basicLogger - INFO - RESPONSE - add_match (trace id: a0268054-bdde-4bf7-a461-5d99a4142bcc) has status 201
+2025-04-25 16:43:57,553 - basicLogger - INFO - RECEIVED - add_match (trace id: 806b8f27-9270-4486-a545-83a2d0fa531d)
+2025-04-25 16:43:57,554 - basicLogger - INFO - RECEIVED - add_activity (trace id: a156776d-f1a9-4d7b-b0d8-363a71703692)
+2025-04-25 16:43:57,642 - basicLogger - INFO - RESPONSE - add_match (trace id: 014edf52-5097-4e47-bcae-ac79e12cf619) has status 201
+2025-04-25 16:43:57,647 - basicLogger - INFO - RECEIVED - add_activity (trace id: d8379e51-7127-42e0-95eb-06d93777827c)
+2025-04-25 16:43:57,675 - basicLogger - INFO - RESPONSE - add_activity (trace id: c8b87940-6018-421d-b694-673a5b77c326) has status 201
+2025-04-25 16:43:57,677 - basicLogger - INFO - RESPONSE - add_activity (trace id: f23bb3bd-3876-49c4-a3f6-cf02e5d294b1) has status 201
+2025-04-25 16:43:57,681 - basicLogger - INFO - RECEIVED - add_match (trace id: b593d2aa-b86b-4c3b-a6ac-74f201b6a40d)
+2025-04-25 16:43:57,694 - basicLogger - INFO - RECEIVED - add_match (trace id: fec693c2-7d71-487e-92e5-0383b3fba61e)
+2025-04-25 16:43:57,697 - basicLogger - INFO - RESPONSE - add_match (trace id: d5ae8110-90e7-4474-bddf-b092c1f14c4d) has status 201
+2025-04-25 16:43:57,697 - basicLogger - INFO - RESPONSE - add_activity (trace id: 166cba55-e8e4-4bd8-a712-75486d713df8) has status 201
+2025-04-25 16:43:57,703 - basicLogger - INFO - RECEIVED - add_match (trace id: 25be6ac2-0e6f-4224-a416-8f7935aa60df)
+2025-04-25 16:43:57,703 - basicLogger - INFO - RECEIVED - add_activity (trace id: ae9506a9-bd42-4a51-a7d4-4580a3d129ae)
+2025-04-25 16:43:57,706 - basicLogger - INFO - RESPONSE - add_activity (trace id: 76e0a43f-e5f4-4e31-a132-b6b8229f0c83) has status 201
+2025-04-25 16:43:57,711 - basicLogger - INFO - RECEIVED - add_match (trace id: 5fd1d0c8-37e0-409a-a402-a785ffbef0ba)
+2025-04-25 16:43:57,712 - basicLogger - INFO - RESPONSE - add_match (trace id: 433c554f-720e-497b-a682-2b10e928f103) has status 201
+2025-04-25 16:43:57,714 - basicLogger - INFO - RESPONSE - add_match (trace id: f8f0cdb0-0d09-4539-97a7-1324874f652a) has status 201
+2025-04-25 16:43:57,724 - basicLogger - INFO - RECEIVED - add_activity (trace id: 3402761d-845a-44b7-b0e3-5b633e89c052)
+2025-04-25 16:43:57,724 - basicLogger - INFO - RECEIVED - add_activity (trace id: ad79c54a-b776-4e36-8673-f3f6a9ccf4c4)
+2025-04-25 16:43:57,733 - basicLogger - INFO - RESPONSE - add_match (trace id: 806b8f27-9270-4486-a545-83a2d0fa531d) has status 201
+2025-04-25 16:43:57,738 - basicLogger - INFO - RECEIVED - add_activity (trace id: c47e6fa5-c247-40c3-881c-c617e52adaae)
+2025-04-25 16:43:57,749 - basicLogger - INFO - RESPONSE - add_activity (trace id: a156776d-f1a9-4d7b-b0d8-363a71703692) has status 201
+2025-04-25 16:43:57,754 - basicLogger - INFO - RECEIVED - add_match (trace id: 02f2a46c-3167-45da-b48b-5c43bcdb764d)
+2025-04-25 16:43:57,840 - basicLogger - INFO - RESPONSE - add_activity (trace id: d8379e51-7127-42e0-95eb-06d93777827c) has status 201
+2025-04-25 16:43:57,844 - basicLogger - INFO - RECEIVED - add_match (trace id: 0474d1e8-8215-4d06-8cff-f1138415adce)
+2025-04-25 16:43:57,876 - basicLogger - INFO - RESPONSE - add_match (trace id: 5fd1d0c8-37e0-409a-a402-a785ffbef0ba) has status 201
+2025-04-25 16:43:57,880 - basicLogger - INFO - RECEIVED - add_activity (trace id: de031d5d-984b-4d75-9471-2b711ddb3786)
+2025-04-25 16:43:57,927 - basicLogger - INFO - RESPONSE - add_activity (trace id: 3402761d-845a-44b7-b0e3-5b633e89c052) has status 201
+2025-04-25 16:43:57,931 - basicLogger - INFO - RECEIVED - add_match (trace id: 4d3c44d7-1723-4deb-9346-d2aa99fabb0a)
+2025-04-25 16:43:57,931 - basicLogger - INFO - RESPONSE - add_match (trace id: 25be6ac2-0e6f-4224-a416-8f7935aa60df) has status 201
+2025-04-25 16:43:57,937 - basicLogger - INFO - RECEIVED - add_activity (trace id: c1f7c106-d4a3-437b-95d8-5b29ef956ca9)
+2025-04-25 16:43:57,938 - basicLogger - INFO - RESPONSE - add_activity (trace id: c47e6fa5-c247-40c3-881c-c617e52adaae) has status 201
+2025-04-25 16:43:57,941 - basicLogger - INFO - RESPONSE - add_match (trace id: fec693c2-7d71-487e-92e5-0383b3fba61e) has status 201
+2025-04-25 16:43:57,944 - basicLogger - INFO - RECEIVED - add_match (trace id: e962c841-f773-4024-9740-7971bb39ec7b)
+2025-04-25 16:43:57,948 - basicLogger - INFO - RESPONSE - add_match (trace id: b593d2aa-b86b-4c3b-a6ac-74f201b6a40d) has status 201
+2025-04-25 16:43:57,952 - basicLogger - INFO - RECEIVED - add_activity (trace id: 603dfd77-9537-414f-b754-c9f6be37e824)
+2025-04-25 16:43:57,959 - basicLogger - INFO - RECEIVED - add_activity (trace id: c6f47378-6d15-48d3-bc66-c270969d3322)
+2025-04-25 16:43:57,960 - basicLogger - INFO - RESPONSE - add_activity (trace id: ae9506a9-bd42-4a51-a7d4-4580a3d129ae) has status 201
+2025-04-25 16:43:57,964 - basicLogger - INFO - RECEIVED - add_match (trace id: 2b83c4ea-6db6-4f60-9e3f-ef4f0d16199a)
+2025-04-25 16:43:57,968 - basicLogger - INFO - RESPONSE - add_activity (trace id: ad79c54a-b776-4e36-8673-f3f6a9ccf4c4) has status 201
+2025-04-25 16:43:57,970 - basicLogger - INFO - RESPONSE - add_match (trace id: 02f2a46c-3167-45da-b48b-5c43bcdb764d) has status 201
+2025-04-25 16:43:57,975 - basicLogger - INFO - RECEIVED - add_activity (trace id: 2fa54172-b63d-4ec6-9f8a-e2f37ab0d5e3)
+2025-04-25 16:43:57,975 - basicLogger - INFO - RECEIVED - add_match (trace id: d2ee8cf3-2d82-49b8-a25d-5728d0543a4b)
+2025-04-25 16:43:57,977 - basicLogger - INFO - RESPONSE - add_match (trace id: 0474d1e8-8215-4d06-8cff-f1138415adce) has status 201
+2025-04-25 16:43:57,980 - basicLogger - INFO - RECEIVED - add_activity (trace id: 1040ce5f-197c-4e30-b03d-63d5256c1bdd)
+2025-04-25 16:43:57,981 - basicLogger - INFO - RESPONSE - add_activity (trace id: de031d5d-984b-4d75-9471-2b711ddb3786) has status 201
+2025-04-25 16:43:57,984 - basicLogger - INFO - RECEIVED - add_match (trace id: af43cc5e-1787-4c55-abd1-bbfe07db8830)
+2025-04-25 16:43:58,074 - basicLogger - INFO - RESPONSE - add_match (trace id: 4d3c44d7-1723-4deb-9346-d2aa99fabb0a) has status 201
+2025-04-25 16:43:58,078 - basicLogger - INFO - RECEIVED - add_activity (trace id: a284bc1e-8e25-4103-8b52-b362a8aaec0c)
+2025-04-25 16:43:58,095 - basicLogger - INFO - RESPONSE - add_match (trace id: e962c841-f773-4024-9740-7971bb39ec7b) has status 201
+2025-04-25 16:43:58,105 - basicLogger - INFO - RESPONSE - add_activity (trace id: c1f7c106-d4a3-437b-95d8-5b29ef956ca9) has status 201
+2025-04-25 16:43:58,111 - basicLogger - INFO - RECEIVED - add_match (trace id: fae9289f-a5c3-402e-bec3-01b47b759407)
+2025-04-25 16:43:58,151 - basicLogger - INFO - RESPONSE - add_activity (trace id: 603dfd77-9537-414f-b754-c9f6be37e824) has status 201
+2025-04-25 16:43:58,156 - basicLogger - INFO - RESPONSE - add_match (trace id: 2b83c4ea-6db6-4f60-9e3f-ef4f0d16199a) has status 201
+2025-04-25 16:43:58,156 - basicLogger - INFO - RECEIVED - add_match (trace id: bdf646ae-6a84-42f9-a20a-672fa36f544d)
+2025-04-25 16:43:58,161 - basicLogger - INFO - RECEIVED - add_activity (trace id: 7b5205d2-c8be-4902-a302-c753ff73f29d)
+2025-04-25 16:43:58,171 - basicLogger - INFO - RESPONSE - add_activity (trace id: c6f47378-6d15-48d3-bc66-c270969d3322) has status 201
+2025-04-25 16:43:58,176 - basicLogger - INFO - RECEIVED - add_match (trace id: 6225cc6e-b164-4099-a51a-1388da627618)
+2025-04-25 16:43:58,202 - basicLogger - INFO - RESPONSE - add_match (trace id: af43cc5e-1787-4c55-abd1-bbfe07db8830) has status 201
+2025-04-25 16:43:58,210 - basicLogger - INFO - RECEIVED - add_activity (trace id: 146888ed-67dd-4ef4-8be7-ee2ddfcd1abd)
+2025-04-25 16:43:58,213 - basicLogger - INFO - RESPONSE - add_match (trace id: d2ee8cf3-2d82-49b8-a25d-5728d0543a4b) has status 201
+2025-04-25 16:43:58,219 - basicLogger - INFO - RECEIVED - add_activity (trace id: 5b724c74-8321-495c-9947-cb0ef51a2865)
+2025-04-25 16:43:58,220 - basicLogger - INFO - RESPONSE - add_activity (trace id: 2fa54172-b63d-4ec6-9f8a-e2f37ab0d5e3) has status 201
+2025-04-25 16:43:58,224 - basicLogger - INFO - RESPONSE - add_activity (trace id: 1040ce5f-197c-4e30-b03d-63d5256c1bdd) has status 201
+2025-04-25 16:43:58,224 - basicLogger - INFO - RECEIVED - add_match (trace id: 6d7d2dfa-8c4c-47d3-9361-c7dae5b7eb5c)
+2025-04-25 16:43:58,228 - basicLogger - INFO - RECEIVED - add_match (trace id: e9b4fe5d-a0e5-4e80-ba3f-f40a88a894a4)
+2025-04-25 16:43:58,283 - basicLogger - INFO - RESPONSE - add_match (trace id: fae9289f-a5c3-402e-bec3-01b47b759407) has status 201
+2025-04-25 16:43:58,287 - basicLogger - INFO - RECEIVED - add_activity (trace id: 3a9d9644-f7b9-411c-931a-196894990c61)
+2025-04-25 16:43:58,288 - basicLogger - INFO - RESPONSE - add_activity (trace id: a284bc1e-8e25-4103-8b52-b362a8aaec0c) has status 201
+2025-04-25 16:43:58,290 - basicLogger - INFO - RESPONSE - add_match (trace id: bdf646ae-6a84-42f9-a20a-672fa36f544d) has status 201
+2025-04-25 16:43:58,292 - basicLogger - INFO - RECEIVED - add_match (trace id: 99796342-3919-4d92-a481-23bf0ef5aff3)
+2025-04-25 16:43:58,294 - basicLogger - INFO - RECEIVED - add_activity (trace id: 45426436-0f2e-4c79-84dc-1b5a37937a0d)
+2025-04-25 16:43:58,331 - basicLogger - INFO - RESPONSE - add_activity (trace id: 7b5205d2-c8be-4902-a302-c753ff73f29d) has status 201
+2025-04-25 16:43:58,335 - basicLogger - INFO - RECEIVED - add_match (trace id: 6d3fbc48-30ad-44c7-9350-e473c9fd2e84)
+2025-04-25 16:43:58,384 - basicLogger - INFO - RESPONSE - add_activity (trace id: 146888ed-67dd-4ef4-8be7-ee2ddfcd1abd) has status 201
+2025-04-25 16:43:58,389 - basicLogger - INFO - RECEIVED - add_match (trace id: f45f92ab-69b8-493f-aaf8-fc930b34a03e)
+2025-04-25 16:43:58,393 - basicLogger - INFO - RESPONSE - add_match (trace id: 6225cc6e-b164-4099-a51a-1388da627618) has status 201
+2025-04-25 16:43:58,399 - basicLogger - INFO - RESPONSE - add_match (trace id: e9b4fe5d-a0e5-4e80-ba3f-f40a88a894a4) has status 201
+2025-04-25 16:43:58,403 - basicLogger - INFO - RECEIVED - add_activity (trace id: 3cb4f26e-5ad5-46d0-9b97-7cf0cfa5fb8f)
+2025-04-25 16:43:58,405 - basicLogger - INFO - RESPONSE - add_activity (trace id: 5b724c74-8321-495c-9947-cb0ef51a2865) has status 201
+2025-04-25 16:43:58,410 - basicLogger - INFO - RECEIVED - add_match (trace id: 62440c42-efef-4c05-836a-482c29ce98fa)
+2025-04-25 16:43:58,432 - basicLogger - INFO - RESPONSE - add_match (trace id: 6d7d2dfa-8c4c-47d3-9361-c7dae5b7eb5c) has status 201
+2025-04-25 16:43:58,436 - basicLogger - INFO - RECEIVED - add_activity (trace id: f2a05f1d-7098-4950-a3b9-51e147402433)
+2025-04-25 16:43:58,448 - basicLogger - INFO - RESPONSE - add_activity (trace id: 3a9d9644-f7b9-411c-931a-196894990c61) has status 201
+2025-04-25 16:43:58,451 - basicLogger - INFO - RECEIVED - add_match (trace id: 17aeff3c-a4b0-4ed2-a968-6445a4e198f9)
+2025-04-25 16:43:58,462 - basicLogger - INFO - RESPONSE - add_activity (trace id: 45426436-0f2e-4c79-84dc-1b5a37937a0d) has status 201
+2025-04-25 16:43:58,466 - basicLogger - INFO - RECEIVED - add_match (trace id: a1eb2359-4b9b-43dc-b1c2-c643f42ea152)
+2025-04-25 16:43:58,476 - basicLogger - INFO - RESPONSE - add_match (trace id: 99796342-3919-4d92-a481-23bf0ef5aff3) has status 201
+2025-04-25 16:43:58,518 - basicLogger - INFO - RESPONSE - add_match (trace id: 6d3fbc48-30ad-44c7-9350-e473c9fd2e84) has status 201
+2025-04-25 16:43:58,524 - basicLogger - INFO - RECEIVED - add_activity (trace id: 5960a6f4-34df-4532-9657-ac798d9538f9)
+2025-04-25 16:43:58,538 - basicLogger - INFO - RESPONSE - add_match (trace id: f45f92ab-69b8-493f-aaf8-fc930b34a03e) has status 201
+2025-04-25 16:43:58,558 - basicLogger - INFO - RESPONSE - add_activity (trace id: 3cb4f26e-5ad5-46d0-9b97-7cf0cfa5fb8f) has status 201
+2025-04-25 16:43:58,562 - basicLogger - INFO - RECEIVED - add_match (trace id: f733d310-603b-4978-a251-43ad2d98cfbc)
+2025-04-25 16:43:58,571 - basicLogger - INFO - RESPONSE - add_match (trace id: 62440c42-efef-4c05-836a-482c29ce98fa) has status 201
+2025-04-25 16:43:58,575 - basicLogger - INFO - RECEIVED - add_activity (trace id: 1cb9c810-55d0-4252-8282-daf6ae1a6b1b)
+2025-04-25 16:43:58,586 - basicLogger - INFO - RESPONSE - add_activity (trace id: f2a05f1d-7098-4950-a3b9-51e147402433) has status 201
+2025-04-25 16:43:58,590 - basicLogger - INFO - RECEIVED - add_match (trace id: d38d2fe9-e203-4ea2-8451-2eeac7d98d2a)
+2025-04-25 16:43:58,592 - basicLogger - INFO - RESPONSE - add_match (trace id: 17aeff3c-a4b0-4ed2-a968-6445a4e198f9) has status 201
+2025-04-25 16:43:58,595 - basicLogger - INFO - RECEIVED - add_activity (trace id: 1f625fdc-3e3a-430d-aaca-06ff0c9d5604)
+2025-04-25 16:43:58,609 - basicLogger - INFO - RESPONSE - add_match (trace id: a1eb2359-4b9b-43dc-b1c2-c643f42ea152) has status 201
+2025-04-25 16:43:58,613 - basicLogger - INFO - RECEIVED - add_activity (trace id: 905978ad-5ad8-4d3f-bac5-873bebf649b1)
+2025-04-25 16:43:58,630 - basicLogger - INFO - RESPONSE - add_activity (trace id: 5960a6f4-34df-4532-9657-ac798d9538f9) has status 201
+2025-04-25 16:43:58,634 - basicLogger - INFO - RECEIVED - add_match (trace id: d059b133-113c-454c-8d04-c4f59575a394)
+2025-04-25 16:43:58,681 - basicLogger - INFO - RESPONSE - add_match (trace id: f733d310-603b-4978-a251-43ad2d98cfbc) has status 201
+2025-04-25 16:43:58,686 - basicLogger - INFO - RECEIVED - add_activity (trace id: 933b9da9-cccc-4e76-aa06-35e0455984b0)
+2025-04-25 16:43:58,706 - basicLogger - INFO - RESPONSE - add_match (trace id: d38d2fe9-e203-4ea2-8451-2eeac7d98d2a) has status 201
+2025-04-25 16:43:58,711 - basicLogger - INFO - RECEIVED - add_activity (trace id: 0e1841a5-d223-470c-9df4-800c7341ccff)
+2025-04-25 16:43:58,718 - basicLogger - INFO - RESPONSE - add_activity (trace id: 905978ad-5ad8-4d3f-bac5-873bebf649b1) has status 201
+2025-04-25 16:43:58,721 - basicLogger - INFO - RECEIVED - add_match (trace id: d8feb71b-7d0c-4a94-ad39-513ba6529e1a)
+2025-04-25 16:43:58,735 - basicLogger - INFO - RESPONSE - add_activity (trace id: 1cb9c810-55d0-4252-8282-daf6ae1a6b1b) has status 201
+2025-04-25 16:43:58,739 - basicLogger - INFO - RECEIVED - add_match (trace id: 2181e4c9-08a8-4d8e-b2f3-60ee38edad2d)
+2025-04-25 16:43:58,740 - basicLogger - INFO - RESPONSE - add_match (trace id: d059b133-113c-454c-8d04-c4f59575a394) has status 201
+2025-04-25 16:43:58,743 - basicLogger - INFO - RECEIVED - add_activity (trace id: 86e45f82-d9b8-4f27-8dce-0c01d8a1445f)
+2025-04-25 16:43:58,752 - basicLogger - INFO - RESPONSE - add_activity (trace id: 1f625fdc-3e3a-430d-aaca-06ff0c9d5604) has status 201
+2025-04-25 16:43:58,756 - basicLogger - INFO - RECEIVED - add_match (trace id: 0f0ff8c1-32f5-4fe8-b262-45f8221086a1)
+2025-04-25 16:43:58,802 - basicLogger - INFO - RESPONSE - add_activity (trace id: 933b9da9-cccc-4e76-aa06-35e0455984b0) has status 201
+2025-04-25 16:43:58,804 - basicLogger - INFO - RECEIVED - add_match (trace id: c3b82e7d-96f6-4fb4-a39d-3482b6f5a0d2)
+2025-04-25 16:43:58,899 - basicLogger - INFO - RESPONSE - add_match (trace id: d8feb71b-7d0c-4a94-ad39-513ba6529e1a) has status 201
+2025-04-25 16:43:58,900 - basicLogger - INFO - RESPONSE - add_activity (trace id: 0e1841a5-d223-470c-9df4-800c7341ccff) has status 201
+2025-04-25 16:43:58,907 - basicLogger - INFO - RECEIVED - add_activity (trace id: 1f3ce8be-4e08-4283-a2fe-4335b5f641b2)
+2025-04-25 16:43:58,907 - basicLogger - INFO - RECEIVED - add_match (trace id: d20c1751-e2a8-49e1-bde7-1c3cfff440e5)
+2025-04-25 16:43:58,909 - basicLogger - INFO - RESPONSE - add_match (trace id: 0f0ff8c1-32f5-4fe8-b262-45f8221086a1) has status 201
+2025-04-25 16:43:58,910 - basicLogger - INFO - RESPONSE - add_match (trace id: 2181e4c9-08a8-4d8e-b2f3-60ee38edad2d) has status 201
+2025-04-25 16:43:58,914 - basicLogger - INFO - RESPONSE - add_activity (trace id: 86e45f82-d9b8-4f27-8dce-0c01d8a1445f) has status 201
+2025-04-25 16:43:58,918 - basicLogger - INFO - RECEIVED - add_activity (trace id: d590a1d2-3615-493f-8074-3b833befae40)
+2025-04-25 16:43:58,919 - basicLogger - INFO - RECEIVED - add_activity (trace id: 51703ae9-ccae-4a8f-a6e3-33eff79babeb)
+2025-04-25 16:43:58,921 - basicLogger - INFO - RESPONSE - add_match (trace id: c3b82e7d-96f6-4fb4-a39d-3482b6f5a0d2) has status 201
+2025-04-25 16:43:58,923 - basicLogger - INFO - RECEIVED - add_match (trace id: c6c637b9-43b9-4165-8444-a320bc4e4d8d)
+2025-04-25 16:43:59,003 - basicLogger - INFO - RESPONSE - add_match (trace id: d20c1751-e2a8-49e1-bde7-1c3cfff440e5) has status 201
+2025-04-25 16:43:59,013 - basicLogger - INFO - RESPONSE - add_activity (trace id: 1f3ce8be-4e08-4283-a2fe-4335b5f641b2) has status 201
+2025-04-25 16:43:59,018 - basicLogger - INFO - RECEIVED - add_match (trace id: a59e9a42-b6ae-495c-94a9-5369acce050e)
+2025-04-25 16:43:59,020 - basicLogger - INFO - RESPONSE - add_activity (trace id: d590a1d2-3615-493f-8074-3b833befae40) has status 201
+2025-04-25 16:43:59,023 - basicLogger - INFO - RECEIVED - add_match (trace id: 38296a0f-2df8-456a-b94e-1db3f8bde46e)
+2025-04-25 16:43:59,024 - basicLogger - INFO - RESPONSE - add_match (trace id: c6c637b9-43b9-4165-8444-a320bc4e4d8d) has status 201
+2025-04-25 16:43:59,027 - basicLogger - INFO - RECEIVED - add_activity (trace id: 27592312-3cfe-467f-b5cd-a4b276892c8e)
+2025-04-25 16:43:59,028 - basicLogger - INFO - RESPONSE - add_activity (trace id: 51703ae9-ccae-4a8f-a6e3-33eff79babeb) has status 201
+2025-04-25 16:43:59,031 - basicLogger - INFO - RECEIVED - add_match (trace id: 534a6567-a9cb-4c58-8dd2-869db9520bcc)
+2025-04-25 16:43:59,084 - basicLogger - INFO - RESPONSE - add_match (trace id: a59e9a42-b6ae-495c-94a9-5369acce050e) has status 201
+2025-04-25 16:43:59,116 - basicLogger - INFO - RESPONSE - add_match (trace id: 38296a0f-2df8-456a-b94e-1db3f8bde46e) has status 201
+2025-04-25 16:43:59,119 - basicLogger - INFO - RESPONSE - add_activity (trace id: 27592312-3cfe-467f-b5cd-a4b276892c8e) has status 201
+2025-04-25 16:43:59,125 - basicLogger - INFO - RECEIVED - add_match (trace id: 80ffd22b-0c61-4c3c-a56a-31fb56b32c91)
+2025-04-25 16:43:59,126 - basicLogger - INFO - RESPONSE - add_match (trace id: 534a6567-a9cb-4c58-8dd2-869db9520bcc) has status 201
+2025-04-25 16:43:59,130 - basicLogger - INFO - RECEIVED - add_activity (trace id: b78a9722-f94f-4cc1-b8bd-516592e2aaeb)
+2025-04-25 16:43:59,172 - basicLogger - INFO - RESPONSE - add_match (trace id: 80ffd22b-0c61-4c3c-a56a-31fb56b32c91) has status 201
+2025-04-25 16:43:59,179 - basicLogger - INFO - RESPONSE - add_activity (trace id: b78a9722-f94f-4cc1-b8bd-516592e2aaeb) has status 201
+2025-04-25 16:43:59,182 - basicLogger - INFO - RECEIVED - add_match (trace id: 4b4d1e2e-5bee-4ee3-9745-fae75194b671)
+2025-04-25 16:43:59,218 - basicLogger - INFO - RESPONSE - add_match (trace id: 4b4d1e2e-5bee-4ee3-9745-fae75194b671) has status 201
+2025-04-30 20:50:47,749 - basicLogger - INFO - RECEIVED - add_match (trace id: b85beb16-2854-45e3-ac26-b7e2dce36aff)
+2025-04-30 20:50:47,857 - basicLogger - INFO - RESPONSE - add_match (trace id: b85beb16-2854-45e3-ac26-b7e2dce36aff) has status 500
+2025-04-30 20:52:37,929 - basicLogger - INFO - RECEIVED - add_match (trace id: 838d57c6-ee70-447b-b6fa-d1930de66a9c)
+2025-04-30 20:52:38,045 - basicLogger - INFO - RESPONSE - add_match (trace id: 838d57c6-ee70-447b-b6fa-d1930de66a9c) has status 201
+2025-04-30 20:52:39,389 - basicLogger - INFO - RECEIVED - add_match (trace id: 82f97c60-9ca5-4e34-a39c-60eedb0a43a0)
+2025-04-30 20:52:39,489 - basicLogger - INFO - RESPONSE - add_match (trace id: 82f97c60-9ca5-4e34-a39c-60eedb0a43a0) has status 500
+2025-04-30 20:53:23,583 - basicLogger - INFO - RECEIVED - add_match (trace id: 9b7cf16a-6fe5-45c5-84f3-b186d05d0ef4)
+2025-04-30 20:53:23,676 - basicLogger - INFO - RESPONSE - add_match (trace id: 9b7cf16a-6fe5-45c5-84f3-b186d05d0ef4) has status 201
+2025-05-01 08:40:27,298 - basicLogger - INFO - RECEIVED - add_activity (trace id: 4b31bfea-01ef-48d9-8ab6-b4b181189388)
+2025-05-01 08:40:27,363 - basicLogger - INFO - RESPONSE - add_activity (trace id: 4b31bfea-01ef-48d9-8ab6-b4b181189388) has status 500
+2025-05-01 08:40:33,387 - basicLogger - INFO - RECEIVED - add_match (trace id: a8903151-ba4a-40e2-8e75-03327a1f405a)
+2025-05-01 08:40:33,422 - basicLogger - INFO - RESPONSE - add_match (trace id: a8903151-ba4a-40e2-8e75-03327a1f405a) has status 201
+2025-05-01 08:41:34,787 - basicLogger - INFO - RECEIVED - add_match (trace id: aaa137a7-505d-470e-9c94-923bebb81516)
+2025-05-01 08:41:34,841 - basicLogger - INFO - RESPONSE - add_match (trace id: aaa137a7-505d-470e-9c94-923bebb81516) has status 201
+2025-05-01 08:41:46,839 - basicLogger - INFO - RECEIVED - add_activity (trace id: dba4bf39-e313-43af-a199-e5fb77a04d0e)
+2025-05-01 08:41:46,874 - basicLogger - INFO - RESPONSE - add_activity (trace id: dba4bf39-e313-43af-a199-e5fb77a04d0e) has status 500
+2025-05-01 08:43:20,879 - basicLogger - INFO - RECEIVED - add_activity (trace id: 62a2583e-d771-46fc-8b4e-962fb1771bc9)
+2025-05-01 08:43:20,916 - basicLogger - INFO - RESPONSE - add_activity (trace id: 62a2583e-d771-46fc-8b4e-962fb1771bc9) has status 500
+2025-05-01 08:43:55,503 - basicLogger - INFO - RECEIVED - add_activity (trace id: 82072b74-b9be-4c8c-a63b-66c7c000e585)
+2025-05-01 08:43:55,554 - basicLogger - INFO - RESPONSE - add_activity (trace id: 82072b74-b9be-4c8c-a63b-66c7c000e585) has status 201
+2025-05-01 08:44:08,974 - basicLogger - INFO - RECEIVED - add_match (trace id: 36a1579a-aba0-4fff-b2b7-75fae95a7502)
+2025-05-01 08:44:09,008 - basicLogger - INFO - RESPONSE - add_match (trace id: 36a1579a-aba0-4fff-b2b7-75fae95a7502) has status 201
+2025-05-01 08:44:25,236 - basicLogger - INFO - RECEIVED - add_activity (trace id: 80836f8a-5406-46ef-b5be-5110e14ad017)
+2025-05-01 08:44:25,271 - basicLogger - INFO - RESPONSE - add_activity (trace id: 80836f8a-5406-46ef-b5be-5110e14ad017) has status 500
+2025-05-01 08:44:47,547 - basicLogger - INFO - RECEIVED - add_activity (trace id: ffda47e5-f771-49d3-83d5-b16bd7a6644a)
+2025-05-01 08:44:47,600 - basicLogger - INFO - RESPONSE - add_activity (trace id: ffda47e5-f771-49d3-83d5-b16bd7a6644a) has status 201
+2025-05-01 08:45:17,061 - basicLogger - INFO - RECEIVED - add_match (trace id: 5ded306b-2f40-47c9-8588-7998eb06fae7)
+2025-05-01 08:45:17,097 - basicLogger - INFO - RESPONSE - add_match (trace id: 5ded306b-2f40-47c9-8588-7998eb06fae7) has status 201
+2025-05-02 07:41:21,015 - basicLogger - INFO - RECEIVED - add_activity (trace id: 46dd80c5-2313-4bfa-bc50-6bab4da560c0)
+2025-05-02 07:41:21,068 - basicLogger - INFO - RESPONSE - add_activity (trace id: 46dd80c5-2313-4bfa-bc50-6bab4da560c0) has status 201
+2025-05-02 07:42:14,636 - basicLogger - INFO - RECEIVED - add_activity (trace id: 96ab50e1-db07-4dcf-bb8d-4d399f743573)
+2025-05-02 07:42:14,687 - basicLogger - INFO - RESPONSE - add_activity (trace id: 96ab50e1-db07-4dcf-bb8d-4d399f743573) has status 500
+2025-05-02 07:42:22,407 - basicLogger - INFO - RECEIVED - add_match (trace id: a13b796d-cd21-47f5-8636-919ea0809cf8)
+2025-05-02 07:42:22,441 - basicLogger - INFO - RESPONSE - add_match (trace id: a13b796d-cd21-47f5-8636-919ea0809cf8) has status 201
+2025-05-02 07:42:23,938 - basicLogger - INFO - RECEIVED - add_match (trace id: 9a4b423a-5d74-467e-86d4-b497825e0e21)
+2025-05-02 07:42:23,970 - basicLogger - INFO - RESPONSE - add_match (trace id: 9a4b423a-5d74-467e-86d4-b497825e0e21) has status 500
+2025-05-02 07:43:09,662 - basicLogger - INFO - RECEIVED - add_activity (trace id: 8b6c3d49-71c9-421d-8340-cb363060874b)
+2025-05-02 07:43:09,700 - basicLogger - INFO - RESPONSE - add_activity (trace id: 8b6c3d49-71c9-421d-8340-cb363060874b) has status 201
+2025-05-02 07:48:46,398 - basicLogger - INFO - RECEIVED - add_match (trace id: ef6d7272-72c5-4ce1-b0a8-c85e5a1d581b)
+2025-05-02 07:48:46,439 - basicLogger - INFO - RESPONSE - add_match (trace id: ef6d7272-72c5-4ce1-b0a8-c85e5a1d581b) has status 201
+2025-05-02 07:49:34,119 - basicLogger - INFO - RECEIVED - add_match (trace id: 0ebc6f0d-2154-40ce-9e0a-90afc95d4550)
+2025-05-02 07:49:34,163 - basicLogger - INFO - RESPONSE - add_match (trace id: 0ebc6f0d-2154-40ce-9e0a-90afc95d4550) has status 201
+2025-05-02 07:50:25,700 - basicLogger - INFO - RECEIVED - add_match (trace id: f503e3ca-f8c2-4ab3-b4c9-b6a13572ef15)
+2025-05-02 07:50:25,737 - basicLogger - INFO - RESPONSE - add_match (trace id: f503e3ca-f8c2-4ab3-b4c9-b6a13572ef15) has status 500
+2025-05-02 07:50:33,151 - basicLogger - INFO - RECEIVED - add_activity (trace id: f42a2e86-4427-40cc-ad1f-bba4ef51888f)
+2025-05-02 07:50:33,194 - basicLogger - INFO - RESPONSE - add_activity (trace id: f42a2e86-4427-40cc-ad1f-bba4ef51888f) has status 201
+2025-05-02 07:54:58,239 - basicLogger - INFO - RECEIVED - add_activity (trace id: 03be7d53-0b91-4cdf-9b3a-d9a40998c114)
+2025-05-02 07:54:58,312 - basicLogger - INFO - RESPONSE - add_activity (trace id: 03be7d53-0b91-4cdf-9b3a-d9a40998c114) has status 201
+2025-05-02 07:59:54,737 - basicLogger - INFO - RECEIVED - add_match (trace id: 5963c27a-8be6-4adc-b1d7-07092fa9da6b)
+2025-05-02 07:59:54,786 - basicLogger - INFO - RESPONSE - add_match (trace id: 5963c27a-8be6-4adc-b1d7-07092fa9da6b) has status 201
+2025-05-02 08:09:32,866 - basicLogger - INFO - RECEIVED - add_match (trace id: 6a3c5739-e6c0-41b2-9c58-477ad961e547)
+2025-05-02 08:09:32,920 - basicLogger - INFO - RESPONSE - add_match (trace id: 6a3c5739-e6c0-41b2-9c58-477ad961e547) has status 201
+2025-05-02 08:12:09,655 - basicLogger - INFO - RECEIVED - add_match (trace id: 01888f74-525b-48e0-a5c9-7113d3630e97)
+2025-05-02 08:12:09,688 - basicLogger - INFO - RESPONSE - add_match (trace id: 01888f74-525b-48e0-a5c9-7113d3630e97) has status 201
+2025-05-02 08:12:48,644 - basicLogger - INFO - RECEIVED - add_match (trace id: 6ba13f1b-9c1c-4e29-a055-e621f18611d6)
+2025-05-02 08:12:48,679 - basicLogger - INFO - RESPONSE - add_match (trace id: 6ba13f1b-9c1c-4e29-a055-e621f18611d6) has status 201
+2025-05-02 08:13:23,740 - basicLogger - INFO - RECEIVED - add_match (trace id: 251b8141-23dd-471c-abef-6e771172cd73)
+2025-05-02 08:13:23,774 - basicLogger - INFO - RESPONSE - add_match (trace id: 251b8141-23dd-471c-abef-6e771172cd73) has status 201
+2025-05-02 08:15:23,349 - basicLogger - INFO - RECEIVED - add_activity (trace id: ef1be041-2a49-4dbd-9114-eb150bad6c2f)
+2025-05-02 08:15:23,379 - basicLogger - INFO - RESPONSE - add_activity (trace id: ef1be041-2a49-4dbd-9114-eb150bad6c2f) has status 201
+2025-05-02 08:15:23,387 - basicLogger - INFO - RECEIVED - add_match (trace id: 6a581989-26d4-4f81-ae60-81be6aa4ee55)
+2025-05-02 08:15:23,427 - basicLogger - INFO - RESPONSE - add_match (trace id: 6a581989-26d4-4f81-ae60-81be6aa4ee55) has status 201
+2025-05-02 08:15:23,590 - basicLogger - INFO - RECEIVED - add_activity (trace id: 1ccb8def-85eb-45e9-9920-f623c6cb8a97)
+2025-05-02 08:15:23,622 - basicLogger - INFO - RESPONSE - add_activity (trace id: 1ccb8def-85eb-45e9-9920-f623c6cb8a97) has status 201
+2025-05-02 08:15:23,626 - basicLogger - INFO - RECEIVED - add_match (trace id: 17171712-a90f-4be6-a9fd-aa80797d6329)
+2025-05-02 08:15:23,655 - basicLogger - INFO - RESPONSE - add_match (trace id: 17171712-a90f-4be6-a9fd-aa80797d6329) has status 201
+2025-05-02 08:15:23,923 - basicLogger - INFO - RECEIVED - add_activity (trace id: 785eab72-084d-471f-aa21-a31ece199539)
+2025-05-02 08:15:23,953 - basicLogger - INFO - RESPONSE - add_activity (trace id: 785eab72-084d-471f-aa21-a31ece199539) has status 201
+2025-05-02 08:15:23,957 - basicLogger - INFO - RECEIVED - add_match (trace id: c6eb7981-ef71-4b64-8d45-bf8721f9779d)
+2025-05-02 08:15:23,985 - basicLogger - INFO - RESPONSE - add_match (trace id: c6eb7981-ef71-4b64-8d45-bf8721f9779d) has status 201
+2025-05-02 08:16:14,835 - basicLogger - INFO - RECEIVED - add_activity (trace id: f35f07d6-93ae-4d1b-a6d5-5a7455e622a0)
+2025-05-02 08:16:14,868 - basicLogger - INFO - RESPONSE - add_activity (trace id: f35f07d6-93ae-4d1b-a6d5-5a7455e622a0) has status 201
+2025-05-02 08:16:14,872 - basicLogger - INFO - RECEIVED - add_match (trace id: bcdc59ba-f6c2-42dc-a6a9-025fc61294f0)
+2025-05-02 08:16:14,902 - basicLogger - INFO - RESPONSE - add_match (trace id: bcdc59ba-f6c2-42dc-a6a9-025fc61294f0) has status 201
+2025-05-02 08:16:14,907 - basicLogger - INFO - RECEIVED - add_activity (trace id: fd814768-311b-4294-add2-62af2fef4d39)
+2025-05-02 08:16:14,937 - basicLogger - INFO - RESPONSE - add_activity (trace id: fd814768-311b-4294-add2-62af2fef4d39) has status 201
+2025-05-02 08:16:14,942 - basicLogger - INFO - RECEIVED - add_match (trace id: d7b9742d-67ca-4982-ba0b-10ca142e32f7)
+2025-05-02 08:16:14,973 - basicLogger - INFO - RESPONSE - add_match (trace id: d7b9742d-67ca-4982-ba0b-10ca142e32f7) has status 201
+2025-05-02 08:16:14,977 - basicLogger - INFO - RECEIVED - add_activity (trace id: 13e063ec-4730-4cc0-9854-4a22db538767)
+2025-05-02 08:16:15,019 - basicLogger - INFO - RESPONSE - add_activity (trace id: 13e063ec-4730-4cc0-9854-4a22db538767) has status 201
+2025-05-02 08:16:15,023 - basicLogger - INFO - RECEIVED - add_match (trace id: 442fb56d-95e6-48e1-a48d-7e1b0b64d0e3)
+2025-05-02 08:16:15,037 - basicLogger - INFO - RECEIVED - add_activity (trace id: 29d7839d-400e-43a3-8e52-082c44b3c25b)
+2025-05-02 08:16:15,066 - basicLogger - INFO - RESPONSE - add_match (trace id: 442fb56d-95e6-48e1-a48d-7e1b0b64d0e3) has status 201
+2025-05-02 08:16:15,070 - basicLogger - INFO - RECEIVED - add_activity (trace id: 62e1d768-d377-475d-8e93-9ccb67956332)
+2025-05-02 08:16:15,075 - basicLogger - INFO - RESPONSE - add_activity (trace id: 29d7839d-400e-43a3-8e52-082c44b3c25b) has status 201
+2025-05-02 08:16:15,078 - basicLogger - INFO - RECEIVED - add_match (trace id: 5b55b854-0e5c-46ef-b1ea-18651da79291)
+2025-05-02 08:16:15,121 - basicLogger - INFO - RESPONSE - add_activity (trace id: 62e1d768-d377-475d-8e93-9ccb67956332) has status 201
+2025-05-02 08:16:15,124 - basicLogger - INFO - RESPONSE - add_match (trace id: 5b55b854-0e5c-46ef-b1ea-18651da79291) has status 201
+2025-05-02 08:16:15,129 - basicLogger - INFO - RECEIVED - add_match (trace id: 18eea03e-9435-46b0-9b9c-581b044ff5f4)
+2025-05-02 08:16:15,130 - basicLogger - INFO - RECEIVED - add_activity (trace id: 52d458be-385b-492e-b59a-c13044607670)
+2025-05-02 08:16:15,180 - basicLogger - INFO - RESPONSE - add_activity (trace id: 52d458be-385b-492e-b59a-c13044607670) has status 201
+2025-05-02 08:16:15,184 - basicLogger - INFO - RECEIVED - add_match (trace id: eb7e68e1-c60e-49ac-8499-89a103402794)
+2025-05-02 08:16:15,185 - basicLogger - INFO - RESPONSE - add_match (trace id: 18eea03e-9435-46b0-9b9c-581b044ff5f4) has status 201
+2025-05-02 08:16:15,189 - basicLogger - INFO - RECEIVED - add_activity (trace id: 0a626da8-9c8d-4de9-b3c3-c77a91bdcd9c)
+2025-05-02 08:16:15,232 - basicLogger - INFO - RESPONSE - add_match (trace id: eb7e68e1-c60e-49ac-8499-89a103402794) has status 201
+2025-05-02 08:16:15,239 - basicLogger - INFO - RECEIVED - add_activity (trace id: 499bc403-e9cf-4586-b80b-acdb835cbbf4)
+2025-05-02 08:16:15,242 - basicLogger - INFO - RESPONSE - add_activity (trace id: 0a626da8-9c8d-4de9-b3c3-c77a91bdcd9c) has status 201
+2025-05-02 08:16:15,242 - basicLogger - INFO - RECEIVED - add_activity (trace id: b25c501d-404d-43ce-83ff-8bf184747ffd)
+2025-05-02 08:16:15,245 - basicLogger - INFO - RECEIVED - add_match (trace id: a3871e01-69e1-468d-83c2-cc04466c1f0a)
+2025-05-02 08:16:15,311 - basicLogger - INFO - RESPONSE - add_activity (trace id: 499bc403-e9cf-4586-b80b-acdb835cbbf4) has status 201
+2025-05-02 08:16:15,315 - basicLogger - INFO - RECEIVED - add_match (trace id: c59f2a56-5293-4919-b3cf-7615931fd411)
+2025-05-02 08:16:15,316 - basicLogger - INFO - RESPONSE - add_activity (trace id: b25c501d-404d-43ce-83ff-8bf184747ffd) has status 201
+2025-05-02 08:16:15,318 - basicLogger - INFO - RESPONSE - add_match (trace id: a3871e01-69e1-468d-83c2-cc04466c1f0a) has status 201
+2025-05-02 08:16:15,320 - basicLogger - INFO - RECEIVED - add_match (trace id: 6db14fc6-f115-40e8-b949-eb6702e1e492)
+2025-05-02 08:16:15,367 - basicLogger - INFO - RESPONSE - add_match (trace id: c59f2a56-5293-4919-b3cf-7615931fd411) has status 201
+2025-05-02 08:16:15,373 - basicLogger - INFO - RECEIVED - add_activity (trace id: fb0adb49-73d7-4e1d-a0b6-e5c32449369d)
+2025-05-02 08:16:15,373 - basicLogger - INFO - RESPONSE - add_match (trace id: 6db14fc6-f115-40e8-b949-eb6702e1e492) has status 201
+2025-05-02 08:16:15,377 - basicLogger - INFO - RECEIVED - add_activity (trace id: ceec5160-843d-4171-b705-affa633d7d2c)
+2025-05-02 08:16:15,422 - basicLogger - INFO - RESPONSE - add_activity (trace id: fb0adb49-73d7-4e1d-a0b6-e5c32449369d) has status 201
+2025-05-02 08:16:15,428 - basicLogger - INFO - RECEIVED - add_match (trace id: 4addcff0-c4c3-4ea1-a22f-c8545e7cd06a)
+2025-05-02 08:16:15,428 - basicLogger - INFO - RESPONSE - add_activity (trace id: ceec5160-843d-4171-b705-affa633d7d2c) has status 201
+2025-05-02 08:16:15,433 - basicLogger - INFO - RECEIVED - add_match (trace id: 2da86825-74b5-40f7-9752-c08d7f4c2cd8)
+2025-05-02 08:16:15,435 - basicLogger - INFO - RECEIVED - add_activity (trace id: 6b4e6b17-a1a6-426f-a2cc-a1157ff2703d)
+2025-05-02 08:16:15,498 - basicLogger - INFO - RESPONSE - add_match (trace id: 4addcff0-c4c3-4ea1-a22f-c8545e7cd06a) has status 201
+2025-05-02 08:16:15,503 - basicLogger - INFO - RECEIVED - add_activity (trace id: e329b80a-dcf6-4ae8-929f-af6bd8f73aac)
+2025-05-02 08:16:15,509 - basicLogger - INFO - RESPONSE - add_match (trace id: 2da86825-74b5-40f7-9752-c08d7f4c2cd8) has status 201
+2025-05-02 08:16:15,513 - basicLogger - INFO - RECEIVED - add_activity (trace id: 2be36ff0-bb28-48d4-bd3a-18888a39a79e)
+2025-05-02 08:16:15,513 - basicLogger - INFO - RESPONSE - add_activity (trace id: 6b4e6b17-a1a6-426f-a2cc-a1157ff2703d) has status 201
+2025-05-02 08:16:15,517 - basicLogger - INFO - RECEIVED - add_match (trace id: 92a1f7b0-f494-44bc-9923-2e6674024c17)
+2025-05-02 08:16:15,557 - basicLogger - INFO - RESPONSE - add_activity (trace id: e329b80a-dcf6-4ae8-929f-af6bd8f73aac) has status 201
+2025-05-02 08:16:15,563 - basicLogger - INFO - RECEIVED - add_match (trace id: b7ab8d13-9786-4d70-9b12-28bd9bc28b96)
+2025-05-02 08:16:15,580 - basicLogger - INFO - RESPONSE - add_activity (trace id: 2be36ff0-bb28-48d4-bd3a-18888a39a79e) has status 201
+2025-05-02 08:16:15,587 - basicLogger - INFO - RESPONSE - add_match (trace id: 92a1f7b0-f494-44bc-9923-2e6674024c17) has status 201
+2025-05-02 08:16:15,588 - basicLogger - INFO - RECEIVED - add_match (trace id: edf972a0-b1a8-4640-81be-b81990ad4084)
+2025-05-02 08:16:15,596 - basicLogger - INFO - RECEIVED - add_activity (trace id: 3217e1df-525d-4eec-92e4-c00a7b1a5d25)
+2025-05-02 08:16:15,609 - basicLogger - INFO - RESPONSE - add_match (trace id: b7ab8d13-9786-4d70-9b12-28bd9bc28b96) has status 201
+2025-05-02 08:16:15,613 - basicLogger - INFO - RECEIVED - add_activity (trace id: 10adbf5f-6cb8-4bed-9fce-9eae893ebfb2)
+2025-05-02 08:16:15,634 - basicLogger - INFO - RECEIVED - add_activity (trace id: 7fd781d7-a521-444a-af9e-66a7eb771be9)
+2025-05-02 08:16:15,660 - basicLogger - INFO - RESPONSE - add_match (trace id: edf972a0-b1a8-4640-81be-b81990ad4084) has status 201
+2025-05-02 08:16:15,665 - basicLogger - INFO - RESPONSE - add_activity (trace id: 3217e1df-525d-4eec-92e4-c00a7b1a5d25) has status 201
+2025-05-02 08:16:15,672 - basicLogger - INFO - RECEIVED - add_match (trace id: 945d6477-0821-469a-90fd-17e2f898b6be)
+2025-05-02 08:16:15,681 - basicLogger - INFO - RESPONSE - add_activity (trace id: 10adbf5f-6cb8-4bed-9fce-9eae893ebfb2) has status 201
+2025-05-02 08:16:15,686 - basicLogger - INFO - RECEIVED - add_match (trace id: 877d444b-dacf-4a1d-a455-faea27f05e24)
+2025-05-02 08:16:15,687 - basicLogger - INFO - RESPONSE - add_activity (trace id: 7fd781d7-a521-444a-af9e-66a7eb771be9) has status 201
+2025-05-02 08:16:15,690 - basicLogger - INFO - RECEIVED - add_match (trace id: 3924b048-66b7-49d7-a033-1ae140b99588)
+2025-05-02 08:16:15,714 - basicLogger - INFO - RESPONSE - add_match (trace id: 945d6477-0821-469a-90fd-17e2f898b6be) has status 201
+2025-05-02 08:16:15,718 - basicLogger - INFO - RECEIVED - add_activity (trace id: 4155ed6e-ddfa-461e-b836-f242648811f1)
+2025-05-02 08:16:15,743 - basicLogger - INFO - RESPONSE - add_match (trace id: 877d444b-dacf-4a1d-a455-faea27f05e24) has status 201
+2025-05-02 08:16:15,748 - basicLogger - INFO - RECEIVED - add_activity (trace id: 8906f22c-f225-4129-b0c2-73cc2e451768)
+2025-05-02 08:16:15,748 - basicLogger - INFO - RESPONSE - add_match (trace id: 3924b048-66b7-49d7-a033-1ae140b99588) has status 201
+2025-05-02 08:16:15,752 - basicLogger - INFO - RECEIVED - add_activity (trace id: 6dbb50a2-189a-4c59-a447-6856fd60eae8)
+2025-05-02 08:16:15,761 - basicLogger - INFO - RESPONSE - add_activity (trace id: 4155ed6e-ddfa-461e-b836-f242648811f1) has status 201
+2025-05-02 08:16:15,764 - basicLogger - INFO - RECEIVED - add_match (trace id: a01deda7-f343-4296-b4fb-dc98a3c865b2)
+2025-05-02 08:16:15,802 - basicLogger - INFO - RESPONSE - add_activity (trace id: 8906f22c-f225-4129-b0c2-73cc2e451768) has status 201
+2025-05-02 08:16:15,807 - basicLogger - INFO - RECEIVED - add_match (trace id: 9b38a097-a96b-4fa4-8281-f1475315afa1)
+2025-05-02 08:16:15,816 - basicLogger - INFO - RESPONSE - add_activity (trace id: 6dbb50a2-189a-4c59-a447-6856fd60eae8) has status 201
+2025-05-02 08:16:15,820 - basicLogger - INFO - RECEIVED - add_match (trace id: 9a11270c-b324-4693-95fc-511c526800e5)
+2025-05-02 08:16:15,822 - basicLogger - INFO - RESPONSE - add_match (trace id: a01deda7-f343-4296-b4fb-dc98a3c865b2) has status 201
+2025-05-02 08:16:15,825 - basicLogger - INFO - RECEIVED - add_activity (trace id: de779179-24f6-45ca-9aca-0ba01d8d15a9)
+2025-05-02 08:16:15,864 - basicLogger - INFO - RESPONSE - add_match (trace id: 9b38a097-a96b-4fa4-8281-f1475315afa1) has status 201
+2025-05-02 08:16:15,878 - basicLogger - INFO - RESPONSE - add_match (trace id: 9a11270c-b324-4693-95fc-511c526800e5) has status 201
+2025-05-02 08:16:15,884 - basicLogger - INFO - RECEIVED - add_activity (trace id: 9855035b-8ad7-4b2f-83ba-d96187ea2869)
+2025-05-02 08:16:15,885 - basicLogger - INFO - RESPONSE - add_activity (trace id: de779179-24f6-45ca-9aca-0ba01d8d15a9) has status 201
+2025-05-02 08:16:15,887 - basicLogger - INFO - RECEIVED - add_match (trace id: e394fa7e-7e1b-4ab9-89e7-824a58f8cb50)
+2025-05-02 08:16:15,930 - basicLogger - INFO - RESPONSE - add_activity (trace id: 9855035b-8ad7-4b2f-83ba-d96187ea2869) has status 201
+2025-05-02 08:16:15,934 - basicLogger - INFO - RECEIVED - add_match (trace id: 3aa327bc-d52b-42bd-ae3b-a35ffa6434a6)
+2025-05-02 08:16:15,935 - basicLogger - INFO - RESPONSE - add_match (trace id: e394fa7e-7e1b-4ab9-89e7-824a58f8cb50) has status 201
+2025-05-02 08:16:15,938 - basicLogger - INFO - RECEIVED - add_activity (trace id: 59748247-f821-4cfa-ac3a-25fc99794c9b)
+2025-05-02 08:16:15,980 - basicLogger - INFO - RESPONSE - add_match (trace id: 3aa327bc-d52b-42bd-ae3b-a35ffa6434a6) has status 201
+2025-05-02 08:16:15,985 - basicLogger - INFO - RECEIVED - add_activity (trace id: 1a6b51b8-faad-4310-b20b-3c6c2113cbd0)
+2025-05-02 08:16:15,985 - basicLogger - INFO - RESPONSE - add_activity (trace id: 59748247-f821-4cfa-ac3a-25fc99794c9b) has status 201
+2025-05-02 08:16:15,988 - basicLogger - INFO - RECEIVED - add_match (trace id: 798b6b0e-b845-4582-bcb0-ad1fa70ca196)
+2025-05-02 08:16:16,030 - basicLogger - INFO - RESPONSE - add_activity (trace id: 1a6b51b8-faad-4310-b20b-3c6c2113cbd0) has status 201
+2025-05-02 08:16:16,035 - basicLogger - INFO - RECEIVED - add_match (trace id: 2586dc77-f1ff-44d4-adfe-b550be3fe973)
+2025-05-02 08:16:16,036 - basicLogger - INFO - RESPONSE - add_match (trace id: 798b6b0e-b845-4582-bcb0-ad1fa70ca196) has status 201
+2025-05-02 08:16:16,065 - basicLogger - INFO - RESPONSE - add_match (trace id: 2586dc77-f1ff-44d4-adfe-b550be3fe973) has status 201
+2025-05-02 08:16:16,070 - basicLogger - INFO - RECEIVED - add_activity (trace id: 2733d241-16b1-4afc-9f89-ea00a6f66919)
+2025-05-02 08:16:16,101 - basicLogger - INFO - RESPONSE - add_activity (trace id: 2733d241-16b1-4afc-9f89-ea00a6f66919) has status 201
+2025-05-02 08:16:16,106 - basicLogger - INFO - RECEIVED - add_match (trace id: 93ce7ec1-f314-4842-85f0-bb517880fac7)
+2025-05-02 08:16:16,136 - basicLogger - INFO - RESPONSE - add_match (trace id: 93ce7ec1-f314-4842-85f0-bb517880fac7) has status 201
+2025-05-05 07:57:30,895 - basicLogger - INFO - RECEIVED - add_activity (trace id: 18607a2c-a871-4a82-bbaa-8d1ac3a53eaf)
+2025-05-05 07:57:30,935 - basicLogger - INFO - RECEIVED - add_activity (trace id: d4d46e2d-f6ad-4015-a109-97629386fbe2)
+2025-05-05 07:57:30,956 - basicLogger - INFO - RESPONSE - add_activity (trace id: 18607a2c-a871-4a82-bbaa-8d1ac3a53eaf) has status 201
+2025-05-05 07:57:30,971 - basicLogger - INFO - RECEIVED - add_match (trace id: 8a998726-cf01-45e8-a2a3-3aa6195d57e2)
+2025-05-05 07:57:30,973 - basicLogger - INFO - RESPONSE - add_activity (trace id: d4d46e2d-f6ad-4015-a109-97629386fbe2) has status 201
+2025-05-05 07:57:30,978 - basicLogger - INFO - RECEIVED - add_match (trace id: bef139b9-15cd-4f6e-874c-882e8a8a6300)
+2025-05-05 07:57:31,038 - basicLogger - INFO - RESPONSE - add_match (trace id: 8a998726-cf01-45e8-a2a3-3aa6195d57e2) has status 201
+2025-05-05 07:57:31,044 - basicLogger - INFO - RECEIVED - add_activity (trace id: ef1ef412-379f-43c8-8e50-d7b7bd74db7c)
+2025-05-05 07:57:31,045 - basicLogger - INFO - RESPONSE - add_match (trace id: bef139b9-15cd-4f6e-874c-882e8a8a6300) has status 201
+2025-05-05 07:57:31,049 - basicLogger - INFO - RECEIVED - add_activity (trace id: be288f7c-201f-47b3-a6ff-a24192152bb4)
+2025-05-05 07:57:31,115 - basicLogger - INFO - RESPONSE - add_activity (trace id: ef1ef412-379f-43c8-8e50-d7b7bd74db7c) has status 201
+2025-05-05 07:57:31,121 - basicLogger - INFO - RECEIVED - add_match (trace id: ac623cb5-c5bf-4fc9-9c6d-e18ffe4db4e0)
+2025-05-05 07:57:31,122 - basicLogger - INFO - RESPONSE - add_activity (trace id: be288f7c-201f-47b3-a6ff-a24192152bb4) has status 201
+2025-05-05 07:57:31,127 - basicLogger - INFO - RECEIVED - add_match (trace id: a39337a2-f6db-4611-9e33-7c8f91392a40)
+2025-05-05 07:57:31,131 - basicLogger - INFO - RECEIVED - add_activity (trace id: d85c0119-e466-4374-b54f-03c85f6aaf5c)
+2025-05-05 07:57:31,199 - basicLogger - INFO - RESPONSE - add_match (trace id: ac623cb5-c5bf-4fc9-9c6d-e18ffe4db4e0) has status 201
+2025-05-05 07:57:31,212 - basicLogger - INFO - RECEIVED - add_activity (trace id: 0be1db5d-c672-434b-a0e7-5f86f91513e9)
+2025-05-05 07:57:31,227 - basicLogger - INFO - RESPONSE - add_activity (trace id: d85c0119-e466-4374-b54f-03c85f6aaf5c) has status 201
+2025-05-05 07:57:31,234 - basicLogger - INFO - RECEIVED - add_match (trace id: 02ae37cd-2059-48d1-8bc6-85a865627be9)
+2025-05-05 07:57:31,234 - basicLogger - INFO - RESPONSE - add_match (trace id: a39337a2-f6db-4611-9e33-7c8f91392a40) has status 201
+2025-05-05 07:57:31,239 - basicLogger - INFO - RECEIVED - add_activity (trace id: 1f515d93-61bc-4ea9-b0e5-f1bac57499be)
+2025-05-05 07:57:31,278 - basicLogger - INFO - RESPONSE - add_activity (trace id: 0be1db5d-c672-434b-a0e7-5f86f91513e9) has status 201
+2025-05-05 07:57:31,284 - basicLogger - INFO - RECEIVED - add_match (trace id: 947437f2-6627-428b-84d4-4624feaca9a5)
+2025-05-05 07:57:31,323 - basicLogger - INFO - RESPONSE - add_match (trace id: 02ae37cd-2059-48d1-8bc6-85a865627be9) has status 201
+2025-05-05 07:57:31,330 - basicLogger - INFO - RESPONSE - add_activity (trace id: 1f515d93-61bc-4ea9-b0e5-f1bac57499be) has status 201
+2025-05-05 07:57:31,332 - basicLogger - INFO - RECEIVED - add_activity (trace id: b1c5f91b-52ca-4f1c-83d9-a861639d8535)
+2025-05-05 07:57:31,333 - basicLogger - INFO - RECEIVED - add_activity (trace id: 164ce889-5f54-4b1e-9be9-6de16d3f7d5e)
+2025-05-05 07:57:31,338 - basicLogger - INFO - RECEIVED - add_match (trace id: 08d48f8b-46a7-4cb1-8e29-68a002c47937)
+2025-05-05 07:57:31,369 - basicLogger - INFO - RESPONSE - add_match (trace id: 947437f2-6627-428b-84d4-4624feaca9a5) has status 201
+2025-05-05 07:57:31,376 - basicLogger - INFO - RECEIVED - add_activity (trace id: 6db26f3e-b936-4064-8ff3-ca73ead29907)
+2025-05-05 07:57:31,456 - basicLogger - INFO - RESPONSE - add_activity (trace id: b1c5f91b-52ca-4f1c-83d9-a861639d8535) has status 201
+2025-05-05 07:57:31,463 - basicLogger - INFO - RESPONSE - add_match (trace id: 08d48f8b-46a7-4cb1-8e29-68a002c47937) has status 201
+2025-05-05 07:57:31,464 - basicLogger - INFO - RECEIVED - add_match (trace id: b7e4694b-055b-4672-90cd-af3896b248e5)
+2025-05-05 07:57:31,469 - basicLogger - INFO - RECEIVED - add_activity (trace id: 30b489a9-1260-4e92-8e86-0675f36b4cfb)
+2025-05-05 07:57:31,471 - basicLogger - INFO - RESPONSE - add_activity (trace id: 164ce889-5f54-4b1e-9be9-6de16d3f7d5e) has status 201
+2025-05-05 07:57:31,477 - basicLogger - INFO - RECEIVED - add_match (trace id: f6e1194e-7de1-4245-948c-4ad85ab43c8d)
+2025-05-05 07:57:31,477 - basicLogger - INFO - RESPONSE - add_activity (trace id: 6db26f3e-b936-4064-8ff3-ca73ead29907) has status 201
+2025-05-05 07:57:31,482 - basicLogger - INFO - RECEIVED - add_match (trace id: 3a3aa6fa-0b40-43ce-bfde-a6f5ac2ec0b8)
+2025-05-05 07:57:31,529 - basicLogger - INFO - RECEIVED - add_activity (trace id: 99a2e7cc-dc01-46e8-958f-a22ac91548ae)
+2025-05-05 07:57:31,568 - basicLogger - INFO - RESPONSE - add_match (trace id: b7e4694b-055b-4672-90cd-af3896b248e5) has status 201
+2025-05-05 07:57:31,572 - basicLogger - INFO - RECEIVED - add_activity (trace id: aecba2f7-b4e1-428b-b541-2c22311f51f7)
+2025-05-05 07:57:31,574 - basicLogger - INFO - RESPONSE - add_activity (trace id: 30b489a9-1260-4e92-8e86-0675f36b4cfb) has status 201
+2025-05-05 07:57:31,579 - basicLogger - INFO - RECEIVED - add_match (trace id: 2e059eb6-7e06-4f14-aba7-b62ea5a41506)
+2025-05-05 07:57:31,593 - basicLogger - INFO - RESPONSE - add_match (trace id: 3a3aa6fa-0b40-43ce-bfde-a6f5ac2ec0b8) has status 201
+2025-05-05 07:57:31,597 - basicLogger - INFO - RECEIVED - add_activity (trace id: c028ff77-481a-4c2d-8b41-2629854abdd4)
+2025-05-05 07:57:31,610 - basicLogger - INFO - RESPONSE - add_match (trace id: f6e1194e-7de1-4245-948c-4ad85ab43c8d) has status 201
+2025-05-05 07:57:31,616 - basicLogger - INFO - RECEIVED - add_activity (trace id: 22a4eb6f-dc08-474a-afcd-6f2dc9a524c3)
+2025-05-05 07:57:31,656 - basicLogger - INFO - RESPONSE - add_activity (trace id: 99a2e7cc-dc01-46e8-958f-a22ac91548ae) has status 201
+2025-05-05 07:57:31,662 - basicLogger - INFO - RECEIVED - add_match (trace id: 58017835-bf3c-472e-97e1-abbb1adf6ccb)
+2025-05-05 07:57:31,701 - basicLogger - INFO - RESPONSE - add_activity (trace id: aecba2f7-b4e1-428b-b541-2c22311f51f7) has status 201
+2025-05-05 07:57:31,707 - basicLogger - INFO - RECEIVED - add_match (trace id: aa150e9e-ccbc-42fd-9de0-2efa5aa16958)
+2025-05-05 07:57:31,714 - basicLogger - INFO - RESPONSE - add_match (trace id: 2e059eb6-7e06-4f14-aba7-b62ea5a41506) has status 201
+2025-05-05 07:57:31,720 - basicLogger - INFO - RECEIVED - add_activity (trace id: 27c5fcbe-cfdd-45da-bee2-0050270256fc)
+2025-05-05 07:57:31,722 - basicLogger - INFO - RESPONSE - add_activity (trace id: c028ff77-481a-4c2d-8b41-2629854abdd4) has status 201
+2025-05-05 07:57:31,726 - basicLogger - INFO - RECEIVED - add_match (trace id: 3ade48fd-4df6-4512-a54b-caffa527cb30)
+2025-05-05 07:57:31,790 - basicLogger - INFO - RESPONSE - add_activity (trace id: 22a4eb6f-dc08-474a-afcd-6f2dc9a524c3) has status 201
+2025-05-05 07:57:31,796 - basicLogger - INFO - RECEIVED - add_match (trace id: 94ac7720-5974-46ec-a11e-ceb9e5fb896b)
+2025-05-05 07:57:31,801 - basicLogger - INFO - RESPONSE - add_match (trace id: 58017835-bf3c-472e-97e1-abbb1adf6ccb) has status 201
+2025-05-05 07:57:31,807 - basicLogger - INFO - RECEIVED - add_activity (trace id: 0fab029c-043c-4c22-845b-80dd0ece909f)
+2025-05-05 07:57:31,834 - basicLogger - INFO - RESPONSE - add_match (trace id: aa150e9e-ccbc-42fd-9de0-2efa5aa16958) has status 201
+2025-05-05 07:57:31,839 - basicLogger - INFO - RESPONSE - add_activity (trace id: 27c5fcbe-cfdd-45da-bee2-0050270256fc) has status 201
+2025-05-05 07:57:31,843 - basicLogger - INFO - RECEIVED - add_activity (trace id: ebf43683-a157-44c5-9e26-33a5cb0f9462)
+2025-05-05 07:57:31,847 - basicLogger - INFO - RECEIVED - add_match (trace id: 16041b57-2a75-434c-bb7d-2b63cfd8d70c)
+2025-05-05 07:57:31,847 - basicLogger - INFO - RESPONSE - add_match (trace id: 3ade48fd-4df6-4512-a54b-caffa527cb30) has status 201
+2025-05-05 07:57:31,900 - basicLogger - INFO - RESPONSE - add_match (trace id: 94ac7720-5974-46ec-a11e-ceb9e5fb896b) has status 201
+2025-05-05 07:57:31,905 - basicLogger - INFO - RECEIVED - add_activity (trace id: f7bc04c0-c726-4ac7-9a24-caca0039bab5)
+2025-05-05 07:57:31,915 - basicLogger - INFO - RESPONSE - add_activity (trace id: 0fab029c-043c-4c22-845b-80dd0ece909f) has status 201
+2025-05-05 07:57:31,921 - basicLogger - INFO - RECEIVED - add_match (trace id: 8c6c7dca-497f-4f68-9b82-82ab513a9103)
+2025-05-05 07:57:31,947 - basicLogger - INFO - RESPONSE - add_activity (trace id: ebf43683-a157-44c5-9e26-33a5cb0f9462) has status 201
+2025-05-05 07:57:31,952 - basicLogger - INFO - RECEIVED - add_match (trace id: 7a164d07-02fd-4313-b190-529f18f47aa2)
+2025-05-05 07:57:31,954 - basicLogger - INFO - RESPONSE - add_match (trace id: 16041b57-2a75-434c-bb7d-2b63cfd8d70c) has status 201
+2025-05-05 07:57:31,992 - basicLogger - INFO - RESPONSE - add_activity (trace id: f7bc04c0-c726-4ac7-9a24-caca0039bab5) has status 201
+2025-05-05 07:57:31,998 - basicLogger - INFO - RECEIVED - add_match (trace id: e1c8ed19-730b-4cbd-8621-34601e736909)
+2025-05-05 07:57:32,006 - basicLogger - INFO - RESPONSE - add_match (trace id: 8c6c7dca-497f-4f68-9b82-82ab513a9103) has status 201
+2025-05-05 07:57:32,011 - basicLogger - INFO - RECEIVED - add_activity (trace id: daed1f56-770f-4bec-ace6-b04fb4b753ed)
+2025-05-05 07:57:32,023 - basicLogger - INFO - RESPONSE - add_match (trace id: 7a164d07-02fd-4313-b190-529f18f47aa2) has status 201
+2025-05-05 07:57:32,029 - basicLogger - INFO - RECEIVED - add_activity (trace id: d3eef291-96e2-4057-8a9e-8fb71539693d)
+2025-05-05 07:57:32,068 - basicLogger - INFO - RESPONSE - add_match (trace id: e1c8ed19-730b-4cbd-8621-34601e736909) has status 201
+2025-05-05 07:57:32,073 - basicLogger - INFO - RECEIVED - add_activity (trace id: 67a2572c-410c-419c-99c6-efc7166da05a)
+2025-05-05 07:57:32,089 - basicLogger - INFO - RESPONSE - add_activity (trace id: daed1f56-770f-4bec-ace6-b04fb4b753ed) has status 201
+2025-05-05 07:57:32,093 - basicLogger - INFO - RECEIVED - add_match (trace id: e0b6a239-47ec-4540-aa7d-bd1db204ac81)
+2025-05-05 07:57:32,107 - basicLogger - INFO - RESPONSE - add_activity (trace id: d3eef291-96e2-4057-8a9e-8fb71539693d) has status 201
+2025-05-05 07:57:32,112 - basicLogger - INFO - RECEIVED - add_match (trace id: a7e973dc-6661-4632-a9ea-2d5b5d02408e)
+2025-05-05 07:57:32,152 - basicLogger - INFO - RESPONSE - add_activity (trace id: 67a2572c-410c-419c-99c6-efc7166da05a) has status 201
+2025-05-05 07:57:32,158 - basicLogger - INFO - RECEIVED - add_match (trace id: a11a7264-a71b-4cec-bb6b-2305e83f4633)
+2025-05-05 07:57:32,165 - basicLogger - INFO - RESPONSE - add_match (trace id: e0b6a239-47ec-4540-aa7d-bd1db204ac81) has status 201
+2025-05-05 07:57:32,172 - basicLogger - INFO - RECEIVED - add_activity (trace id: c26b7f14-d5f6-45c5-8450-6fd37cd1482a)
+2025-05-05 07:57:32,197 - basicLogger - INFO - RESPONSE - add_match (trace id: a7e973dc-6661-4632-a9ea-2d5b5d02408e) has status 201
+2025-05-05 07:57:32,213 - basicLogger - INFO - RESPONSE - add_match (trace id: a11a7264-a71b-4cec-bb6b-2305e83f4633) has status 201
+2025-05-05 07:57:32,220 - basicLogger - INFO - RECEIVED - add_activity (trace id: 73ea03d8-4bf5-465e-8410-181d8d1e7249)
+2025-05-05 07:57:32,242 - basicLogger - INFO - RESPONSE - add_activity (trace id: c26b7f14-d5f6-45c5-8450-6fd37cd1482a) has status 201
+2025-05-05 07:57:32,247 - basicLogger - INFO - RECEIVED - add_match (trace id: 776c7cf9-f786-4c69-8060-3037b38e20ad)
+2025-05-05 07:57:32,265 - basicLogger - INFO - RESPONSE - add_activity (trace id: 73ea03d8-4bf5-465e-8410-181d8d1e7249) has status 201
+2025-05-05 07:57:32,270 - basicLogger - INFO - RECEIVED - add_match (trace id: 0b46295c-9c9b-4641-b837-6d9a6d44876d)
+2025-05-05 07:57:32,292 - basicLogger - INFO - RESPONSE - add_match (trace id: 776c7cf9-f786-4c69-8060-3037b38e20ad) has status 201
+2025-05-05 07:57:32,297 - basicLogger - INFO - RECEIVED - add_activity (trace id: 93c6bffa-45ad-4231-be48-39b0ab8d0b1f)
+2025-05-05 07:57:32,313 - basicLogger - INFO - RESPONSE - add_match (trace id: 0b46295c-9c9b-4641-b837-6d9a6d44876d) has status 201
+2025-05-05 07:57:32,334 - basicLogger - INFO - RESPONSE - add_activity (trace id: 93c6bffa-45ad-4231-be48-39b0ab8d0b1f) has status 201
+2025-05-05 07:57:32,338 - basicLogger - INFO - RECEIVED - add_match (trace id: 6cf1e37d-a116-4ab5-9393-7171e54e26ca)
+2025-05-05 07:57:32,373 - basicLogger - INFO - RESPONSE - add_match (trace id: 6cf1e37d-a116-4ab5-9393-7171e54e26ca) has status 201
+2025-05-05 21:42:19,868 - basicLogger - INFO - RECEIVED - add_activity (trace id: 504377b1-9475-4c7d-9191-0641c11eacb8)
+2025-05-05 21:42:19,884 - basicLogger - INFO - RECEIVED - add_activity (trace id: 3a75b2b4-154c-4383-a1b0-1286a5178daa)
+2025-05-05 21:42:20,028 - basicLogger - INFO - RESPONSE - add_activity (trace id: 3a75b2b4-154c-4383-a1b0-1286a5178daa) has status 201
+2025-05-05 21:42:20,036 - basicLogger - INFO - RESPONSE - add_activity (trace id: 504377b1-9475-4c7d-9191-0641c11eacb8) has status 201
+2025-05-05 21:42:20,058 - basicLogger - INFO - RECEIVED - add_match (trace id: 0d55932f-7dd7-4de5-b262-fe1f67cfbfcc)
+2025-05-05 21:42:20,059 - basicLogger - INFO - RECEIVED - add_match (trace id: 4e5cdde4-80bb-40cc-9e8d-bac23cccd014)
+2025-05-05 21:42:20,087 - basicLogger - INFO - RECEIVED - add_activity (trace id: 7bc9ba70-3d8d-47ff-81d9-af711beb75f4)
+2025-05-05 21:42:20,187 - basicLogger - INFO - RESPONSE - add_match (trace id: 0d55932f-7dd7-4de5-b262-fe1f67cfbfcc) has status 201
+2025-05-05 21:42:20,195 - basicLogger - INFO - RECEIVED - add_activity (trace id: 48b6ced7-bc08-45f7-a210-cd9181cf0be3)
+2025-05-05 21:42:20,197 - basicLogger - INFO - RESPONSE - add_match (trace id: 4e5cdde4-80bb-40cc-9e8d-bac23cccd014) has status 201
+2025-05-05 21:42:20,204 - basicLogger - INFO - RECEIVED - add_activity (trace id: 0c7e2701-1c48-4505-80bf-a1f0c97f0034)
+2025-05-05 21:42:20,205 - basicLogger - INFO - RESPONSE - add_activity (trace id: 7bc9ba70-3d8d-47ff-81d9-af711beb75f4) has status 201
+2025-05-05 21:42:20,213 - basicLogger - INFO - RECEIVED - add_match (trace id: a26b927b-e4fb-4aac-b5f1-12b80d00237e)
+2025-05-05 21:42:20,285 - basicLogger - INFO - RECEIVED - add_activity (trace id: eca68ce4-edda-4369-aa06-44bed369bc4c)
+2025-05-05 21:42:20,320 - basicLogger - INFO - RESPONSE - add_activity (trace id: 48b6ced7-bc08-45f7-a210-cd9181cf0be3) has status 201
+2025-05-05 21:42:20,328 - basicLogger - INFO - RECEIVED - add_match (trace id: 1313c2ef-82f6-4e47-9ffb-e286d796050b)
+2025-05-05 21:42:20,354 - basicLogger - INFO - RESPONSE - add_activity (trace id: 0c7e2701-1c48-4505-80bf-a1f0c97f0034) has status 201
+2025-05-05 21:42:20,367 - basicLogger - INFO - RECEIVED - add_match (trace id: e95bac75-d75f-4405-8e64-b51f5cd5f004)
+2025-05-05 21:42:20,370 - basicLogger - INFO - RESPONSE - add_match (trace id: a26b927b-e4fb-4aac-b5f1-12b80d00237e) has status 201
+2025-05-05 21:42:20,379 - basicLogger - INFO - RECEIVED - add_activity (trace id: ed591727-1931-455f-9d8a-59c8def6ee25)
+2025-05-05 21:42:20,451 - basicLogger - INFO - RESPONSE - add_activity (trace id: eca68ce4-edda-4369-aa06-44bed369bc4c) has status 201
+2025-05-05 21:42:20,460 - basicLogger - INFO - RECEIVED - add_match (trace id: 301312d7-61a4-40ad-b52e-c6915576c8af)
+2025-05-05 21:42:20,494 - basicLogger - INFO - RECEIVED - add_activity (trace id: 43f98f80-c147-417f-9cc2-9bf547f91aaf)
+2025-05-05 21:42:20,496 - basicLogger - INFO - RESPONSE - add_match (trace id: 1313c2ef-82f6-4e47-9ffb-e286d796050b) has status 201
+2025-05-05 21:42:20,506 - basicLogger - INFO - RECEIVED - add_activity (trace id: f2b89b5a-5de9-4656-a37e-266d3f70c2fc)
+2025-05-05 21:42:20,565 - basicLogger - INFO - RESPONSE - add_match (trace id: e95bac75-d75f-4405-8e64-b51f5cd5f004) has status 201
+2025-05-05 21:42:20,575 - basicLogger - INFO - RECEIVED - add_activity (trace id: 5959d3e5-d9c2-42ca-b5a3-d59f86a7f587)
+2025-05-05 21:42:20,576 - basicLogger - INFO - RESPONSE - add_activity (trace id: ed591727-1931-455f-9d8a-59c8def6ee25) has status 201
+2025-05-05 21:42:20,585 - basicLogger - INFO - RECEIVED - add_match (trace id: 8c6229d4-e3fc-45a3-bbb2-c6c0fea4fb8f)
+2025-05-05 21:42:20,681 - basicLogger - INFO - RESPONSE - add_match (trace id: 301312d7-61a4-40ad-b52e-c6915576c8af) has status 201
+2025-05-05 21:42:20,695 - basicLogger - INFO - RECEIVED - add_activity (trace id: b1c3506e-4a23-4db2-a570-675d91f36fcd)
+2025-05-05 21:42:20,699 - basicLogger - INFO - RESPONSE - add_activity (trace id: 43f98f80-c147-417f-9cc2-9bf547f91aaf) has status 201
+2025-05-05 21:42:20,709 - basicLogger - INFO - RECEIVED - add_match (trace id: f32c8803-5cf0-47b0-a1b9-7d88c08ede63)
+2025-05-05 21:42:20,719 - basicLogger - INFO - RESPONSE - add_activity (trace id: f2b89b5a-5de9-4656-a37e-266d3f70c2fc) has status 201
+2025-05-05 21:42:20,728 - basicLogger - INFO - RECEIVED - add_match (trace id: eb395952-fca1-4858-a210-e7776b7e3dbd)
+2025-05-05 21:42:20,795 - basicLogger - INFO - RESPONSE - add_match (trace id: 8c6229d4-e3fc-45a3-bbb2-c6c0fea4fb8f) has status 201
+2025-05-05 21:42:20,804 - basicLogger - INFO - RECEIVED - add_activity (trace id: 9f1e8716-18e4-4147-bae6-c00823056cbf)
+2025-05-05 21:42:20,805 - basicLogger - INFO - RESPONSE - add_activity (trace id: 5959d3e5-d9c2-42ca-b5a3-d59f86a7f587) has status 201
+2025-05-05 21:42:20,813 - basicLogger - INFO - RECEIVED - add_match (trace id: 7c60f168-6d14-46c0-b5a0-3cbcb7831e7a)
+2025-05-05 21:42:20,942 - basicLogger - INFO - RESPONSE - add_match (trace id: f32c8803-5cf0-47b0-a1b9-7d88c08ede63) has status 201
+2025-05-05 21:42:20,951 - basicLogger - INFO - RECEIVED - add_activity (trace id: f78bd1f1-7471-4846-bc64-77cac4ea188a)
+2025-05-05 21:42:20,959 - basicLogger - INFO - RESPONSE - add_activity (trace id: b1c3506e-4a23-4db2-a570-675d91f36fcd) has status 201
+2025-05-05 21:42:20,970 - basicLogger - INFO - RECEIVED - add_match (trace id: 6e3b67f2-dd33-437a-96ef-f005ee6de400)
+2025-05-05 21:42:20,977 - basicLogger - INFO - RESPONSE - add_match (trace id: eb395952-fca1-4858-a210-e7776b7e3dbd) has status 201
+2025-05-05 21:42:20,980 - basicLogger - INFO - RESPONSE - add_activity (trace id: 9f1e8716-18e4-4147-bae6-c00823056cbf) has status 201
+2025-05-05 21:42:20,992 - basicLogger - INFO - RECEIVED - add_activity (trace id: d6d3612c-f640-4b11-a805-6273149e4c90)
+2025-05-05 21:42:20,993 - basicLogger - INFO - RECEIVED - add_match (trace id: a163ef69-a6b1-401b-b7f1-c4d4533730cc)
+2025-05-05 21:42:20,996 - basicLogger - INFO - RESPONSE - add_match (trace id: 7c60f168-6d14-46c0-b5a0-3cbcb7831e7a) has status 201
+2025-05-05 21:42:21,004 - basicLogger - INFO - RECEIVED - add_activity (trace id: 9b8000bf-1283-4861-a4a1-d0bf947545a8)
+2025-05-05 21:42:21,124 - basicLogger - INFO - RESPONSE - add_activity (trace id: f78bd1f1-7471-4846-bc64-77cac4ea188a) has status 201
+2025-05-05 21:42:21,131 - basicLogger - INFO - RECEIVED - add_match (trace id: 7eed0825-e69c-4b4b-b3bf-21d44466953d)
+2025-05-05 21:42:21,186 - basicLogger - INFO - RESPONSE - add_match (trace id: 6e3b67f2-dd33-437a-96ef-f005ee6de400) has status 201
+2025-05-05 21:42:21,197 - basicLogger - INFO - RECEIVED - add_activity (trace id: 1005aff3-691b-4775-b71b-c5621b7e789f)
+2025-05-05 21:42:21,228 - basicLogger - INFO - RESPONSE - add_match (trace id: a163ef69-a6b1-401b-b7f1-c4d4533730cc) has status 201
+2025-05-05 21:42:21,230 - basicLogger - INFO - RESPONSE - add_activity (trace id: d6d3612c-f640-4b11-a805-6273149e4c90) has status 201
+2025-05-05 21:42:21,231 - basicLogger - INFO - RESPONSE - add_activity (trace id: 9b8000bf-1283-4861-a4a1-d0bf947545a8) has status 201
+2025-05-05 21:42:21,245 - basicLogger - INFO - RECEIVED - add_activity (trace id: f08d2d21-4689-4632-88e9-7b9eae641ca5)
+2025-05-05 21:42:21,250 - basicLogger - INFO - RECEIVED - add_match (trace id: 750b97c0-c662-4ed1-8210-6e7107615034)
+2025-05-05 21:42:21,250 - basicLogger - INFO - RECEIVED - add_match (trace id: ffadbd4e-4597-4356-bfe8-e3b370619431)
+2025-05-05 21:42:21,272 - basicLogger - INFO - RESPONSE - add_match (trace id: 7eed0825-e69c-4b4b-b3bf-21d44466953d) has status 201
+2025-05-05 21:42:21,283 - basicLogger - INFO - RECEIVED - add_activity (trace id: fc6ed90f-5fbe-4f62-a2bf-1292ecd17e30)
+2025-05-05 21:42:21,348 - basicLogger - INFO - RESPONSE - add_activity (trace id: 1005aff3-691b-4775-b71b-c5621b7e789f) has status 201
+2025-05-05 21:42:21,355 - basicLogger - INFO - RECEIVED - add_match (trace id: f468600b-8625-4a0f-9120-fd2c47bcf684)
+2025-05-05 21:42:21,465 - basicLogger - INFO - RESPONSE - add_match (trace id: 750b97c0-c662-4ed1-8210-6e7107615034) has status 201
+2025-05-05 21:42:21,470 - basicLogger - INFO - RESPONSE - add_match (trace id: ffadbd4e-4597-4356-bfe8-e3b370619431) has status 201
+2025-05-05 21:42:21,480 - basicLogger - INFO - RECEIVED - add_activity (trace id: 32d22750-1f4e-49a5-aaa5-9e3d1ad517ad)
+2025-05-05 21:42:21,486 - basicLogger - INFO - RESPONSE - add_activity (trace id: f08d2d21-4689-4632-88e9-7b9eae641ca5) has status 201
+2025-05-05 21:42:21,492 - basicLogger - INFO - RECEIVED - add_activity (trace id: 9e40feef-d4ce-403b-bd8b-f63aca86dba1)
+2025-05-05 21:42:21,502 - basicLogger - INFO - RECEIVED - add_match (trace id: e2136a51-afca-4057-aae0-42661d46b534)
+2025-05-05 21:42:21,503 - basicLogger - INFO - RESPONSE - add_activity (trace id: fc6ed90f-5fbe-4f62-a2bf-1292ecd17e30) has status 201
+2025-05-05 21:42:21,513 - basicLogger - INFO - RECEIVED - add_match (trace id: 200398d4-ce0a-49d1-bdc6-9c201990a9fd)
+2025-05-05 21:42:21,516 - basicLogger - INFO - RESPONSE - add_match (trace id: f468600b-8625-4a0f-9120-fd2c47bcf684) has status 201
+2025-05-05 21:42:21,526 - basicLogger - INFO - RECEIVED - add_activity (trace id: 3a917968-6bb7-4a74-90b6-b9cb5c9bea10)
+2025-05-05 21:42:21,664 - basicLogger - INFO - RESPONSE - add_activity (trace id: 32d22750-1f4e-49a5-aaa5-9e3d1ad517ad) has status 201
+2025-05-05 21:42:21,672 - basicLogger - INFO - RECEIVED - add_match (trace id: c4f95b72-9ce1-4090-8e67-0123549a3869)
+2025-05-05 21:42:21,706 - basicLogger - INFO - RESPONSE - add_match (trace id: e2136a51-afca-4057-aae0-42661d46b534) has status 201
+2025-05-05 21:42:21,714 - basicLogger - INFO - RECEIVED - add_activity (trace id: 9b443ad1-278d-42b4-af74-a61eefd40c72)
+2025-05-05 21:42:21,721 - basicLogger - INFO - RESPONSE - add_activity (trace id: 9e40feef-d4ce-403b-bd8b-f63aca86dba1) has status 201
+2025-05-05 21:42:21,728 - basicLogger - INFO - RECEIVED - add_match (trace id: bcbecbd4-61bb-4bfc-ba0d-c062f721ffa1)
+2025-05-05 21:42:21,731 - basicLogger - INFO - RESPONSE - add_activity (trace id: 3a917968-6bb7-4a74-90b6-b9cb5c9bea10) has status 201
+2025-05-05 21:42:21,738 - basicLogger - INFO - RECEIVED - add_match (trace id: adee0c6c-1045-456f-8a79-f76f3046f71a)
+2025-05-05 21:42:21,741 - basicLogger - INFO - RESPONSE - add_match (trace id: 200398d4-ce0a-49d1-bdc6-9c201990a9fd) has status 201
+2025-05-05 21:42:21,748 - basicLogger - INFO - RECEIVED - add_activity (trace id: 7ff2e92d-7d4c-4799-8710-5ee037c5adc5)
+2025-05-05 21:42:21,827 - basicLogger - INFO - RESPONSE - add_match (trace id: c4f95b72-9ce1-4090-8e67-0123549a3869) has status 201
+2025-05-05 21:42:21,914 - basicLogger - INFO - RESPONSE - add_activity (trace id: 7ff2e92d-7d4c-4799-8710-5ee037c5adc5) has status 201
+2025-05-05 21:42:21,923 - basicLogger - INFO - RECEIVED - add_match (trace id: 2318d3b6-aab0-429f-9055-78480bef1966)
+2025-05-05 21:42:21,925 - basicLogger - INFO - RESPONSE - add_activity (trace id: 9b443ad1-278d-42b4-af74-a61eefd40c72) has status 201
+2025-05-05 21:42:21,935 - basicLogger - INFO - RECEIVED - add_match (trace id: 34e87f31-e917-4324-b66a-3f232e7c357a)
+2025-05-05 21:42:21,937 - basicLogger - INFO - RESPONSE - add_match (trace id: bcbecbd4-61bb-4bfc-ba0d-c062f721ffa1) has status 201
+2025-05-05 21:42:21,942 - basicLogger - INFO - RESPONSE - add_match (trace id: adee0c6c-1045-456f-8a79-f76f3046f71a) has status 201
+2025-05-05 21:42:21,949 - basicLogger - INFO - RECEIVED - add_activity (trace id: 59516f21-dbf8-4ebb-b2c3-ab15b5b35cb6)
+2025-05-05 21:42:28,464 - basicLogger - INFO - RESPONSE - add_match (trace id: 2318d3b6-aab0-429f-9055-78480bef1966) has status 201
+2025-05-05 21:42:28,471 - basicLogger - INFO - RECEIVED - add_activity (trace id: 8867d130-380b-42ce-9b32-ae86cdf6ee68)
+2025-05-05 21:42:28,474 - basicLogger - INFO - RESPONSE - add_match (trace id: 34e87f31-e917-4324-b66a-3f232e7c357a) has status 201
+2025-05-05 21:42:28,480 - basicLogger - INFO - RESPONSE - add_activity (trace id: 59516f21-dbf8-4ebb-b2c3-ab15b5b35cb6) has status 201
+2025-05-05 21:42:28,487 - basicLogger - INFO - RECEIVED - add_match (trace id: 03024096-0c87-48d2-85d8-995a5e163e06)
+2025-05-05 21:42:21,814 - basicLogger - INFO - RESPONSE - add_activity (trace id: 8867d130-380b-42ce-9b32-ae86cdf6ee68) has status 201
+2025-05-05 21:42:21,822 - basicLogger - INFO - RECEIVED - add_match (trace id: 9cba182a-ef0b-4e30-bffc-4c3cbe73c27b)
+2025-05-05 21:42:21,827 - basicLogger - INFO - RESPONSE - add_match (trace id: 03024096-0c87-48d2-85d8-995a5e163e06) has status 201
+2025-05-05 21:42:21,874 - basicLogger - INFO - RESPONSE - add_match (trace id: 9cba182a-ef0b-4e30-bffc-4c3cbe73c27b) has status 201
+2025-05-05 23:02:11,436 - basicLogger - INFO - RECEIVED - add_activity (trace id: 63e1567c-18e1-4cc2-b160-8d034ea28b35)
+2025-05-05 23:02:11,527 - basicLogger - INFO - RECEIVED - add_activity (trace id: 3caa13a9-caf6-4bb0-a79b-752d30ca40cb)
+2025-05-05 23:02:11,599 - basicLogger - INFO - RESPONSE - add_activity (trace id: 63e1567c-18e1-4cc2-b160-8d034ea28b35) has status 201
+2025-05-05 23:02:11,626 - basicLogger - INFO - RECEIVED - add_match (trace id: ce41fa13-78e6-4295-a81a-5a61acb4e7ff)
+2025-05-05 23:02:11,640 - basicLogger - INFO - RESPONSE - add_activity (trace id: 3caa13a9-caf6-4bb0-a79b-752d30ca40cb) has status 201
+2025-05-05 23:02:11,650 - basicLogger - INFO - RECEIVED - add_match (trace id: c56df0d7-c5bb-4fc0-ae7e-898f147f27b8)
+2025-05-05 23:02:11,931 - basicLogger - INFO - RECEIVED - add_activity (trace id: 335b6c76-691c-4942-a41f-b8ee4f882c63)
+2025-05-05 23:02:11,932 - basicLogger - INFO - RECEIVED - add_activity (trace id: 014de587-3777-436c-8447-e7e02c2809ca)
+2025-05-05 23:02:11,960 - basicLogger - INFO - RESPONSE - add_match (trace id: ce41fa13-78e6-4295-a81a-5a61acb4e7ff) has status 201
+2025-05-05 23:02:11,972 - basicLogger - INFO - RECEIVED - add_activity (trace id: d0a14360-1d30-43d5-ab8f-c2c0f49c9039)
+2025-05-05 23:02:11,974 - basicLogger - INFO - RESPONSE - add_match (trace id: c56df0d7-c5bb-4fc0-ae7e-898f147f27b8) has status 201
+2025-05-05 23:02:11,983 - basicLogger - INFO - RECEIVED - add_activity (trace id: 979aff75-6632-4b58-83ab-276f25c2ac2e)
+2025-05-05 23:02:12,070 - basicLogger - INFO - RESPONSE - add_activity (trace id: 335b6c76-691c-4942-a41f-b8ee4f882c63) has status 201
+2025-05-05 23:02:12,082 - basicLogger - INFO - RECEIVED - add_match (trace id: 54e6695c-9e9d-412b-942f-d58353165689)
+2025-05-05 23:02:12,083 - basicLogger - INFO - RESPONSE - add_activity (trace id: 014de587-3777-436c-8447-e7e02c2809ca) has status 201
+2025-05-05 23:02:12,093 - basicLogger - INFO - RECEIVED - add_match (trace id: cc5c90e8-bb69-4632-9469-d5971cfb190b)
+2025-05-05 23:02:12,123 - basicLogger - INFO - RECEIVED - add_activity (trace id: 0b32c9a9-720d-48fb-a1e4-0f6c252d5356)
+2025-05-05 23:02:12,146 - basicLogger - INFO - RESPONSE - add_activity (trace id: d0a14360-1d30-43d5-ab8f-c2c0f49c9039) has status 201
+2025-05-05 23:02:12,156 - basicLogger - INFO - RESPONSE - add_activity (trace id: 979aff75-6632-4b58-83ab-276f25c2ac2e) has status 201
+2025-05-05 23:02:12,158 - basicLogger - INFO - RECEIVED - add_match (trace id: d0382485-aba2-4a01-9098-42f878290f28)
+2025-05-05 23:02:12,166 - basicLogger - INFO - RECEIVED - add_match (trace id: e1c4c02b-4aae-43c0-a024-32a0b7ef2266)
+2025-05-05 23:02:12,286 - basicLogger - INFO - RESPONSE - add_match (trace id: 54e6695c-9e9d-412b-942f-d58353165689) has status 201
+2025-05-05 23:02:12,292 - basicLogger - INFO - RESPONSE - add_match (trace id: cc5c90e8-bb69-4632-9469-d5971cfb190b) has status 201
+2025-05-05 23:02:12,296 - basicLogger - INFO - RECEIVED - add_activity (trace id: 18b5ad78-c4f3-4ae7-b4a5-e2f7f9c5633e)
+2025-05-05 23:02:12,306 - basicLogger - INFO - RECEIVED - add_activity (trace id: 53ea1a95-c539-4ba8-8195-567a8ecea951)
+2025-05-05 23:02:12,321 - basicLogger - INFO - RESPONSE - add_activity (trace id: 0b32c9a9-720d-48fb-a1e4-0f6c252d5356) has status 201
+2025-05-05 23:02:12,329 - basicLogger - INFO - RECEIVED - add_match (trace id: a2ce5167-27f2-4b6e-8b6a-2829a9dd3f90)
+2025-05-05 23:02:12,349 - basicLogger - INFO - RESPONSE - add_match (trace id: d0382485-aba2-4a01-9098-42f878290f28) has status 201
+2025-05-05 23:02:12,358 - basicLogger - INFO - RECEIVED - add_activity (trace id: bb706cb3-8b3f-4541-bb6b-ff2b6f4c2462)
+2025-05-05 23:02:12,395 - basicLogger - INFO - RESPONSE - add_match (trace id: e1c4c02b-4aae-43c0-a024-32a0b7ef2266) has status 201
+2025-05-05 23:02:12,403 - basicLogger - INFO - RECEIVED - add_activity (trace id: e69c0f1b-8fc2-447d-a22a-898baab5fdef)
+2025-05-05 23:02:12,501 - basicLogger - INFO - RESPONSE - add_activity (trace id: 18b5ad78-c4f3-4ae7-b4a5-e2f7f9c5633e) has status 201
+2025-05-05 23:02:12,513 - basicLogger - INFO - RECEIVED - add_match (trace id: 7031151f-6808-441e-95e2-61e871b6e227)
+2025-05-05 23:02:12,547 - basicLogger - INFO - RESPONSE - add_activity (trace id: 53ea1a95-c539-4ba8-8195-567a8ecea951) has status 201
+2025-05-05 23:02:12,558 - basicLogger - INFO - RECEIVED - add_match (trace id: 330036ad-3d6a-43cd-8b6e-503fa3eded23)
+2025-05-05 23:02:12,568 - basicLogger - INFO - RESPONSE - add_match (trace id: a2ce5167-27f2-4b6e-8b6a-2829a9dd3f90) has status 201
+2025-05-05 23:02:12,576 - basicLogger - INFO - RECEIVED - add_activity (trace id: bfdad21f-22e0-4c43-b9e9-d98ee34bc9ec)
+2025-05-05 23:02:12,580 - basicLogger - INFO - RESPONSE - add_activity (trace id: bb706cb3-8b3f-4541-bb6b-ff2b6f4c2462) has status 201
+2025-05-05 23:02:12,589 - basicLogger - INFO - RECEIVED - add_match (trace id: 0e2e7f71-a3e6-4775-9ba9-ba30f1c67d53)
+2025-05-05 23:02:12,592 - basicLogger - INFO - RESPONSE - add_activity (trace id: e69c0f1b-8fc2-447d-a22a-898baab5fdef) has status 201
+2025-05-05 23:02:12,600 - basicLogger - INFO - RECEIVED - add_match (trace id: b7913e6a-37e6-4c99-8166-d304e9b851d4)
+2025-05-05 23:02:12,734 - basicLogger - INFO - RESPONSE - add_match (trace id: 7031151f-6808-441e-95e2-61e871b6e227) has status 201
+2025-05-05 23:02:12,746 - basicLogger - INFO - RECEIVED - add_activity (trace id: 47a5268f-3cf2-47be-9f59-e345761e22d4)
+2025-05-05 23:02:12,762 - basicLogger - INFO - RESPONSE - add_match (trace id: 330036ad-3d6a-43cd-8b6e-503fa3eded23) has status 201
+2025-05-05 23:02:12,773 - basicLogger - INFO - RECEIVED - add_activity (trace id: 5a95c069-08b2-4d9e-a8af-789b2f1ea701)
+2025-05-05 23:02:12,801 - basicLogger - INFO - RESPONSE - add_activity (trace id: bfdad21f-22e0-4c43-b9e9-d98ee34bc9ec) has status 201
+2025-05-05 23:02:12,811 - basicLogger - INFO - RECEIVED - add_match (trace id: 8af11c02-4844-4e78-b55a-25c55b3d93da)
+2025-05-05 23:02:12,827 - basicLogger - INFO - RESPONSE - add_match (trace id: 0e2e7f71-a3e6-4775-9ba9-ba30f1c67d53) has status 201
+2025-05-05 23:02:12,836 - basicLogger - INFO - RECEIVED - add_activity (trace id: c56f7989-8d9b-4cdb-bd03-d4e59f77a048)
+2025-05-05 23:02:12,840 - basicLogger - INFO - RESPONSE - add_match (trace id: b7913e6a-37e6-4c99-8166-d304e9b851d4) has status 201
+2025-05-05 23:02:12,849 - basicLogger - INFO - RECEIVED - add_activity (trace id: e03f6025-beb0-4f5c-a6ce-273923c5f3ac)
+2025-05-05 23:02:12,969 - basicLogger - INFO - RESPONSE - add_activity (trace id: 5a95c069-08b2-4d9e-a8af-789b2f1ea701) has status 201
+2025-05-05 23:02:12,979 - basicLogger - INFO - RECEIVED - add_match (trace id: dd997742-14db-49f2-b26e-ad80a8aecaf0)
+2025-05-05 23:02:12,983 - basicLogger - INFO - RESPONSE - add_activity (trace id: 47a5268f-3cf2-47be-9f59-e345761e22d4) has status 201
+2025-05-05 23:02:12,992 - basicLogger - INFO - RECEIVED - add_match (trace id: 044b34bc-f91e-4958-b6e4-fcd77b750ee9)
+2025-05-05 23:02:13,054 - basicLogger - INFO - RESPONSE - add_match (trace id: 8af11c02-4844-4e78-b55a-25c55b3d93da) has status 201
+2025-05-05 23:02:13,068 - basicLogger - INFO - RECEIVED - add_activity (trace id: e9d35f3f-95b5-4fa2-93ca-e1457f99e86d)
+2025-05-05 23:02:13,080 - basicLogger - INFO - RESPONSE - add_activity (trace id: c56f7989-8d9b-4cdb-bd03-d4e59f77a048) has status 201
+2025-05-05 23:02:13,091 - basicLogger - INFO - RECEIVED - add_match (trace id: e51aaac9-a274-4051-99ff-b8ec3abd1403)
+2025-05-05 23:02:13,093 - basicLogger - INFO - RESPONSE - add_activity (trace id: e03f6025-beb0-4f5c-a6ce-273923c5f3ac) has status 201
+2025-05-05 23:02:13,101 - basicLogger - INFO - RECEIVED - add_match (trace id: 9562bed3-1548-4604-b19d-59e9f684d377)
+2025-05-05 23:02:13,136 - basicLogger - INFO - RESPONSE - add_match (trace id: dd997742-14db-49f2-b26e-ad80a8aecaf0) has status 201
+2025-05-05 23:02:13,149 - basicLogger - INFO - RESPONSE - add_match (trace id: 044b34bc-f91e-4958-b6e4-fcd77b750ee9) has status 201
+2025-05-05 23:02:13,150 - basicLogger - INFO - RECEIVED - add_activity (trace id: fd882c73-fdca-4ac8-885b-dd8f5f93a19d)
+2025-05-05 23:02:13,159 - basicLogger - INFO - RECEIVED - add_activity (trace id: ab4310c7-3ed3-4d8f-b92c-7ba937651be6)
+2025-05-05 23:02:13,268 - basicLogger - INFO - RESPONSE - add_activity (trace id: e9d35f3f-95b5-4fa2-93ca-e1457f99e86d) has status 201
+2025-05-05 23:02:13,278 - basicLogger - INFO - RECEIVED - add_match (trace id: 30d07d88-dfa2-4eab-a1e3-816696ba119a)
+2025-05-05 23:02:13,285 - basicLogger - INFO - RESPONSE - add_match (trace id: e51aaac9-a274-4051-99ff-b8ec3abd1403) has status 201
+2025-05-05 23:02:13,293 - basicLogger - INFO - RECEIVED - add_activity (trace id: 5cce43fb-f9e3-4eb8-9b0b-3f2a685a356b)
+2025-05-05 23:02:13,300 - basicLogger - INFO - RESPONSE - add_match (trace id: 9562bed3-1548-4604-b19d-59e9f684d377) has status 201
+2025-05-05 23:02:13,309 - basicLogger - INFO - RECEIVED - add_activity (trace id: 03ec7bfd-e421-4a9d-8244-6f4a8961af4a)
+2025-05-05 23:02:13,367 - basicLogger - INFO - RESPONSE - add_activity (trace id: fd882c73-fdca-4ac8-885b-dd8f5f93a19d) has status 201
+2025-05-05 23:02:13,378 - basicLogger - INFO - RECEIVED - add_match (trace id: 4decdbd0-907f-4013-acda-59d910950420)
+2025-05-05 23:02:13,380 - basicLogger - INFO - RESPONSE - add_activity (trace id: ab4310c7-3ed3-4d8f-b92c-7ba937651be6) has status 201
+2025-05-05 23:02:13,388 - basicLogger - INFO - RECEIVED - add_match (trace id: 2bca7dcc-a400-4135-a7a8-971c98ae9d63)
+2025-05-05 23:02:13,482 - basicLogger - INFO - RESPONSE - add_match (trace id: 30d07d88-dfa2-4eab-a1e3-816696ba119a) has status 201
+2025-05-05 23:02:13,491 - basicLogger - INFO - RECEIVED - add_activity (trace id: dfd14908-6d70-4673-b856-48faa96d3076)
+2025-05-05 23:02:13,537 - basicLogger - INFO - RESPONSE - add_activity (trace id: 5cce43fb-f9e3-4eb8-9b0b-3f2a685a356b) has status 201
+2025-05-05 23:02:13,547 - basicLogger - INFO - RECEIVED - add_match (trace id: 8606e904-e839-4ec7-93a0-d6845081d672)
+2025-05-05 23:02:13,556 - basicLogger - INFO - RESPONSE - add_activity (trace id: 03ec7bfd-e421-4a9d-8244-6f4a8961af4a) has status 201
+2025-05-05 23:02:13,566 - basicLogger - INFO - RECEIVED - add_match (trace id: f517f65c-c412-4862-baff-6bacac367b44)
+2025-05-05 23:02:13,574 - basicLogger - INFO - RESPONSE - add_match (trace id: 4decdbd0-907f-4013-acda-59d910950420) has status 201
+2025-05-05 23:02:13,583 - basicLogger - INFO - RECEIVED - add_activity (trace id: 75fa9cd8-9259-443d-90c4-c9c0459c20cd)
+2025-05-05 23:02:13,584 - basicLogger - INFO - RESPONSE - add_match (trace id: 2bca7dcc-a400-4135-a7a8-971c98ae9d63) has status 201
+2025-05-05 23:02:13,593 - basicLogger - INFO - RECEIVED - add_activity (trace id: 11cfce24-ac03-4a58-b4f9-4c8fdbc7db7d)
+2025-05-05 23:02:13,687 - basicLogger - INFO - RESPONSE - add_activity (trace id: dfd14908-6d70-4673-b856-48faa96d3076) has status 201
+2025-05-05 23:02:13,696 - basicLogger - INFO - RECEIVED - add_match (trace id: 387f5fc6-4203-4e69-b6d7-5f87c99f09f5)
+2025-05-05 23:02:13,739 - basicLogger - INFO - RESPONSE - add_match (trace id: 8606e904-e839-4ec7-93a0-d6845081d672) has status 201
+2025-05-05 23:02:13,793 - basicLogger - INFO - RESPONSE - add_match (trace id: f517f65c-c412-4862-baff-6bacac367b44) has status 201
+2025-05-05 23:02:13,803 - basicLogger - INFO - RESPONSE - add_activity (trace id: 75fa9cd8-9259-443d-90c4-c9c0459c20cd) has status 201
+2025-05-05 23:02:13,814 - basicLogger - INFO - RECEIVED - add_match (trace id: af654bd1-1616-4cff-8c7f-641a5dc876cc)
+2025-05-05 23:02:13,818 - basicLogger - INFO - RESPONSE - add_activity (trace id: 11cfce24-ac03-4a58-b4f9-4c8fdbc7db7d) has status 201
+2025-05-05 23:02:13,827 - basicLogger - INFO - RECEIVED - add_match (trace id: 2d7e7590-e329-4c03-b528-91587aaa3228)
+2025-05-05 23:02:13,864 - basicLogger - INFO - RESPONSE - add_match (trace id: 387f5fc6-4203-4e69-b6d7-5f87c99f09f5) has status 201
+2025-05-05 23:02:13,876 - basicLogger - INFO - RECEIVED - add_activity (trace id: 9959ddb4-063d-4470-a2b7-9114215b952c)
+2025-05-05 23:02:13,966 - basicLogger - INFO - RESPONSE - add_match (trace id: af654bd1-1616-4cff-8c7f-641a5dc876cc) has status 201
+2025-05-05 23:02:13,975 - basicLogger - INFO - RESPONSE - add_match (trace id: 2d7e7590-e329-4c03-b528-91587aaa3228) has status 201
+2025-05-05 23:02:14,001 - basicLogger - INFO - RESPONSE - add_activity (trace id: 9959ddb4-063d-4470-a2b7-9114215b952c) has status 201
+2025-05-05 23:02:14,010 - basicLogger - INFO - RECEIVED - add_match (trace id: db25ba8a-3d79-4516-8835-aa290d459ecd)
+2025-05-05 23:02:14,081 - basicLogger - INFO - RESPONSE - add_match (trace id: db25ba8a-3d79-4516-8835-aa290d459ecd) has status 201
+2025-05-08 08:33:47,428 - basicLogger - INFO - RECEIVED - add_activity (trace id: 41db963b-b7b4-49e2-8aec-f1b9cccf2948)
+2025-05-08 08:39:09,926 - basicLogger - INFO - RECEIVED - add_activity (trace id: 963c74e5-debf-41fd-bee8-17263a70edc5)
+2025-05-08 08:39:50,779 - basicLogger - INFO - RECEIVED - add_activity (trace id: 9e25f1a0-9ffa-40f8-982a-5fbbf64a3105)
+2025-05-09 07:40:22,212 - basicLogger - INFO - RECEIVED - add_activity (trace id: 3dc5a144-0429-4875-8400-1c05b4a48697)
+2025-05-09 07:41:48,339 - basicLogger - INFO - RECEIVED - add_activity (trace id: bf8c5531-e97c-43d4-be08-c90cb48ba92e)
+2025-05-09 07:44:06,108 - basicLogger - INFO - RECEIVED - add_activity (trace id: d1bda2aa-bf4d-4c95-b08d-cd016ab6f552)
+2025-05-09 07:44:17,147 - basicLogger - INFO - RECEIVED - add_activity (trace id: 7e4190de-c0cb-4049-b30d-3ad81c17f219)
+2025-05-09 07:57:11,291 - basicLogger - INFO - RECEIVED - add_activity (trace id: 2a7fd835-8ab0-4499-83f4-95948771158d)
+2025-05-09 07:59:49,316 - basicLogger - INFO - RECEIVED - add_activity (trace id: 9e611658-d560-43a4-9363-c0dddaa36c68)
+2025-05-09 07:59:49,380 - basicLogger - INFO - RESPONSE - add_activity (trace id: 9e611658-d560-43a4-9363-c0dddaa36c68) has status 201
+2025-05-09 08:00:16,542 - basicLogger - INFO - RECEIVED - add_activity (trace id: fa2eb667-16d3-455d-a6ac-a93081ec6b33)
+2025-05-09 08:00:16,557 - basicLogger - INFO - RESPONSE - add_activity (trace id: fa2eb667-16d3-455d-a6ac-a93081ec6b33) has status 201
