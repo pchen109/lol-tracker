@@ -80,8 +80,6 @@ def populate_stats():
 
     content["num_activities"] += r_num_activities
     content["num_matches"] += r_num_matches
-    logger.debug(f"content: {int(content["max_login_counts"])}")
-    logger.debug(f"stats  : {r_max_login_counts}")
     content["max_login_counts"] = max(int(content["max_login_counts"]), r_max_login_counts)
     content["avg_kill"] = avg_kill
     content["last_updated"] = datetime.isoformat(t_current)

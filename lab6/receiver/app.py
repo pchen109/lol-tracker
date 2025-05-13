@@ -47,7 +47,6 @@ def add_event(payload, event):
     producer.produce(msg_str.encode("utf-8"))
     logger.info("RESPONSE - %s (trace id: %s) has status %s", event, trace_id, 201)
     return msg, 201
-    
 
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("openapi.yml",

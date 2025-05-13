@@ -8761,3 +8761,797 @@
 2025-05-05 23:04:19,197 - basicLogger - DEBUG - content: 7
 2025-05-05 23:04:19,197 - basicLogger - DEBUG - stats  : 0
 2025-05-05 23:04:19,198 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:00:34,332 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:00:34,451 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:00:34,451 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:00:34,451 - basicLogger - DEBUG - content: 7
+2025-05-12 08:00:34,451 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:00:34,452 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:00:39,331 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:00:39,403 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:00:39,403 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:00:39,403 - basicLogger - DEBUG - content: 7
+2025-05-12 08:00:39,403 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:00:39,403 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:00:44,332 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:00:44,401 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:00:44,401 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:00:44,401 - basicLogger - DEBUG - content: 7
+2025-05-12 08:00:44,401 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:00:44,402 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:00:49,335 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:00:49,405 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:00:49,405 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:00:49,406 - basicLogger - DEBUG - content: 7
+2025-05-12 08:00:49,406 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:00:49,406 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:00:54,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:00:54,395 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:00:54,395 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:00:54,395 - basicLogger - DEBUG - content: 7
+2025-05-12 08:00:54,395 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:00:54,396 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:00:59,333 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:00:59,399 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:00:59,399 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:00:59,399 - basicLogger - DEBUG - content: 7
+2025-05-12 08:00:59,399 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:00:59,399 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:01:04,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:01:04,392 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:01:04,392 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:01:04,392 - basicLogger - DEBUG - content: 7
+2025-05-12 08:01:04,392 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:01:04,393 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:01:09,331 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:01:09,391 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:01:09,391 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:01:09,391 - basicLogger - DEBUG - content: 7
+2025-05-12 08:01:09,391 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:01:09,392 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:01:14,331 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:01:14,414 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:01:14,414 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:01:14,414 - basicLogger - DEBUG - content: 7
+2025-05-12 08:01:14,414 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:01:14,414 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:01:19,331 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:01:19,396 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:01:19,396 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:01:19,396 - basicLogger - DEBUG - content: 7
+2025-05-12 08:01:19,396 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:01:19,397 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:01:24,333 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:01:24,427 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:01:24,427 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:01:24,427 - basicLogger - DEBUG - content: 7
+2025-05-12 08:01:24,428 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:01:24,428 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:01:29,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:01:29,406 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:01:29,406 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:01:29,407 - basicLogger - DEBUG - content: 7
+2025-05-12 08:01:29,407 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:01:29,407 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:01:34,332 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:01:34,403 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:01:34,403 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:01:34,403 - basicLogger - DEBUG - content: 7
+2025-05-12 08:01:34,403 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:01:34,403 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:01:39,331 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:01:39,423 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:01:39,423 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:01:39,423 - basicLogger - DEBUG - content: 7
+2025-05-12 08:01:39,423 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:01:39,423 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:01:44,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:01:44,394 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:01:44,394 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:01:44,394 - basicLogger - DEBUG - content: 7
+2025-05-12 08:01:44,394 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:01:44,395 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:01:49,331 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:01:49,400 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:01:49,400 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:01:49,400 - basicLogger - DEBUG - content: 7
+2025-05-12 08:01:49,400 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:01:49,400 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:01:54,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:01:54,390 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:01:54,390 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:01:54,390 - basicLogger - DEBUG - content: 7
+2025-05-12 08:01:54,391 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:01:54,391 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:01:59,331 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:01:59,401 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:01:59,401 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:01:59,401 - basicLogger - DEBUG - content: 7
+2025-05-12 08:01:59,401 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:01:59,401 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:02:04,332 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:02:04,417 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:02:04,417 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:02:04,417 - basicLogger - DEBUG - content: 7
+2025-05-12 08:02:04,417 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:02:04,417 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:02:09,331 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:02:22,653 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:02:22,653 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:02:22,653 - basicLogger - DEBUG - content: 7
+2025-05-12 08:02:22,654 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:02:22,654 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:02:14,332 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:02:14,408 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:02:14,408 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:02:14,409 - basicLogger - DEBUG - content: 7
+2025-05-12 08:02:14,409 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:02:14,409 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:02:19,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:02:19,399 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:02:19,399 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:02:19,399 - basicLogger - DEBUG - content: 7
+2025-05-12 08:02:19,399 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:02:19,400 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:02:24,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:02:24,392 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:02:24,392 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:02:24,392 - basicLogger - DEBUG - content: 7
+2025-05-12 08:02:24,392 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:02:24,393 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:02:29,331 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:02:29,407 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:02:29,407 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:02:29,408 - basicLogger - DEBUG - content: 7
+2025-05-12 08:02:29,408 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:02:29,408 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:02:34,331 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:02:34,401 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:02:34,402 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:02:34,402 - basicLogger - DEBUG - content: 7
+2025-05-12 08:02:34,402 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:02:34,402 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:02:39,333 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:02:39,393 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:02:39,393 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:02:39,393 - basicLogger - DEBUG - content: 7
+2025-05-12 08:02:39,393 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:02:39,393 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:02:44,329 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:02:44,387 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:02:44,387 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:02:44,387 - basicLogger - DEBUG - content: 7
+2025-05-12 08:02:44,387 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:02:44,388 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:02:49,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:02:49,391 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:02:49,391 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:02:49,391 - basicLogger - DEBUG - content: 7
+2025-05-12 08:02:49,391 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:02:49,391 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:02:54,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:02:54,404 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:02:54,404 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:02:54,404 - basicLogger - DEBUG - content: 7
+2025-05-12 08:02:54,404 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:02:54,404 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:02:59,331 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:02:59,395 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:02:59,395 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:02:59,395 - basicLogger - DEBUG - content: 7
+2025-05-12 08:02:59,395 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:02:59,396 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:03:04,331 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:03:04,390 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:03:04,391 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:03:04,391 - basicLogger - DEBUG - content: 7
+2025-05-12 08:03:04,391 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:03:04,391 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:03:09,331 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:03:09,390 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:03:09,390 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:03:09,390 - basicLogger - DEBUG - content: 7
+2025-05-12 08:03:09,390 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:03:09,391 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:03:14,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:03:14,388 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:03:14,388 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:03:14,388 - basicLogger - DEBUG - content: 7
+2025-05-12 08:03:14,388 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:03:14,388 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:03:19,329 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:03:19,414 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:03:19,414 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:03:19,414 - basicLogger - DEBUG - content: 7
+2025-05-12 08:03:19,414 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:03:19,415 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:03:24,331 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:03:24,392 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:03:24,392 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:03:24,392 - basicLogger - DEBUG - content: 7
+2025-05-12 08:03:24,392 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:03:24,392 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:03:29,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:03:29,389 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:03:29,389 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:03:29,390 - basicLogger - DEBUG - content: 7
+2025-05-12 08:03:29,390 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:03:29,390 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:03:34,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:03:34,390 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:03:34,390 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:03:34,390 - basicLogger - DEBUG - content: 7
+2025-05-12 08:03:34,390 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:03:34,390 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:03:39,331 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:03:39,400 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:03:39,400 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:03:39,400 - basicLogger - DEBUG - content: 7
+2025-05-12 08:03:39,400 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:03:39,400 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:03:44,332 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:03:44,405 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:03:44,405 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:03:44,405 - basicLogger - DEBUG - content: 7
+2025-05-12 08:03:44,405 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:03:44,406 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:03:49,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:03:49,391 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:03:49,391 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:03:49,391 - basicLogger - DEBUG - content: 7
+2025-05-12 08:03:49,391 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:03:49,391 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:03:54,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:03:54,391 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:03:54,391 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:03:54,392 - basicLogger - DEBUG - content: 7
+2025-05-12 08:03:54,392 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:03:54,392 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:03:59,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:03:59,397 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:03:59,397 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:03:59,397 - basicLogger - DEBUG - content: 7
+2025-05-12 08:03:59,397 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:03:59,397 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:04:04,331 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:04:04,400 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:04:04,400 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:04:04,401 - basicLogger - DEBUG - content: 7
+2025-05-12 08:04:04,401 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:04:04,401 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:04:09,333 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:04:09,407 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:04:09,407 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:04:09,407 - basicLogger - DEBUG - content: 7
+2025-05-12 08:04:09,407 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:04:09,407 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:04:14,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:04:14,390 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:04:14,390 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:04:14,390 - basicLogger - DEBUG - content: 7
+2025-05-12 08:04:14,390 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:04:14,391 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:04:19,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:04:19,397 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:04:19,397 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:04:19,397 - basicLogger - DEBUG - content: 7
+2025-05-12 08:04:19,397 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:04:19,398 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:04:24,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:04:24,393 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:04:24,393 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:04:24,393 - basicLogger - DEBUG - content: 7
+2025-05-12 08:04:24,393 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:04:24,394 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:04:29,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:04:29,389 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:04:29,389 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:04:29,389 - basicLogger - DEBUG - content: 7
+2025-05-12 08:04:29,389 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:04:29,390 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:04:34,331 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:04:34,404 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:04:34,404 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:04:34,404 - basicLogger - DEBUG - content: 7
+2025-05-12 08:04:34,404 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:04:34,404 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:04:39,333 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:04:39,394 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:04:39,394 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:04:39,394 - basicLogger - DEBUG - content: 7
+2025-05-12 08:04:39,394 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:04:39,394 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:04:44,331 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:04:44,409 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:04:44,409 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:04:44,409 - basicLogger - DEBUG - content: 7
+2025-05-12 08:04:44,409 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:04:44,409 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:04:49,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:04:49,389 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:04:49,390 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:04:49,390 - basicLogger - DEBUG - content: 7
+2025-05-12 08:04:49,390 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:04:49,390 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:04:54,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:04:54,391 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:04:54,391 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:04:54,391 - basicLogger - DEBUG - content: 7
+2025-05-12 08:04:54,391 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:04:54,392 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:04:59,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:04:59,397 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:04:59,397 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:04:59,397 - basicLogger - DEBUG - content: 7
+2025-05-12 08:04:59,397 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:04:59,398 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:05:04,332 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:05:04,392 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:05:04,392 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:05:04,392 - basicLogger - DEBUG - content: 7
+2025-05-12 08:05:04,392 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:05:04,393 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:05:09,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:05:09,389 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:05:09,389 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:05:09,389 - basicLogger - DEBUG - content: 7
+2025-05-12 08:05:09,389 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:05:09,389 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:05:14,329 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:05:14,390 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:05:14,390 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:05:14,390 - basicLogger - DEBUG - content: 7
+2025-05-12 08:05:14,391 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:05:14,391 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:05:19,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:05:19,388 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:05:19,389 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:05:19,389 - basicLogger - DEBUG - content: 7
+2025-05-12 08:05:19,389 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:05:19,390 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:05:24,332 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:05:24,400 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:05:24,400 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:05:24,400 - basicLogger - DEBUG - content: 7
+2025-05-12 08:05:24,400 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:05:24,400 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:05:29,331 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:05:29,401 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:05:29,401 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:05:29,401 - basicLogger - DEBUG - content: 7
+2025-05-12 08:05:29,401 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:05:29,401 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:05:34,333 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:05:34,394 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:05:34,394 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:05:34,394 - basicLogger - DEBUG - content: 7
+2025-05-12 08:05:34,395 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:05:34,395 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:05:39,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:05:39,390 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:05:39,390 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:05:39,390 - basicLogger - DEBUG - content: 7
+2025-05-12 08:05:39,390 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:05:39,390 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:05:44,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:05:44,395 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:05:44,395 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:05:44,395 - basicLogger - DEBUG - content: 7
+2025-05-12 08:05:44,395 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:05:44,395 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:05:49,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:05:49,397 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:05:49,397 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:05:49,397 - basicLogger - DEBUG - content: 7
+2025-05-12 08:05:49,397 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:05:49,398 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:05:54,331 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:05:54,390 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:05:54,390 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:05:54,390 - basicLogger - DEBUG - content: 7
+2025-05-12 08:05:54,390 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:05:54,391 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:05:59,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:05:59,398 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:05:59,398 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:05:59,398 - basicLogger - DEBUG - content: 7
+2025-05-12 08:05:59,398 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:05:59,398 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:06:04,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:06:04,396 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:06:04,396 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:06:04,396 - basicLogger - DEBUG - content: 7
+2025-05-12 08:06:04,396 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:06:04,396 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:06:09,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:06:09,391 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:06:09,391 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:06:09,392 - basicLogger - DEBUG - content: 7
+2025-05-12 08:06:09,392 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:06:09,392 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:06:29,331 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:06:29,405 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:06:29,405 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:06:29,405 - basicLogger - DEBUG - content: 7
+2025-05-12 08:06:29,406 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:06:29,406 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:06:34,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:06:34,395 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:06:34,396 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:06:34,396 - basicLogger - DEBUG - content: 7
+2025-05-12 08:06:34,396 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:06:34,396 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:06:39,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:06:39,397 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:06:39,398 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:06:39,398 - basicLogger - DEBUG - content: 7
+2025-05-12 08:06:39,398 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:06:39,399 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:06:59,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:06:59,397 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:06:59,397 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:06:59,397 - basicLogger - DEBUG - content: 7
+2025-05-12 08:06:59,397 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:06:59,398 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-12 08:07:04,330 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-12 08:07:04,391 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-12 08:07:04,391 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-12 08:07:04,391 - basicLogger - DEBUG - content: 7
+2025-05-12 08:07:04,391 - basicLogger - DEBUG - stats  : 0
+2025-05-12 08:07:04,391 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:45:31,529 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:45:31,606 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 6]ℹ️==========
+2025-05-13 07:45:31,606 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 6   ]ℹ️==========
+2025-05-13 07:45:31,606 - basicLogger - DEBUG - content: 7
+2025-05-13 07:45:31,606 - basicLogger - DEBUG - stats  : 4
+2025-05-13 07:45:31,606 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:45:36,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:45:36,553 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:45:36,553 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:45:36,553 - basicLogger - DEBUG - content: 7
+2025-05-13 07:45:36,553 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:45:36,554 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:45:41,503 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:45:41,567 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:45:41,567 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:45:41,567 - basicLogger - DEBUG - content: 7
+2025-05-13 07:45:41,567 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:45:41,567 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:45:46,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:45:46,559 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:45:46,559 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:45:46,559 - basicLogger - DEBUG - content: 7
+2025-05-13 07:45:46,559 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:45:46,559 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:45:51,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:45:51,551 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:45:51,551 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:45:51,551 - basicLogger - DEBUG - content: 7
+2025-05-13 07:45:51,551 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:45:51,552 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:45:56,501 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:45:56,556 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:45:56,556 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:45:56,556 - basicLogger - DEBUG - content: 7
+2025-05-13 07:45:56,556 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:45:56,556 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:46:01,507 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:46:01,564 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:46:01,564 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:46:01,564 - basicLogger - DEBUG - content: 7
+2025-05-13 07:46:01,564 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:46:01,564 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:46:06,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:46:06,554 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:46:06,554 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:46:06,554 - basicLogger - DEBUG - content: 7
+2025-05-13 07:46:06,554 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:46:06,554 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:46:11,501 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:46:11,550 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:46:11,550 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:46:11,550 - basicLogger - DEBUG - content: 7
+2025-05-13 07:46:11,550 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:46:11,550 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:46:16,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:46:16,553 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:46:16,553 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:46:16,553 - basicLogger - DEBUG - content: 7
+2025-05-13 07:46:16,553 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:46:16,554 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:46:21,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:46:21,557 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:46:21,557 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:46:21,557 - basicLogger - DEBUG - content: 7
+2025-05-13 07:46:21,557 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:46:21,557 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:46:26,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:46:26,562 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:46:26,562 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:46:26,562 - basicLogger - DEBUG - content: 7
+2025-05-13 07:46:26,562 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:46:26,562 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:46:31,511 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:46:31,597 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:46:31,597 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:46:31,597 - basicLogger - DEBUG - content: 7
+2025-05-13 07:46:31,597 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:46:31,597 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:46:36,501 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:46:36,551 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:46:36,551 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:46:36,551 - basicLogger - DEBUG - content: 7
+2025-05-13 07:46:36,551 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:46:36,551 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:46:41,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:46:41,547 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:46:41,547 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:46:41,547 - basicLogger - DEBUG - content: 7
+2025-05-13 07:46:41,547 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:46:41,547 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:46:46,501 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:46:46,549 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:46:46,549 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:46:46,549 - basicLogger - DEBUG - content: 7
+2025-05-13 07:46:46,549 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:46:46,549 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:46:51,501 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:46:51,563 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:46:51,563 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:46:51,563 - basicLogger - DEBUG - content: 7
+2025-05-13 07:46:51,563 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:46:51,563 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:46:56,501 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:46:56,551 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:46:56,551 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:46:56,551 - basicLogger - DEBUG - content: 7
+2025-05-13 07:46:56,551 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:46:56,552 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:47:01,506 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:47:01,560 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:47:01,561 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:47:01,561 - basicLogger - DEBUG - content: 7
+2025-05-13 07:47:01,561 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:47:01,561 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:47:06,503 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:47:06,556 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:47:06,556 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:47:06,556 - basicLogger - DEBUG - content: 7
+2025-05-13 07:47:06,556 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:47:06,557 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:47:11,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:47:11,551 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:47:11,551 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:47:11,552 - basicLogger - DEBUG - content: 7
+2025-05-13 07:47:11,552 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:47:11,552 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:47:16,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:47:16,558 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:47:16,559 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:47:16,559 - basicLogger - DEBUG - content: 7
+2025-05-13 07:47:16,559 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:47:16,559 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:47:21,501 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:47:21,551 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:47:21,551 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:47:21,551 - basicLogger - DEBUG - content: 7
+2025-05-13 07:47:21,551 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:47:21,551 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:47:26,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:47:26,555 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:47:26,555 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:47:26,555 - basicLogger - DEBUG - content: 7
+2025-05-13 07:47:26,555 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:47:26,555 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:47:31,517 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:47:31,569 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:47:31,569 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:47:31,569 - basicLogger - DEBUG - content: 7
+2025-05-13 07:47:31,569 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:47:31,569 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:47:36,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:47:36,571 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:47:36,571 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:47:36,571 - basicLogger - DEBUG - content: 7
+2025-05-13 07:47:36,571 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:47:36,571 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:47:41,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:47:41,556 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:47:41,557 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:47:41,557 - basicLogger - DEBUG - content: 7
+2025-05-13 07:47:41,557 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:47:41,557 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:47:46,503 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:47:46,555 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:47:46,555 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:47:46,555 - basicLogger - DEBUG - content: 7
+2025-05-13 07:47:46,555 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:47:46,555 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:47:51,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:47:51,547 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:47:51,547 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:47:51,547 - basicLogger - DEBUG - content: 7
+2025-05-13 07:47:51,547 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:47:51,547 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:47:56,501 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:47:56,552 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:47:56,552 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:47:56,552 - basicLogger - DEBUG - content: 7
+2025-05-13 07:47:56,552 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:47:56,552 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:48:01,513 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:48:01,560 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:48:01,560 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:48:01,560 - basicLogger - DEBUG - content: 7
+2025-05-13 07:48:01,560 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:48:01,560 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:48:06,503 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:48:06,568 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:48:06,568 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:48:06,568 - basicLogger - DEBUG - content: 7
+2025-05-13 07:48:06,568 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:48:06,568 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:48:11,501 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:48:11,549 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:48:11,550 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:48:11,550 - basicLogger - DEBUG - content: 7
+2025-05-13 07:48:11,550 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:48:11,550 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:48:16,504 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:48:16,558 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:48:16,558 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:48:16,558 - basicLogger - DEBUG - content: 7
+2025-05-13 07:48:16,558 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:48:16,559 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:48:21,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:48:21,551 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:48:21,551 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:48:21,551 - basicLogger - DEBUG - content: 7
+2025-05-13 07:48:21,551 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:48:21,551 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:48:26,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:48:26,555 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:48:26,556 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:48:26,556 - basicLogger - DEBUG - content: 7
+2025-05-13 07:48:26,556 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:48:26,556 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:48:31,513 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:48:31,569 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:48:31,569 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:48:31,571 - basicLogger - DEBUG - content: 7
+2025-05-13 07:48:31,571 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:48:31,571 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:48:36,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:48:36,553 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:48:36,553 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:48:36,553 - basicLogger - DEBUG - content: 7
+2025-05-13 07:48:36,553 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:48:36,553 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:48:41,501 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:48:41,550 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:48:41,551 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:48:41,551 - basicLogger - DEBUG - content: 7
+2025-05-13 07:48:41,551 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:48:41,551 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:48:46,503 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:48:46,554 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:48:46,554 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:48:46,554 - basicLogger - DEBUG - content: 7
+2025-05-13 07:48:46,554 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:48:46,554 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:48:51,501 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:48:51,557 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 6]ℹ️==========
+2025-05-13 07:48:51,558 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 6   ]ℹ️==========
+2025-05-13 07:48:51,558 - basicLogger - DEBUG - content: 7
+2025-05-13 07:48:51,558 - basicLogger - DEBUG - stats  : 4
+2025-05-13 07:48:51,558 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:48:56,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:48:56,563 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:48:56,563 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:48:56,563 - basicLogger - DEBUG - content: 7
+2025-05-13 07:48:56,564 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:48:56,564 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:49:01,512 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:49:01,562 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:49:01,562 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:49:01,562 - basicLogger - DEBUG - content: 7
+2025-05-13 07:49:01,562 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:49:01,563 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:49:06,501 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:49:11,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:49:16,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:49:21,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:49:26,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:49:31,518 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:49:36,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:49:36,557 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 11]ℹ️==========
+2025-05-13 07:49:36,557 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 11   ]ℹ️==========
+2025-05-13 07:49:36,557 - basicLogger - DEBUG - content: 7
+2025-05-13 07:49:36,557 - basicLogger - DEBUG - stats  : 5
+2025-05-13 07:49:36,558 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:49:41,501 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:49:41,551 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:49:41,551 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:49:41,551 - basicLogger - DEBUG - content: 7
+2025-05-13 07:49:41,551 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:49:41,551 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:49:46,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:49:46,549 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:49:46,549 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:49:46,549 - basicLogger - DEBUG - content: 7
+2025-05-13 07:49:46,549 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:49:46,549 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:49:51,501 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:49:56,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:50:01,515 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:50:06,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:50:11,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:50:16,501 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:50:21,501 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:50:26,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:50:26,568 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 16]ℹ️==========
+2025-05-13 07:50:26,569 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 16   ]ℹ️==========
+2025-05-13 07:50:26,569 - basicLogger - DEBUG - content: 7
+2025-05-13 07:50:26,569 - basicLogger - DEBUG - stats  : 7
+2025-05-13 07:50:26,569 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:50:31,513 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:50:31,569 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:50:31,569 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:50:31,569 - basicLogger - DEBUG - content: 7
+2025-05-13 07:50:31,569 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:50:31,569 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:50:36,501 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:50:36,547 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:50:36,547 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:50:36,547 - basicLogger - DEBUG - content: 7
+2025-05-13 07:50:36,547 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:50:36,547 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:50:41,501 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:50:41,551 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:50:41,551 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:50:41,551 - basicLogger - DEBUG - content: 7
+2025-05-13 07:50:41,551 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:50:41,552 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:50:46,503 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:50:46,555 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:50:46,555 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:50:46,555 - basicLogger - DEBUG - content: 7
+2025-05-13 07:50:46,555 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:50:46,555 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:50:51,501 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:50:51,562 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:50:51,562 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:50:51,562 - basicLogger - DEBUG - content: 7
+2025-05-13 07:50:51,562 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:50:51,563 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:50:56,501 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:50:56,587 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:50:56,587 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:50:56,588 - basicLogger - DEBUG - content: 7
+2025-05-13 07:50:56,588 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:50:56,588 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:51:01,510 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:51:01,572 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:51:01,572 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:51:01,572 - basicLogger - DEBUG - content: 7
+2025-05-13 07:51:01,572 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:51:01,572 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:51:06,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:51:06,550 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:51:06,550 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:51:06,550 - basicLogger - DEBUG - content: 7
+2025-05-13 07:51:06,550 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:51:06,550 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:51:11,501 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:51:11,552 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:51:11,552 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:51:11,552 - basicLogger - DEBUG - content: 7
+2025-05-13 07:51:11,552 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:51:11,552 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:51:16,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========
+2025-05-13 07:51:16,560 - basicLogger - INFO - ==========ℹ️[Num Of Received Activities: 0]ℹ️==========
+2025-05-13 07:51:16,560 - basicLogger - INFO - ==========ℹ️[Num Of Received Matches: 0   ]ℹ️==========
+2025-05-13 07:51:16,560 - basicLogger - DEBUG - content: 7
+2025-05-13 07:51:16,560 - basicLogger - DEBUG - stats  : 0
+2025-05-13 07:51:16,560 - basicLogger - INFO - ==========ℹ️[processing period ended]ℹ️==========
+2025-05-13 07:51:21,502 - basicLogger - INFO - ==========ℹ️[processing period starts]ℹ️==========

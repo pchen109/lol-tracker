@@ -71,13 +71,13 @@ def process_messages():
 
     consumer = topic.get_simple_consumer(
         consumer_group= b'event_group',
-        rest_offset_on_start = False,
-        auto_offset_rest = OffsetType.LATEST
+        reset_offset_on_start = False,
+        auto_offset_reset = OffsetType.LATEST
     )
-
+    logger.info(consumer)
     for msg in consumer:
         msg_str = msg.value.decode("utf-8")
-        msg = json.load(msg_str)
+        msg = json.loads(msg_str)
 
         payload = msg["payload"]
 

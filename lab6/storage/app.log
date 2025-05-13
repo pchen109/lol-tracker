@@ -7264,3 +7264,612 @@
 2025-05-05 23:04:19,145 - basicLogger - DEBUG - <class 'list'>
 2025-05-05 23:04:19,193 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-05 23:04:14.082780, end: 2025-05-05 23:04:19.082995)
 2025-05-05 23:04:19,193 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:00:34,412 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-05 23:04:19.082995, end: 2025-05-12 08:00:34.335106)
+2025-05-12 08:00:34,412 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:00:34,448 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-05 23:04:19.082995, end: 2025-05-12 08:00:34.335106)
+2025-05-12 08:00:34,448 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:00:39,366 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:00:34.335106, end: 2025-05-12 08:00:39.332031)
+2025-05-12 08:00:39,367 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:00:39,400 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:00:34.335106, end: 2025-05-12 08:00:39.332031)
+2025-05-12 08:00:39,401 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:00:44,363 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:00:39.332031, end: 2025-05-12 08:00:44.332540)
+2025-05-12 08:00:44,363 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:00:44,396 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:00:39.332031, end: 2025-05-12 08:00:44.332540)
+2025-05-12 08:00:44,396 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:00:49,362 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:00:44.332540, end: 2025-05-12 08:00:49.335304)
+2025-05-12 08:00:49,362 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:00:49,395 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:00:44.332540, end: 2025-05-12 08:00:49.335304)
+2025-05-12 08:00:49,395 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:00:54,357 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:00:49.335304, end: 2025-05-12 08:00:54.330803)
+2025-05-12 08:00:54,357 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:00:54,390 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:00:49.335304, end: 2025-05-12 08:00:54.330803)
+2025-05-12 08:00:54,390 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:00:59,365 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:00:54.330803, end: 2025-05-12 08:00:59.334340)
+2025-05-12 08:00:59,366 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:00:59,395 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:00:54.330803, end: 2025-05-12 08:00:59.334340)
+2025-05-12 08:00:59,395 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:01:04,355 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:00:59.334340, end: 2025-05-12 08:01:04.330476)
+2025-05-12 08:01:04,356 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:01:04,390 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:00:59.334340, end: 2025-05-12 08:01:04.330476)
+2025-05-12 08:01:04,390 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:01:09,358 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:01:04.330476, end: 2025-05-12 08:01:09.331611)
+2025-05-12 08:01:09,358 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:01:09,388 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:01:04.330476, end: 2025-05-12 08:01:09.331611)
+2025-05-12 08:01:09,388 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:01:14,364 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:01:09.331611, end: 2025-05-12 08:01:14.332078)
+2025-05-12 08:01:14,364 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:01:14,409 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:01:09.331611, end: 2025-05-12 08:01:14.332078)
+2025-05-12 08:01:14,410 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:01:19,359 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:01:14.332078, end: 2025-05-12 08:01:19.331342)
+2025-05-12 08:01:19,359 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:01:19,391 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:01:14.332078, end: 2025-05-12 08:01:19.331342)
+2025-05-12 08:01:19,391 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:01:24,378 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:01:19.331342, end: 2025-05-12 08:01:24.333637)
+2025-05-12 08:01:24,379 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:01:24,424 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:01:19.331342, end: 2025-05-12 08:01:24.333637)
+2025-05-12 08:01:24,424 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:01:29,373 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:01:24.333637, end: 2025-05-12 08:01:29.331093)
+2025-05-12 08:01:29,374 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:01:29,403 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:01:24.333637, end: 2025-05-12 08:01:29.331093)
+2025-05-12 08:01:29,404 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:01:34,364 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:01:29.331093, end: 2025-05-12 08:01:34.332391)
+2025-05-12 08:01:34,364 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:01:34,399 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:01:29.331093, end: 2025-05-12 08:01:34.332391)
+2025-05-12 08:01:34,399 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:01:39,378 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:01:34.332391, end: 2025-05-12 08:01:39.331900)
+2025-05-12 08:01:39,378 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:01:39,420 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:01:34.332391, end: 2025-05-12 08:01:39.331900)
+2025-05-12 08:01:39,420 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:01:44,359 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:01:39.331900, end: 2025-05-12 08:01:44.330510)
+2025-05-12 08:01:44,360 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:01:44,391 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:01:39.331900, end: 2025-05-12 08:01:44.330510)
+2025-05-12 08:01:44,392 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:01:49,364 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:01:44.330510, end: 2025-05-12 08:01:49.331419)
+2025-05-12 08:01:49,364 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:01:49,395 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:01:44.330510, end: 2025-05-12 08:01:49.331419)
+2025-05-12 08:01:49,395 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:01:54,357 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:01:49.331419, end: 2025-05-12 08:01:54.331058)
+2025-05-12 08:01:54,357 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:01:54,387 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:01:49.331419, end: 2025-05-12 08:01:54.331058)
+2025-05-12 08:01:54,387 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:01:59,364 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:01:54.331058, end: 2025-05-12 08:01:59.331951)
+2025-05-12 08:01:59,364 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:01:59,398 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:01:54.331058, end: 2025-05-12 08:01:59.331951)
+2025-05-12 08:01:59,398 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:02:04,382 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:01:59.331951, end: 2025-05-12 08:02:04.333376)
+2025-05-12 08:02:04,382 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:02:04,414 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:01:59.331951, end: 2025-05-12 08:02:04.333376)
+2025-05-12 08:02:04,414 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:02:09,442 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:02:04.333376, end: 2025-05-12 08:02:09.331366)
+2025-05-12 08:02:09,442 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:02:22,650 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:02:04.333376, end: 2025-05-12 08:02:09.331366)
+2025-05-12 08:02:22,650 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:02:14,368 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:02:09.331366, end: 2025-05-12 08:02:14.332551)
+2025-05-12 08:02:14,369 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:02:14,404 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:02:09.331366, end: 2025-05-12 08:02:14.332551)
+2025-05-12 08:02:14,404 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:02:19,361 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:02:14.332551, end: 2025-05-12 08:02:19.330594)
+2025-05-12 08:02:19,361 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:02:19,395 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:02:14.332551, end: 2025-05-12 08:02:19.330594)
+2025-05-12 08:02:19,395 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:02:24,358 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:02:19.330594, end: 2025-05-12 08:02:24.331233)
+2025-05-12 08:02:24,358 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:02:24,388 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:02:19.330594, end: 2025-05-12 08:02:24.331233)
+2025-05-12 08:02:24,388 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:02:29,358 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:02:24.331233, end: 2025-05-12 08:02:29.331570)
+2025-05-12 08:02:29,358 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:02:29,403 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:02:24.331233, end: 2025-05-12 08:02:29.331570)
+2025-05-12 08:02:29,403 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:02:34,365 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:02:29.331570, end: 2025-05-12 08:02:34.332188)
+2025-05-12 08:02:34,365 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:02:34,397 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:02:29.331570, end: 2025-05-12 08:02:34.332188)
+2025-05-12 08:02:34,398 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:02:39,362 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:02:34.332188, end: 2025-05-12 08:02:39.333519)
+2025-05-12 08:02:39,362 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:02:39,391 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:02:34.332188, end: 2025-05-12 08:02:39.333519)
+2025-05-12 08:02:39,391 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:02:44,357 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:02:39.333519, end: 2025-05-12 08:02:44.330215)
+2025-05-12 08:02:44,357 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:02:44,384 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:02:39.333519, end: 2025-05-12 08:02:44.330215)
+2025-05-12 08:02:44,385 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:02:49,356 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:02:44.330215, end: 2025-05-12 08:02:49.330728)
+2025-05-12 08:02:49,356 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:02:49,386 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:02:44.330215, end: 2025-05-12 08:02:49.330728)
+2025-05-12 08:02:49,386 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:02:54,363 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:02:49.330728, end: 2025-05-12 08:02:54.330385)
+2025-05-12 08:02:54,364 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:02:54,401 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:02:49.330728, end: 2025-05-12 08:02:54.330385)
+2025-05-12 08:02:54,401 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:02:59,360 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:02:54.330385, end: 2025-05-12 08:02:59.331804)
+2025-05-12 08:02:59,360 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:02:59,392 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:02:54.330385, end: 2025-05-12 08:02:59.331804)
+2025-05-12 08:02:59,392 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:03:04,358 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:02:59.331804, end: 2025-05-12 08:03:04.331634)
+2025-05-12 08:03:04,358 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:03:04,387 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:02:59.331804, end: 2025-05-12 08:03:04.331634)
+2025-05-12 08:03:04,387 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:03:09,358 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:03:04.331634, end: 2025-05-12 08:03:09.331437)
+2025-05-12 08:03:09,358 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:03:09,386 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:03:04.331634, end: 2025-05-12 08:03:09.331437)
+2025-05-12 08:03:09,386 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:03:14,355 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:03:09.331437, end: 2025-05-12 08:03:14.330547)
+2025-05-12 08:03:14,356 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:03:14,385 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:03:09.331437, end: 2025-05-12 08:03:14.330547)
+2025-05-12 08:03:14,385 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:03:19,364 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:03:14.330547, end: 2025-05-12 08:03:19.330271)
+2025-05-12 08:03:19,364 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:03:19,412 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:03:14.330547, end: 2025-05-12 08:03:19.330271)
+2025-05-12 08:03:19,412 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:03:24,360 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:03:19.330271, end: 2025-05-12 08:03:24.331871)
+2025-05-12 08:03:24,360 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:03:24,387 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:03:19.330271, end: 2025-05-12 08:03:24.331871)
+2025-05-12 08:03:24,388 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:03:29,357 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:03:24.331871, end: 2025-05-12 08:03:29.331095)
+2025-05-12 08:03:29,357 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:03:29,385 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:03:24.331871, end: 2025-05-12 08:03:29.331095)
+2025-05-12 08:03:29,385 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:03:34,356 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:03:29.331095, end: 2025-05-12 08:03:34.330707)
+2025-05-12 08:03:34,357 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:03:34,387 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:03:29.331095, end: 2025-05-12 08:03:34.330707)
+2025-05-12 08:03:34,387 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:03:39,367 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:03:34.330707, end: 2025-05-12 08:03:39.331935)
+2025-05-12 08:03:39,367 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:03:39,397 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:03:34.330707, end: 2025-05-12 08:03:39.331935)
+2025-05-12 08:03:39,398 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:03:44,360 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:03:39.331935, end: 2025-05-12 08:03:44.332833)
+2025-05-12 08:03:44,361 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:03:44,400 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:03:39.331935, end: 2025-05-12 08:03:44.332833)
+2025-05-12 08:03:44,400 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:03:49,356 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:03:44.332833, end: 2025-05-12 08:03:49.331533)
+2025-05-12 08:03:49,356 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:03:49,386 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:03:44.332833, end: 2025-05-12 08:03:49.331533)
+2025-05-12 08:03:49,386 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:03:54,358 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:03:49.331533, end: 2025-05-12 08:03:54.330405)
+2025-05-12 08:03:54,358 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:03:54,387 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:03:49.331533, end: 2025-05-12 08:03:54.330405)
+2025-05-12 08:03:54,388 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:03:59,360 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:03:54.330405, end: 2025-05-12 08:03:59.330925)
+2025-05-12 08:03:59,360 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:03:59,394 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:03:54.330405, end: 2025-05-12 08:03:59.330925)
+2025-05-12 08:03:59,394 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:04:04,364 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:03:59.330925, end: 2025-05-12 08:04:04.332071)
+2025-05-12 08:04:04,365 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:04:04,397 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:03:59.330925, end: 2025-05-12 08:04:04.332071)
+2025-05-12 08:04:04,397 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:04:09,358 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:04:04.332071, end: 2025-05-12 08:04:09.333623)
+2025-05-12 08:04:09,358 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:04:09,402 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:04:04.332071, end: 2025-05-12 08:04:09.333623)
+2025-05-12 08:04:09,402 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:04:14,356 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:04:09.333623, end: 2025-05-12 08:04:14.330943)
+2025-05-12 08:04:14,357 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:04:14,386 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:04:09.333623, end: 2025-05-12 08:04:14.330943)
+2025-05-12 08:04:14,386 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:04:19,359 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:04:14.330943, end: 2025-05-12 08:04:19.330610)
+2025-05-12 08:04:19,359 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:04:19,393 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:04:14.330943, end: 2025-05-12 08:04:19.330610)
+2025-05-12 08:04:19,393 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:04:24,356 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:04:19.330610, end: 2025-05-12 08:04:24.330335)
+2025-05-12 08:04:24,357 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:04:24,388 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:04:19.330610, end: 2025-05-12 08:04:24.330335)
+2025-05-12 08:04:24,388 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:04:29,356 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:04:24.330335, end: 2025-05-12 08:04:29.330900)
+2025-05-12 08:04:29,356 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:04:29,384 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:04:24.330335, end: 2025-05-12 08:04:29.330900)
+2025-05-12 08:04:29,385 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:04:34,361 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:04:29.330900, end: 2025-05-12 08:04:34.331741)
+2025-05-12 08:04:34,361 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:04:34,401 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:04:29.330900, end: 2025-05-12 08:04:34.331741)
+2025-05-12 08:04:34,401 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:04:39,359 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:04:34.331741, end: 2025-05-12 08:04:39.333833)
+2025-05-12 08:04:39,359 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:04:39,390 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:04:34.331741, end: 2025-05-12 08:04:39.333833)
+2025-05-12 08:04:39,390 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:04:44,365 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:04:39.333833, end: 2025-05-12 08:04:44.331594)
+2025-05-12 08:04:44,365 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:04:44,406 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:04:39.333833, end: 2025-05-12 08:04:44.331594)
+2025-05-12 08:04:44,406 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:04:49,355 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:04:44.331594, end: 2025-05-12 08:04:49.330792)
+2025-05-12 08:04:49,355 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:04:49,385 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:04:44.331594, end: 2025-05-12 08:04:49.330792)
+2025-05-12 08:04:49,385 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:04:54,357 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:04:49.330792, end: 2025-05-12 08:04:54.331274)
+2025-05-12 08:04:54,357 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:04:54,388 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:04:49.330792, end: 2025-05-12 08:04:54.331274)
+2025-05-12 08:04:54,388 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:04:59,356 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:04:54.331274, end: 2025-05-12 08:04:59.330338)
+2025-05-12 08:04:59,356 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:04:59,393 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:04:54.331274, end: 2025-05-12 08:04:59.330338)
+2025-05-12 08:04:59,393 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:05:04,358 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:04:59.330338, end: 2025-05-12 08:05:04.333243)
+2025-05-12 08:05:04,359 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:05:04,387 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:04:59.330338, end: 2025-05-12 08:05:04.333243)
+2025-05-12 08:05:04,387 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:05:09,356 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:05:04.333243, end: 2025-05-12 08:05:09.330787)
+2025-05-12 08:05:09,356 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:05:09,386 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:05:04.333243, end: 2025-05-12 08:05:09.330787)
+2025-05-12 08:05:09,386 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:05:14,357 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:05:09.330787, end: 2025-05-12 08:05:14.330018)
+2025-05-12 08:05:14,357 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:05:14,385 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:05:09.330787, end: 2025-05-12 08:05:14.330018)
+2025-05-12 08:05:14,386 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:05:19,356 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:05:14.330018, end: 2025-05-12 08:05:19.330940)
+2025-05-12 08:05:19,356 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:05:19,384 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:05:14.330018, end: 2025-05-12 08:05:19.330940)
+2025-05-12 08:05:19,384 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:05:24,358 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:05:19.330940, end: 2025-05-12 08:05:24.333294)
+2025-05-12 08:05:24,358 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:05:24,397 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:05:19.330940, end: 2025-05-12 08:05:24.333294)
+2025-05-12 08:05:24,397 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:05:29,362 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:05:24.333294, end: 2025-05-12 08:05:29.331288)
+2025-05-12 08:05:29,363 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:05:29,398 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:05:24.333294, end: 2025-05-12 08:05:29.331288)
+2025-05-12 08:05:29,398 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:05:34,359 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:05:29.331288, end: 2025-05-12 08:05:34.333307)
+2025-05-12 08:05:34,359 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:05:34,391 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:05:29.331288, end: 2025-05-12 08:05:34.333307)
+2025-05-12 08:05:34,391 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:05:39,358 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:05:34.333307, end: 2025-05-12 08:05:39.330824)
+2025-05-12 08:05:39,358 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:05:39,387 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:05:34.333307, end: 2025-05-12 08:05:39.330824)
+2025-05-12 08:05:39,388 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:05:44,357 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:05:39.330824, end: 2025-05-12 08:05:44.331121)
+2025-05-12 08:05:44,357 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:05:44,390 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:05:39.330824, end: 2025-05-12 08:05:44.331121)
+2025-05-12 08:05:44,390 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:05:49,356 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:05:44.331121, end: 2025-05-12 08:05:49.330719)
+2025-05-12 08:05:49,356 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:05:49,394 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:05:44.331121, end: 2025-05-12 08:05:49.330719)
+2025-05-12 08:05:49,394 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:05:54,358 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:05:49.330719, end: 2025-05-12 08:05:54.331509)
+2025-05-12 08:05:54,359 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:05:54,387 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:05:49.330719, end: 2025-05-12 08:05:54.331509)
+2025-05-12 08:05:54,388 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:05:59,362 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:05:54.331509, end: 2025-05-12 08:05:59.331344)
+2025-05-12 08:05:59,362 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:05:59,395 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:05:54.331509, end: 2025-05-12 08:05:59.331344)
+2025-05-12 08:05:59,395 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:06:04,360 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:05:59.331344, end: 2025-05-12 08:06:04.331549)
+2025-05-12 08:06:04,360 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:06:04,392 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:05:59.331344, end: 2025-05-12 08:06:04.331549)
+2025-05-12 08:06:04,392 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:06:09,358 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:06:04.331549, end: 2025-05-12 08:06:09.330911)
+2025-05-12 08:06:09,359 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:06:09,389 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:06:04.331549, end: 2025-05-12 08:06:09.330911)
+2025-05-12 08:06:09,389 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:06:29,360 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:06:09.330911, end: 2025-05-12 08:06:29.331620)
+2025-05-12 08:06:29,360 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:06:29,400 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:06:09.330911, end: 2025-05-12 08:06:29.331620)
+2025-05-12 08:06:29,401 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:06:34,362 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:06:29.331620, end: 2025-05-12 08:06:34.331196)
+2025-05-12 08:06:34,362 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:06:34,393 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:06:29.331620, end: 2025-05-12 08:06:34.331196)
+2025-05-12 08:06:34,393 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:06:39,360 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:06:34.331196, end: 2025-05-12 08:06:39.330316)
+2025-05-12 08:06:39,360 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:06:39,393 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:06:34.331196, end: 2025-05-12 08:06:39.330316)
+2025-05-12 08:06:39,393 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:06:59,363 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:06:39.330316, end: 2025-05-12 08:06:59.330691)
+2025-05-12 08:06:59,363 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:06:59,392 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:06:39.330316, end: 2025-05-12 08:06:59.330691)
+2025-05-12 08:06:59,392 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:07:04,358 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-12 08:06:59.330691, end: 2025-05-12 08:07:04.332604)
+2025-05-12 08:07:04,358 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:07:04,388 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-12 08:06:59.330691, end: 2025-05-12 08:07:04.332604)
+2025-05-12 08:07:04,388 - basicLogger - DEBUG - <class 'list'>
+2025-05-12 08:40:03,171 - basicLogger - INFO - <pykafka.simpleconsumer.SimpleConsumer at 0x7f6d44363920 (consumer_group=b'event_group')>
+2025-05-12 08:47:09,489 - basicLogger - INFO - <pykafka.simpleconsumer.SimpleConsumer at 0x7f39140729f0 (consumer_group=b'event_group')>
+2025-05-12 08:47:09,510 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 125bf97b-892b-4958-b828-d8b984d69906)
+2025-05-13 07:38:51,776 - basicLogger - INFO - <pykafka.simpleconsumer.SimpleConsumer at 0x7f08e14f2ea0 (consumer_group=b'event_group')>
+2025-05-13 07:38:51,795 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 125bf97b-892b-4958-b828-d8b984d69906)
+2025-05-13 07:40:36,162 - basicLogger - INFO - <pykafka.simpleconsumer.SimpleConsumer at 0x7f905115d8e0 (consumer_group=b'event_group')>
+2025-05-13 07:40:36,173 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 125bf97b-892b-4958-b828-d8b984d69906)
+2025-05-13 07:42:22,960 - basicLogger - INFO - <pykafka.simpleconsumer.SimpleConsumer at 0x7fda66bfe660 (consumer_group=b'event_group')>
+2025-05-13 07:43:10,008 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 7ac7d27f-4320-41bf-bfee-f5d6a84f67ac)
+2025-05-13 07:43:46,019 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: bc83c9ce-e13d-4a26-bcd8-8830fdea0215)
+2025-05-13 07:44:05,641 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 07f219d1-95aa-4728-a03e-ff3ad3149fd2)
+2025-05-13 07:44:05,746 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 3564df39-1119-4b4c-a891-fe9045511bef)
+2025-05-13 07:44:05,955 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 25427dec-77ed-4914-85bd-79fa369d8f21)
+2025-05-13 07:44:06,147 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 92b5262d-2180-4585-9bb0-c6d51cf50752)
+2025-05-13 07:44:06,346 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: cb53db4d-66c0-432a-acde-d81cce13258c)
+2025-05-13 07:44:10,665 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: 7c326f7a-71f1-4b44-9296-8a2cdbe132a1)
+2025-05-13 07:44:10,763 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: 610d89e6-d1dd-4b73-b9e4-615267412981)
+2025-05-13 07:44:10,973 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: 74cc96f0-eef8-4b4b-b63f-eef0057aa7a1)
+2025-05-13 07:44:11,163 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: 8598f7ab-393f-43a9-b6e8-68d48fb5250a)
+2025-05-13 07:44:11,358 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: e7695f75-04e9-475f-96cd-579e4fa88701)
+2025-05-13 07:45:31,575 - basicLogger - INFO - Found 6 user_activity event (start: 2025-05-12 08:07:04.332604, end: 2025-05-13 07:45:31.530516)
+2025-05-13 07:45:31,576 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:45:31,603 - basicLogger - INFO - Found 6 user_match event (start: 2025-05-12 08:07:04.332604, end: 2025-05-13 07:45:31.530516)
+2025-05-13 07:45:31,603 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:45:36,526 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:45:31.530516, end: 2025-05-13 07:45:36.502526)
+2025-05-13 07:45:36,526 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:45:36,551 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:45:31.530516, end: 2025-05-13 07:45:36.502526)
+2025-05-13 07:45:36,551 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:45:41,535 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:45:36.502526, end: 2025-05-13 07:45:41.503989)
+2025-05-13 07:45:41,535 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:45:41,564 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:45:36.502526, end: 2025-05-13 07:45:41.503989)
+2025-05-13 07:45:41,564 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:45:46,531 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:45:41.503989, end: 2025-05-13 07:45:46.503185)
+2025-05-13 07:45:46,531 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:45:46,557 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:45:41.503989, end: 2025-05-13 07:45:46.503185)
+2025-05-13 07:45:46,557 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:45:51,525 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:45:46.503185, end: 2025-05-13 07:45:51.502243)
+2025-05-13 07:45:51,525 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:45:51,549 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:45:46.503185, end: 2025-05-13 07:45:51.502243)
+2025-05-13 07:45:51,549 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:45:56,526 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:45:51.502243, end: 2025-05-13 07:45:56.501981)
+2025-05-13 07:45:56,527 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:45:56,553 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:45:51.502243, end: 2025-05-13 07:45:56.501981)
+2025-05-13 07:45:56,553 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:46:01,533 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:45:56.501981, end: 2025-05-13 07:46:01.508856)
+2025-05-13 07:46:01,533 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:46:01,556 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:45:56.501981, end: 2025-05-13 07:46:01.508856)
+2025-05-13 07:46:01,556 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:46:06,526 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:46:01.508856, end: 2025-05-13 07:46:06.503270)
+2025-05-13 07:46:06,527 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:46:06,551 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:46:01.508856, end: 2025-05-13 07:46:06.503270)
+2025-05-13 07:46:06,552 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:46:11,524 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:46:06.503270, end: 2025-05-13 07:46:11.503265)
+2025-05-13 07:46:11,524 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:46:11,548 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:46:06.503270, end: 2025-05-13 07:46:11.503265)
+2025-05-13 07:46:11,548 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:46:16,529 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:46:11.503265, end: 2025-05-13 07:46:16.503477)
+2025-05-13 07:46:16,529 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:46:16,551 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:46:11.503265, end: 2025-05-13 07:46:16.503477)
+2025-05-13 07:46:16,552 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:46:21,529 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:46:16.503477, end: 2025-05-13 07:46:21.502894)
+2025-05-13 07:46:21,529 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:46:21,555 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:46:16.503477, end: 2025-05-13 07:46:21.502894)
+2025-05-13 07:46:21,555 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:46:26,526 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:46:21.502894, end: 2025-05-13 07:46:26.503269)
+2025-05-13 07:46:26,526 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:46:26,559 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:46:21.502894, end: 2025-05-13 07:46:26.503269)
+2025-05-13 07:46:26,560 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:46:31,569 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:46:26.503269, end: 2025-05-13 07:46:31.513267)
+2025-05-13 07:46:31,570 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:46:31,595 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:46:26.503269, end: 2025-05-13 07:46:31.513267)
+2025-05-13 07:46:31,595 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:46:36,523 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:46:31.513267, end: 2025-05-13 07:46:36.502096)
+2025-05-13 07:46:36,524 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:46:36,549 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:46:31.513267, end: 2025-05-13 07:46:36.502096)
+2025-05-13 07:46:36,549 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:46:41,523 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:46:36.502096, end: 2025-05-13 07:46:41.502224)
+2025-05-13 07:46:41,523 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:46:41,545 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:46:36.502096, end: 2025-05-13 07:46:41.502224)
+2025-05-13 07:46:41,545 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:46:46,523 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:46:41.502224, end: 2025-05-13 07:46:46.502022)
+2025-05-13 07:46:46,523 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:46:46,546 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:46:41.502224, end: 2025-05-13 07:46:46.502022)
+2025-05-13 07:46:46,547 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:46:51,527 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:46:46.502022, end: 2025-05-13 07:46:51.501892)
+2025-05-13 07:46:51,527 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:46:51,559 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:46:46.502022, end: 2025-05-13 07:46:51.501892)
+2025-05-13 07:46:51,560 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:46:56,524 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:46:51.501892, end: 2025-05-13 07:46:56.502095)
+2025-05-13 07:46:56,525 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:46:56,549 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:46:51.501892, end: 2025-05-13 07:46:56.502095)
+2025-05-13 07:46:56,549 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:47:01,531 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:46:56.502095, end: 2025-05-13 07:47:01.506922)
+2025-05-13 07:47:01,531 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:47:01,559 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:46:56.502095, end: 2025-05-13 07:47:01.506922)
+2025-05-13 07:47:01,559 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:47:06,531 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:47:01.506922, end: 2025-05-13 07:47:06.503549)
+2025-05-13 07:47:06,532 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:47:06,554 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:47:01.506922, end: 2025-05-13 07:47:06.503549)
+2025-05-13 07:47:06,555 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:47:11,524 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:47:06.503549, end: 2025-05-13 07:47:11.502310)
+2025-05-13 07:47:11,524 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:47:11,549 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:47:06.503549, end: 2025-05-13 07:47:11.502310)
+2025-05-13 07:47:11,549 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:47:16,524 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:47:11.502310, end: 2025-05-13 07:47:16.502230)
+2025-05-13 07:47:16,524 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:47:16,556 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:47:11.502310, end: 2025-05-13 07:47:16.502230)
+2025-05-13 07:47:16,556 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:47:21,524 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:47:16.502230, end: 2025-05-13 07:47:21.502066)
+2025-05-13 07:47:21,525 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:47:21,549 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:47:16.502230, end: 2025-05-13 07:47:21.502066)
+2025-05-13 07:47:21,549 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:47:26,528 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:47:21.502066, end: 2025-05-13 07:47:26.502515)
+2025-05-13 07:47:26,528 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:47:26,552 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:47:21.502066, end: 2025-05-13 07:47:26.502515)
+2025-05-13 07:47:26,552 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:47:31,542 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:47:26.502515, end: 2025-05-13 07:47:31.518858)
+2025-05-13 07:47:31,542 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:47:31,567 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:47:26.502515, end: 2025-05-13 07:47:31.518858)
+2025-05-13 07:47:31,567 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:47:36,534 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:47:31.518858, end: 2025-05-13 07:47:36.502655)
+2025-05-13 07:47:36,534 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:47:36,568 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:47:31.518858, end: 2025-05-13 07:47:36.502655)
+2025-05-13 07:47:36,569 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:47:41,523 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:47:36.502655, end: 2025-05-13 07:47:41.502280)
+2025-05-13 07:47:41,523 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:47:41,555 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:47:36.502655, end: 2025-05-13 07:47:41.502280)
+2025-05-13 07:47:41,555 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:47:46,530 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:47:41.502280, end: 2025-05-13 07:47:46.503595)
+2025-05-13 07:47:46,530 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:47:46,553 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:47:41.502280, end: 2025-05-13 07:47:46.503595)
+2025-05-13 07:47:46,553 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:47:51,522 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:47:46.503595, end: 2025-05-13 07:47:51.502162)
+2025-05-13 07:47:51,523 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:47:51,544 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:47:46.503595, end: 2025-05-13 07:47:51.502162)
+2025-05-13 07:47:51,545 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:47:56,525 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:47:51.502162, end: 2025-05-13 07:47:56.502536)
+2025-05-13 07:47:56,525 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:47:56,550 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:47:51.502162, end: 2025-05-13 07:47:56.502536)
+2025-05-13 07:47:56,550 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:48:01,535 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:47:56.502536, end: 2025-05-13 07:48:01.513527)
+2025-05-13 07:48:01,535 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:48:01,558 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:47:56.502536, end: 2025-05-13 07:48:01.513527)
+2025-05-13 07:48:01,558 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:48:06,527 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:48:01.513527, end: 2025-05-13 07:48:06.503422)
+2025-05-13 07:48:06,527 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:48:06,566 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:48:01.513527, end: 2025-05-13 07:48:06.503422)
+2025-05-13 07:48:06,566 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:48:11,524 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:48:06.503422, end: 2025-05-13 07:48:11.502021)
+2025-05-13 07:48:11,524 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:48:11,547 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:48:06.503422, end: 2025-05-13 07:48:11.502021)
+2025-05-13 07:48:11,547 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:48:16,531 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:48:11.502021, end: 2025-05-13 07:48:16.505414)
+2025-05-13 07:48:16,531 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:48:16,556 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:48:11.502021, end: 2025-05-13 07:48:16.505414)
+2025-05-13 07:48:16,556 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:48:21,525 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:48:16.505414, end: 2025-05-13 07:48:21.502830)
+2025-05-13 07:48:21,525 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:48:21,548 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:48:16.505414, end: 2025-05-13 07:48:21.502830)
+2025-05-13 07:48:21,548 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:48:26,528 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:48:21.502830, end: 2025-05-13 07:48:26.503303)
+2025-05-13 07:48:26,528 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:48:26,552 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:48:21.502830, end: 2025-05-13 07:48:26.503303)
+2025-05-13 07:48:26,552 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:48:31,536 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:48:26.503303, end: 2025-05-13 07:48:31.513287)
+2025-05-13 07:48:31,536 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:48:31,560 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:48:26.503303, end: 2025-05-13 07:48:31.513287)
+2025-05-13 07:48:31,560 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:48:36,525 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:48:31.513287, end: 2025-05-13 07:48:36.502166)
+2025-05-13 07:48:36,525 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:48:36,550 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:48:31.513287, end: 2025-05-13 07:48:36.502166)
+2025-05-13 07:48:36,551 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:48:41,524 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:48:36.502166, end: 2025-05-13 07:48:41.501978)
+2025-05-13 07:48:41,524 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:48:41,548 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:48:36.502166, end: 2025-05-13 07:48:41.501978)
+2025-05-13 07:48:41,548 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:48:46,528 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:48:41.501978, end: 2025-05-13 07:48:46.503885)
+2025-05-13 07:48:46,528 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:48:46,552 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:48:41.501978, end: 2025-05-13 07:48:46.503885)
+2025-05-13 07:48:46,552 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:48:49,036 - basicLogger - INFO - <pykafka.simpleconsumer.SimpleConsumer at 0x7f2cbe5e9e20 (consumer_group=b'event_group')>
+2025-05-13 07:48:49,063 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 7ac7d27f-4320-41bf-bfee-f5d6a84f67ac)
+2025-05-13 07:48:49,069 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: bc83c9ce-e13d-4a26-bcd8-8830fdea0215)
+2025-05-13 07:48:49,073 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 07f219d1-95aa-4728-a03e-ff3ad3149fd2)
+2025-05-13 07:48:49,076 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 3564df39-1119-4b4c-a891-fe9045511bef)
+2025-05-13 07:48:49,081 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 25427dec-77ed-4914-85bd-79fa369d8f21)
+2025-05-13 07:48:49,084 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 92b5262d-2180-4585-9bb0-c6d51cf50752)
+2025-05-13 07:48:49,087 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: cb53db4d-66c0-432a-acde-d81cce13258c)
+2025-05-13 07:48:49,090 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: 7c326f7a-71f1-4b44-9296-8a2cdbe132a1)
+2025-05-13 07:48:49,093 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: 610d89e6-d1dd-4b73-b9e4-615267412981)
+2025-05-13 07:48:49,096 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: 74cc96f0-eef8-4b4b-b63f-eef0057aa7a1)
+2025-05-13 07:48:49,099 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: 8598f7ab-393f-43a9-b6e8-68d48fb5250a)
+2025-05-13 07:48:49,101 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: e7695f75-04e9-475f-96cd-579e4fa88701)
+2025-05-13 07:48:51,529 - basicLogger - INFO - Found 6 user_activity event (start: 2025-05-13 07:48:46.503885, end: 2025-05-13 07:48:51.503145)
+2025-05-13 07:48:51,529 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:48:51,555 - basicLogger - INFO - Found 6 user_match event (start: 2025-05-13 07:48:46.503885, end: 2025-05-13 07:48:51.503145)
+2025-05-13 07:48:51,555 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:48:56,530 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:48:51.503145, end: 2025-05-13 07:48:56.505067)
+2025-05-13 07:48:56,530 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:48:56,553 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:48:51.503145, end: 2025-05-13 07:48:56.505067)
+2025-05-13 07:48:56,553 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:49:01,536 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:48:56.505067, end: 2025-05-13 07:49:01.513508)
+2025-05-13 07:49:01,536 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:49:01,561 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:48:56.505067, end: 2025-05-13 07:49:01.513508)
+2025-05-13 07:49:01,561 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:49:31,724 - basicLogger - INFO - <pykafka.simpleconsumer.SimpleConsumer at 0x7ff2ae390e30 (consumer_group=b'event_group')>
+2025-05-13 07:49:31,738 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 7ac7d27f-4320-41bf-bfee-f5d6a84f67ac)
+2025-05-13 07:49:31,746 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: bc83c9ce-e13d-4a26-bcd8-8830fdea0215)
+2025-05-13 07:49:31,762 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 07f219d1-95aa-4728-a03e-ff3ad3149fd2)
+2025-05-13 07:49:31,766 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 3564df39-1119-4b4c-a891-fe9045511bef)
+2025-05-13 07:49:31,769 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 25427dec-77ed-4914-85bd-79fa369d8f21)
+2025-05-13 07:49:31,772 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 92b5262d-2180-4585-9bb0-c6d51cf50752)
+2025-05-13 07:49:31,775 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: cb53db4d-66c0-432a-acde-d81cce13258c)
+2025-05-13 07:49:31,777 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: 7c326f7a-71f1-4b44-9296-8a2cdbe132a1)
+2025-05-13 07:49:31,780 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: 610d89e6-d1dd-4b73-b9e4-615267412981)
+2025-05-13 07:49:31,783 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: 74cc96f0-eef8-4b4b-b63f-eef0057aa7a1)
+2025-05-13 07:49:31,786 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: 8598f7ab-393f-43a9-b6e8-68d48fb5250a)
+2025-05-13 07:49:31,788 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: e7695f75-04e9-475f-96cd-579e4fa88701)
+2025-05-13 07:49:31,791 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 435f030e-9632-465b-98b1-1352b5db0139)
+2025-05-13 07:49:31,794 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 13611beb-5710-4867-bfe8-fa61e6c48d5f)
+2025-05-13 07:49:31,797 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 550034d8-90fa-4acf-9067-fc78b8cc6f3e)
+2025-05-13 07:49:31,800 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 68cefe79-4a2a-414f-9984-c013b6e23b2c)
+2025-05-13 07:49:31,804 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: edca3c44-c991-4555-95e8-1bd1179e11ee)
+2025-05-13 07:49:31,806 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: 33dcc8ee-a404-4df2-9ca2-04bd909b4334)
+2025-05-13 07:49:31,809 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: fd9b50fe-9507-4d64-a522-a7e63ca5d493)
+2025-05-13 07:49:31,812 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: cbab6f0d-3329-4564-b3fd-c66ee75721c9)
+2025-05-13 07:49:31,815 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: acddee49-8832-4a9d-8b18-bb14c0b4a37d)
+2025-05-13 07:49:31,818 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: 4f255387-b7cc-48d8-af09-4334ee387599)
+2025-05-13 07:49:36,528 - basicLogger - INFO - Found 11 user_activity event (start: 2025-05-13 07:49:01.513508, end: 2025-05-13 07:49:36.502216)
+2025-05-13 07:49:36,528 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:49:36,554 - basicLogger - INFO - Found 11 user_match event (start: 2025-05-13 07:49:01.513508, end: 2025-05-13 07:49:36.502216)
+2025-05-13 07:49:36,554 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:49:41,525 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:49:36.502216, end: 2025-05-13 07:49:41.501991)
+2025-05-13 07:49:41,525 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:49:41,549 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:49:36.502216, end: 2025-05-13 07:49:41.501991)
+2025-05-13 07:49:41,549 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:49:46,523 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:49:41.501991, end: 2025-05-13 07:49:46.502311)
+2025-05-13 07:49:46,524 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:49:46,547 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:49:41.501991, end: 2025-05-13 07:49:46.502311)
+2025-05-13 07:49:46,547 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:50:23,092 - basicLogger - INFO - <pykafka.simpleconsumer.SimpleConsumer at 0x7fe59996bf20 (consumer_group=b'event_group')>
+2025-05-13 07:50:23,107 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 7ac7d27f-4320-41bf-bfee-f5d6a84f67ac)
+2025-05-13 07:50:23,112 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: bc83c9ce-e13d-4a26-bcd8-8830fdea0215)
+2025-05-13 07:50:23,119 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 07f219d1-95aa-4728-a03e-ff3ad3149fd2)
+2025-05-13 07:50:23,135 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 3564df39-1119-4b4c-a891-fe9045511bef)
+2025-05-13 07:50:23,138 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 25427dec-77ed-4914-85bd-79fa369d8f21)
+2025-05-13 07:50:23,141 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 92b5262d-2180-4585-9bb0-c6d51cf50752)
+2025-05-13 07:50:23,144 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: cb53db4d-66c0-432a-acde-d81cce13258c)
+2025-05-13 07:50:23,146 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: 7c326f7a-71f1-4b44-9296-8a2cdbe132a1)
+2025-05-13 07:50:23,149 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: 610d89e6-d1dd-4b73-b9e4-615267412981)
+2025-05-13 07:50:23,152 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: 74cc96f0-eef8-4b4b-b63f-eef0057aa7a1)
+2025-05-13 07:50:23,155 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: 8598f7ab-393f-43a9-b6e8-68d48fb5250a)
+2025-05-13 07:50:23,159 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: e7695f75-04e9-475f-96cd-579e4fa88701)
+2025-05-13 07:50:23,161 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 435f030e-9632-465b-98b1-1352b5db0139)
+2025-05-13 07:50:23,164 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 13611beb-5710-4867-bfe8-fa61e6c48d5f)
+2025-05-13 07:50:23,167 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 550034d8-90fa-4acf-9067-fc78b8cc6f3e)
+2025-05-13 07:50:23,170 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 68cefe79-4a2a-414f-9984-c013b6e23b2c)
+2025-05-13 07:50:23,173 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: edca3c44-c991-4555-95e8-1bd1179e11ee)
+2025-05-13 07:50:23,176 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: 33dcc8ee-a404-4df2-9ca2-04bd909b4334)
+2025-05-13 07:50:23,178 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: fd9b50fe-9507-4d64-a522-a7e63ca5d493)
+2025-05-13 07:50:23,181 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: cbab6f0d-3329-4564-b3fd-c66ee75721c9)
+2025-05-13 07:50:23,185 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: acddee49-8832-4a9d-8b18-bb14c0b4a37d)
+2025-05-13 07:50:23,188 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: 4f255387-b7cc-48d8-af09-4334ee387599)
+2025-05-13 07:50:23,191 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 59c39138-569b-4a64-8cdd-52d098701659)
+2025-05-13 07:50:23,194 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 75fa56ba-63d1-4da8-80e0-4010fe72e5a9)
+2025-05-13 07:50:23,196 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 4365cb47-69ba-480f-a8ac-12a79a73477d)
+2025-05-13 07:50:23,199 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 0adf5d95-7920-41bb-84e6-a00e51fd9ea5)
+2025-05-13 07:50:23,202 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: fe7164b0-a52f-4bcf-b07e-400e6629c875)
+2025-05-13 07:50:23,205 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: 43b8d7ae-4060-433e-8741-3e3dfda337c7)
+2025-05-13 07:50:23,208 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: b491074e-7a02-450d-bd17-a74921485a33)
+2025-05-13 07:50:23,211 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: 6a8b5512-096a-414a-9248-38feb798b9dd)
+2025-05-13 07:50:23,214 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: 563ec75e-028a-4fc9-85e6-3d2855700eec)
+2025-05-13 07:50:23,217 - basicLogger - DEBUG - SUCCESS DATABASE - add_match (trace id: b6221c86-917c-42eb-add1-36f0b3785572)
+2025-05-13 07:50:26,534 - basicLogger - INFO - Found 16 user_activity event (start: 2025-05-13 07:49:46.502311, end: 2025-05-13 07:50:26.503263)
+2025-05-13 07:50:26,534 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:50:26,566 - basicLogger - INFO - Found 16 user_match event (start: 2025-05-13 07:49:46.502311, end: 2025-05-13 07:50:26.503263)
+2025-05-13 07:50:26,566 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:50:31,539 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:50:26.503263, end: 2025-05-13 07:50:31.513403)
+2025-05-13 07:50:31,539 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:50:31,565 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:50:26.503263, end: 2025-05-13 07:50:31.513403)
+2025-05-13 07:50:31,566 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:50:36,523 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:50:31.513403, end: 2025-05-13 07:50:36.502128)
+2025-05-13 07:50:36,523 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:50:36,545 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:50:31.513403, end: 2025-05-13 07:50:36.502128)
+2025-05-13 07:50:36,545 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:50:41,525 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:50:36.502128, end: 2025-05-13 07:50:41.501988)
+2025-05-13 07:50:41,525 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:50:41,549 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:50:36.502128, end: 2025-05-13 07:50:41.501988)
+2025-05-13 07:50:41,550 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:50:46,529 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:50:41.501988, end: 2025-05-13 07:50:46.503634)
+2025-05-13 07:50:46,529 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:50:46,553 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:50:41.501988, end: 2025-05-13 07:50:46.503634)
+2025-05-13 07:50:46,553 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:50:51,526 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:50:46.503634, end: 2025-05-13 07:50:51.502136)
+2025-05-13 07:50:51,526 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:50:51,551 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:50:46.503634, end: 2025-05-13 07:50:51.502136)
+2025-05-13 07:50:51,551 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:50:56,525 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:50:51.502136, end: 2025-05-13 07:50:56.502083)
+2025-05-13 07:50:56,526 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:50:56,585 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:50:51.502136, end: 2025-05-13 07:50:56.502083)
+2025-05-13 07:50:56,585 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:51:01,539 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:50:56.502083, end: 2025-05-13 07:51:01.511046)
+2025-05-13 07:51:01,539 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:51:01,570 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:50:56.502083, end: 2025-05-13 07:51:01.511046)
+2025-05-13 07:51:01,570 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:51:06,524 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:51:01.511046, end: 2025-05-13 07:51:06.502248)
+2025-05-13 07:51:06,524 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:51:06,548 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:51:01.511046, end: 2025-05-13 07:51:06.502248)
+2025-05-13 07:51:06,548 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:51:11,524 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:51:06.502248, end: 2025-05-13 07:51:11.502105)
+2025-05-13 07:51:11,524 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:51:11,549 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:51:06.502248, end: 2025-05-13 07:51:11.502105)
+2025-05-13 07:51:11,549 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:51:16,525 - basicLogger - INFO - Found 0 user_activity event (start: 2025-05-13 07:51:11.502105, end: 2025-05-13 07:51:16.502203)
+2025-05-13 07:51:16,525 - basicLogger - DEBUG - <class 'list'>
+2025-05-13 07:51:16,549 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:51:11.502105, end: 2025-05-13 07:51:16.502203)
+2025-05-13 07:51:16,549 - basicLogger - DEBUG - <class 'list'>
