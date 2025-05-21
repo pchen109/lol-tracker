@@ -1,0 +1,180 @@
+openapi: 3.0.0
+info:
+  version: 0.0.0
+  title: lol-tracker
+  description: track user activity and their performance in Kafka queue
+
+paths:
+  /activity:
+    get:
+      description: gets an activity in Kafka queue with a given index
+      operationId: app.get_activity_index
+      parameters:
+        - name: index
+          in: query
+          schema:
+            type: integer
+            example: 9
+      responses:
+        '200':
+          description: successfully returned an activity
+          content:
+            application/json:
+              schema:
+                $ref: '$/components/schemas/LOLActivity'
+        '400':
+          description: invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Invalid Request!"
+        '404':
+          description: not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "No Activity Found at Index 9!"
+  /match:
+    get:
+      description: gets a match in Kafak queue with a given index
+      operationId: app.get_match_index
+      parameters:
+        - name: index
+          in: query
+          schema:
+            type: integer
+            example: 5
+      responses:
+        '200':
+          description: successfully returned a match
+          content:
+            application/json:
+              schema:
+                $ref: '$/components/schemas/LOLMatch'
+        '400':
+          description: invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Invalid Request!"
+        '404':
+          description: not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message: 
+                    type: string
+                    example: "No Match Found at Index 5!"
+  /stats:
+    get:
+      description: get counts of each event type
+      operationId: app.get_event_stats
+      responses:
+        '200':
+          description: successfully returned counts
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Stats'
+components:
+  schemas:
+    LOLActivity:
+      required:
+      - user_id
+      - region
+      - login_counts
+      - timestamp
+      - trace_id
+      type: object
+      properties:
+        user_id:
+          type: string
+          description: user in game name
+          format: uuid
+          example: u-d290f1ee-6c54-4b01-90e6-d701748f0851
+        region:
+          type: string
+          description: server location
+          example: EUW
+        login_counts:
+          type: integer
+          description: number of login counts per week
+          example: 3
+        timestamp:
+          type: string
+          description: last time user login
+          format: date-time
+          example: 2025-04-24T06:24:09.856-07:00
+        trace_id:
+          type: string
+          format: uuid
+          description: trace id in string
+          example: 1cd6745a-8a47-4894-9bb4-fd4b877e0b70
+        
+    LOLMatch:
+      required:
+      - match_id
+      - user_id
+      - kill
+      - death
+      - assist
+      - timestamp
+      - trace_id
+      type: object
+      properties:
+        match_id:
+          type: string
+          format: uuid
+          example: m-d290f1ee-6c54-4b01-90e6-d701748f0851
+        user_id:
+          type: string
+          description: user in game name
+          format: uuid
+          example: u-d290f1ee-6c54-4b01-90e6-d701748f0851
+        kill:
+          type: integer
+          description: number of kills in the game
+          example: 5
+        death:
+          type: integer
+          description: number of deaths in the game
+          example: 5
+        assist:
+          type: integer
+          description: number of assists in the game
+          example: 5
+        timestamp:
+          type: string
+          description: time of starting match
+          format: date-time
+          example: 2025-04-24T06:24:09.856-07:00
+        trace_id:
+          type: string
+          description: trace id in string
+          format: uuid
+          example: 1cd6745a-8a47-4894-9bb4-fd4b877e0b70
+    Stats:
+      required:
+      - num_activity
+      - num_match
+      properties:
+        num_activity:
+          type: integer
+          example: 30
+        num_match:
+          type: integer
+          example: 20
