@@ -1,4 +1,4 @@
-# Lab3 - Storage with SQLite & Integration
+# Lab3 - Storage, SQLite & JMeter
 ### Tasks
 - create storage service with SQLite
 - integrate storage service with receiver
@@ -10,7 +10,7 @@
 - JMeter automatically send events with different values
 
 ### How to run 
-1. clone thhis git repo
+1. clone this git repo
 2. navigate (`cd`) to lab3 direcotry 
 3. run `app.py` in Storage directory in a console
 4. run `app.py` in Receiver directory in another console
