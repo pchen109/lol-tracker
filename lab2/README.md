@@ -9,7 +9,7 @@
 - Reciever stores processed requests in a JSON file.
 
 ### How to Run
-1. clone thhis git repo
+1. clone this git repo
 2. navigate (`cd`) to lab2 direcotry 
 3. run `app.py` in Receiver directory
 
