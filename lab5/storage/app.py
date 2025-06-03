@@ -21,14 +21,14 @@ def add_activity(body):
         store_events(body)
     trace_id = body["trace_id"]
     logger.debug(f"SUCCESS DATABASE - add_activity (trace id: {trace_id})")
-    return NoContent, 201
+    return "user activity added", 201
 
 def add_match(body):
     with db_lock:
         store_events(body)
     trace_id = body["trace_id"]
     logger.debug(f"SUCCESS DATABASE - add_match (trace id: {trace_id})")
-    return NoContent, 201
+    return "user match added", 201
 
 def store_events(payload):
     session = make_session()
