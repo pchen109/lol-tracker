@@ -1,0 +1,13 @@
+2025-06-02 08:39:45,167 - basicLogger - INFO - Start getting events number.
+2025-06-02 08:39:51,646 - basicLogger - INFO - Start looking up add_activity at index 0
+2025-06-02 18:05:30,256 - basicLogger - INFO - Start looking up add_activity at index 0
+2025-06-02 18:06:40,866 - basicLogger - INFO - Start looking up add_activity at index 0
+2025-06-02 18:06:42,134 - basicLogger - INFO - No add_activity found at index 0
+2025-06-02 18:22:50,226 - basicLogger - INFO - Start looking up add_activity at index 0
+2025-06-02 18:22:50,244 - basicLogger - INFO - Event add_activity is found at index 0
+2025-06-02 18:23:16,055 - basicLogger - INFO - Start getting events number.
+2025-06-02 18:23:17,070 - basicLogger - INFO - Finised with [Activity: 1] and [Match: 0]
+2025-06-02 18:28:02,072 - basicLogger - INFO - Start looking up add_activity at index 0
+2025-06-02 18:28:02,082 - basicLogger - INFO - Event add_activity is found at index 0
+2025-06-02 18:28:06,302 - basicLogger - INFO - Start getting events number.
+2025-06-02 18:28:07,317 - basicLogger - INFO - Finised with [Activity: 26] and [Match: 25]
