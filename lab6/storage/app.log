@@ -7873,3 +7873,5 @@
 2025-05-13 07:51:16,525 - basicLogger - DEBUG - <class 'list'>
 2025-05-13 07:51:16,549 - basicLogger - INFO - Found 0 user_match event (start: 2025-05-13 07:51:11.502105, end: 2025-05-13 07:51:16.502203)
 2025-05-13 07:51:16,549 - basicLogger - DEBUG - <class 'list'>
+2025-05-27 17:54:08,468 - basicLogger - INFO - <pykafka.simpleconsumer.SimpleConsumer at 0x7f56dccfb530 (consumer_group=b'event_group')>
+2025-05-27 17:54:26,741 - basicLogger - DEBUG - SUCCESS DATABASE - add_activity (trace id: 6e784bd8-e8e0-4b1f-9b3b-def676780ce4)
