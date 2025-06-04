@@ -1,3 +1,4 @@
+
 ##### Purpose
 - set up Docker containers for MySQL
 - set up asynchronous message service (Kafka and Zookeeper)

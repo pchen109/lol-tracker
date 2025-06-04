@@ -1,30 +1,44 @@
-# Lab 4 - MySQL & Logging & Configuration
+# Lab 6 - Kafka and ZooKeeper
 ### Tasks
-- change from SQLite to MySQL
-- add logging message to track events
-- add external configuration to prevent hardcoding and hide sensitive info
+- set up a container for Kafka as asynchronous message service
+- set up a container for ZooKeeper to track Kafka cluster/node
+- send message from **Receiver** to **Kafka**
+- consume **Kafka** message in **Storage**
+- remove two POST endpoints of Storage used to receive message from Receiver
 
 ### Result
-- Services use external configuration file as varaibles.
-- Services display customized log message in console.
-- Services store customized log message in `app.py`.
-- Storage stores data/events sent from Receiver in MySQL databse.
+- Kafka, asynchronou message service, is set up
+- Storage can be off when Receiver is getting new message
+- Storage will consume new message when it's up
 
 ### How to Run
-1. clone thhis git repo
-2. navigate (`cd`) to lab4 direcotry 
+1. clone this git repo
+2. navigate (`cd`) to lab6 direcotry 
 3. run `docker compose up -d`
 4. run `app.py` in Storage directory in a console
 5. run `app.py` in Receiver directory in another console
-**note**: both consoles running `app.py` would show log messages
+6. run `app.py` in Processing directory in another console 
+**note**: all consoles running `app.py` would show log messages
+
+### How to Verify Kafka
+1. go thru "How to Run" above first.
+2. stop Storage and Processing service.
+3. run JMeter to send data to Receiver.
+4. note current data in MySQL databse.
+5. run `app.py` in Storage.
+6. check MySQL has new data. 
 
 ### How to Use Swagger
+###### Receiver
 1. access Swagger UI with `http:/localhost:8080/ui`
 2. send at least one event from each event type
+###### Processing
+1. access Swagger UI with `http:/localhost:8100/ui`
+2. modify timestamp to gather data accordingly
 
 ### How to Use JMeter
 1. open JMeter app
-2. load `lab4_jmeter.jmx` in `~\lab4\others` directory
+2. load `lab6_jmeter.jmx` in `~\lab6\others` directory
 3. change number of threads and loop count for your own needs
 4. press start to send events
 
