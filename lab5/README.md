@@ -38,7 +38,7 @@
 2. send at least one event from each event type
 ###### Processing
 1. access Swagger UI with `http:/localhost:8100/ui`
-2. modify timestamp to gather data accordingly
+2. try `/stats` to get current stats in MySQL database
 
 ### How to Use JMeter
 1. open JMeter app
