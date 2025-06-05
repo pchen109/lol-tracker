@@ -66,7 +66,7 @@
 4. check Analyzer log messages from `app.log` in Analyzer directory
 
 ### How to Close
-1. run `docker compose down -v` in lab4 directory
+1. run `docker compose down -v` in lab7 directory
 2. stop (`ctrl + c`) `app.py` in both consoles
 
 # End

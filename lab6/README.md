@@ -53,7 +53,7 @@
 2. check Storage log messages from `app.log` in Storage directory
 
 ### How to Close
-1. run `docker compose down -v` in lab4 directory
+1. run `docker compose down -v` in lab6 directory
 2. stop (`ctrl + c`) `app.py` in both consoles
 
 # End

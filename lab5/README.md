@@ -58,7 +58,7 @@
 3. check Processing log message from `app.log` in Processing directory
 
 ### How to Close
-1. run `docker compose down -v` in lab4 directory
+1. run `docker compose down -v` in lab5 directory
 2. stop (`ctrl + c`) `app.py` in both consoles
 
 # End
