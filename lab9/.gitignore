@@ -1,5 +1,9 @@
 data/database/
 data/kafka/
 logs/*
-terraform/*
 ansible/*
+zprod_config/*
+zterraform/.terraform/
+zterraform/.terraform.lock.hcl
+zterraform/terraform.tfstate
+zterraform/terraform.tfstate.backup

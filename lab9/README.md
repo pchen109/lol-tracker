@@ -1,4 +1,9 @@
-# Lab 8 - Docker (Contanization)
+# Lab 9 - Docker (Contanization)
+### Ansible-Playbook Run
+```
+ansible-playbook -i inventory.ini main.yml -e "ansible_host=$(cd '/home/kekw/lol-tracker/lab9/terraform' && terraform output -raw public_ip_address)"
+```
+
 ### Tasks
 - move all logs to a dedicated log folder
 - move all config files to to a dedicated config folder
