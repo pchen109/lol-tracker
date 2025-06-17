@@ -4,9 +4,9 @@ services:
       context: receiver
       dockerfile: Dockerfile
     volumes:
-      - ./config/receiver_config.yml:/app/config/receiver_config.yml
-      - ./config/logging_config.yml:/app/config/logging_config.yml
-      - ./logs/receiver.log:/app/logs/app.log
+      - ./_config/receiver_config.yml:/app/config/receiver_config.yml
+      - ./_config/logging_config.yml:/app/config/logging_config.yml
+      - ./_logs/receiver.log:/app/logs/app.log
     environment:
       TZ: US/Pacific
     ports:
@@ -16,9 +16,9 @@ services:
       context: storage
       dockerfile: Dockerfile
     volumes:
-      - ./config/storage_config.yml:/app/config/storage_config.yml
-      - ./config/logging_config.yml:/app/config/logging_config.yml
-      - ./logs/storage.log:/app/logs/app.log
+      - ./_config/storage_config.yml:/app/config/storage_config.yml
+      - ./_config/logging_config.yml:/app/config/logging_config.yml
+      - ./_logs/storage.log:/app/logs/app.log
     environment:
       TZ: US/Pacific
     ports:
@@ -33,10 +33,10 @@ services:
       context: processing
       dockerfile: Dockerfile
     volumes:
-      - ./config/processing_config.yml:/app/config/processing_config.yml
-      - ./config/logging_config.yml:/app/config/logging_config.yml
-      - ./logs/processing.log:/app/logs/app.log
-      - ./data/processing:/app/data/processing
+      - ./_config/processing_config.yml:/app/config/processing_config.yml
+      - ./_config/logging_config.yml:/app/config/logging_config.yml
+      - ./_logs/processing.log:/app/logs/app.log
+      - ./_data/processing:/app/data/processing
     environment:
       TZ: US/Pacific
     ports:
@@ -46,9 +46,9 @@ services:
       context: analyzer
       dockerfile: Dockerfile
     volumes:
-      - ./config/analyzer_config.yml:/app/config/analyzer_config.yml
-      - ./config/logging_config.yml:/app/config/logging_config.yml
-      - ./logs/analyzer.log:/app/logs/app.log
+      - ./_config/analyzer_config.yml:/app/config/analyzer_config.yml
+      - ./_config/logging_config.yml:/app/config/logging_config.yml
+      - ./_logs/analyzer.log:/app/logs/app.log
     environment:
       TZ: US/Pacific
     ports:
@@ -61,7 +61,7 @@ services:
     image: wurstmeister/kafka
     hostname: kafka
     command: >
-      sh -c "rm -f ./kafka/kafka-logs-kafka/meta.properties && start-kafka.sh"
+      sh -c "rm -f ./_kafka/kafka-logs-kafka/meta.properties && start-kafka.sh"
     ports:
       - 9092:9092
     environment:
@@ -76,7 +76,7 @@ services:
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1     # required if running single node cluster
     volumes:
       # - /var/run/docker.sock:/var/run/docker.sock     # allow running docker inside Kafak → probably not needed
-      - ./data/kafka:/kafka
+      - ./_data/kafka:/kafka
     depends_on:
       - zookeeper
   db:
@@ -97,7 +97,7 @@ services:
       - 3306:3306
     volumes:
       # - my-db:/var/lib/mysql    # persistent data
-      - ./data/database:/var/lib/mysql
+      - ./_data/database:/var/lib/mysql
 
 volumes:
   zookeeper_data:                        # volume for data persistence

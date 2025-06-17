@@ -1,7 +1,6 @@
-data/database/
-data/kafka/
-logs/*
-ansible/*
+_data/database/
+_data/kafka/
+_logs/*
 zprod_config/*
 zterraform/.terraform/
 zterraform/.terraform.lock.hcl
