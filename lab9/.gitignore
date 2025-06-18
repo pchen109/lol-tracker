@@ -1,7 +1,6 @@
-_data/database/
-_data/kafka/
-_logs/*
-zprod_config/*
+_data/
+_logs/
+zprod_config/
 zterraform/.terraform/
 zterraform/.terraform.lock.hcl
 zterraform/terraform.tfstate
