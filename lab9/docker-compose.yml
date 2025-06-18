@@ -61,7 +61,7 @@ services:
     image: wurstmeister/kafka
     hostname: kafka
     command: >
-      sh -c "rm -f ./_kafka/kafka-logs-kafka/meta.properties && start-kafka.sh"
+      sh -c "rm -f ./kafka/kafka-logs-kafka/meta.properties && start-kafka.sh"
     ports:
       - 9092:9092
     environment:

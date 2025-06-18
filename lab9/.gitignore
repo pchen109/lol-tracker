@@ -5,3 +5,4 @@ zterraform/.terraform/
 zterraform/.terraform.lock.hcl
 zterraform/terraform.tfstate
 zterraform/terraform.tfstate.backup
+.env

@@ -9,35 +9,37 @@
     proj_folder: "/home/kekw/lol-tracker/lab9"
 
   tasks:
-    - name: Install dependencies and Run apt-get update
-      ansible.builtin.apt:
-        name:
-          - git
-          - ca-certificates
-          - curl
-        state: present    
-        update_cache: yes                   # Equivlent as sudo apt-get update
+    # - name: Install dependencies and Run apt-get update
+    #   ansible.builtin.apt:
+    #     name:
+    #       - git
+    #       - ca-certificates
+    #       - curl
+    #     state: present    
+    #     update_cache: yes                   # Equivlent as sudo apt-get update
 
-    - name: Copy GitHub SSH Key to VM
-      ansible.builtin.copy:
-        src: "{{ git_key_loc }}"
-        dest: "{{ git_key_loc }}"           # works b/c hostname is same as src
-        owner: "{{ ansible_user }}"
-        group: "{{ ansible_user }}"         # works b/c hostname is same as group name
-        mode: 0600
+    # ############### GITHUB ###############
+    # - name: Copy GitHub SSH Key to VM
+    #   ansible.builtin.copy:
+    #     src: "{{ git_key_loc }}"
+    #     dest: "{{ git_key_loc }}"           # works b/c hostname is same as src
+    #     owner: "{{ ansible_user }}"
+    #     group: "{{ ansible_user }}"         # works b/c hostname is same as group name
+    #     mode: 0600
 
-    - name: Clone the repository from GitHub
-      ansible.builtin.git:
-        repo: "{{ repo_url }}"
-        dest: "{{ proj_det }}"
-        clone: yes                          # Clone the repository if it does not exist
-        update: yes                         # Update the repository if it exists
-        key_file: "{{ git_key_loc }}"
-        accept_hostkey: true
-        force: true                         # Match repo exactly same as the remote branch
-      become: false                         # Clon the repo as user, not root
+    # - name: Clone the repository from GitHub
+    #   ansible.builtin.git:
+    #     repo: "{{ repo_url }}"
+    #     dest: "{{ proj_det }}"
+    #     clone: yes                          # Clone the repository if it does not exist
+    #     update: yes                         # Update the repository if it exists
+    #     key_file: "{{ git_key_loc }}"
+    #     accept_hostkey: true
+    #     force: true                         # Match repo exactly same as the remote branch
+    #   become: false                         # Clon the repo as user, not root
 
-    # - name: Docker → reate apt keyrings directory
+    # ############### DOCKER SETUP ###############
+    # - name: Docker → Create apt keyrings directory
     #   ansible.builtin.file:
     #     path: /etc/apt/keyrings
     #     state: directory
@@ -81,7 +83,7 @@
     #     append: yes
     #   become: true
 
-    ############### CONFIGURATION ###############
+    # ############### CONFIGURATION ###############
     # - name: Remove _config folder
     #   ansible.builtin.file:
     #     path: "{{ proj_folder }}/_config"
@@ -109,7 +111,7 @@
     #     - receiver_config.yml
     #     - storage_config.yml
 
-    ############### DATA ###############
+    # ############### DATA ###############
     # - name: Create empty _data/processing folder
     #   ansible.builtin.file:
     #     path: "{{ proj_folder }}/_data/processing"
@@ -118,105 +120,46 @@
     #     group: "{{ ansible_user }}"
     #     mode: "0755"
 
-    # ### Data/anomaly/output.json ########################################
-    # - name: Ensure data and processing directories exist on remote node
+    # ############### LOGS ###############
+    # - name: Create empyt _logs folder
     #   ansible.builtin.file:
-    #     path: /home/ubuntu/project/data/anomaly_detector
+    #     path: "{{ proj_folder }}/_logs"
     #     state: directory
-    #     owner: nobody
-    #     group: nogroup
-    #     mode: "0755"
-        
-
-    # - name: Copy output.json file to remote node
-    #   ansible.builtin.copy:
-    #     src: "/home/kekw/tim-lab/tim-assignment/data/anomaly_detector/output.json"
-    #     dest: /home/ubuntu/project/data/anomaly 
-    #     owner: nobody 
-    #     group: nogroup 
-    #     mode: "0644" 
-    #     force: yes
-
-    # ### Data/consistency_check/output.json ########################################
-    # - name: Ensure data and processing directories exist on remote node
-    #   ansible.builtin.file:
-    #     path: /home/ubuntu/project/data/consistency_check
-    #     state: directory
-    #     owner: nobody
-    #     group: nogroup
-    #     mode: "0755"
-
-    # - name: Copy output.json file to remote node
-    #   ansible.builtin.copy:
-    #     src: /home/kekw/tim-lab/tim-assignment/data/consistency_check/output.json
-    #     dest: /home/ubuntu/project/data/consistency_check 
-    #     owner: nobody 
-    #     group: nogroup 
-    #     mode: "0644" 
-    #     force: yes
-
-    # ### Logs ################################################################
-    # - name: Copy logs folder to remote node
-    #   ansible.builtin.copy:
-    #     src: "/home/kekw/tim-lab/tim-assignment/logs"
-    #     dest: /home/ubuntu/project/
-    #     owner: nobody 
-    #     group: nogroup 
+    #     owner: "{{ ansible_user }}"
+    #     group: "{{ ansible_user }}"
     #     mode: "0755" 
-    #     force: yes
-
-    # - name: Set permissions on log files
+    #   become: true
+    
+    # - name: Create empty log files
     #   ansible.builtin.file:
-    #     path: "/home/ubuntu/project/logs/{{ item }}"
+    #     path: "{{ proj_folder }}/_logs/{{ item }}"
+    #     state: touch
+    #     owner: "{{ ansible_user }}"
+    #     group: "{{ ansible_user }}"
     #     mode: "0644"
     #   loop:
     #     - analyzer.log
     #     - processing.log
     #     - receiver.log
     #     - storage.log
-    #     - consistency_check.log
-    #     - anomaly_detector.log
+    #   become: true
 
-    # ### ENV ################################################################
+    # ############### ENV ###############
     # - name: Copy env file to remote node
     #   ansible.builtin.copy:
-    #     src: /home/kekw/tim-lab/tim-assignment/.env
-    #     dest: /home/ubuntu/project/
-    #     owner: nobody 
-    #     group: nogroup 
-    #     mode: "644" 
+    #     src: "{{ proj_folder }}/.env"
+    #     dest: "{{ proj_folder }}/.env"
+    #     owner: "{{ ansible_user }}" 
+    #     group: "{{ ansible_user }}"
+    #     mode: "644"
 
-    # ### LAB 10 #############################################################
-    # - name: Replace localhost with the IP address in script.js
-    #   replace:
-    #     path: /home/ubuntu/project/dashboard/updateStats.js
-    #     regexp: 'localhost:(\d{4})'
-    #     replace: "{{ instance_ip }}"
+    ############### DOCKER COMPOSE ###############
+    - name: Run Docker Containers
+      community.docker.docker_compose_v2:
+        project_src: "{{ proj_folder }}"
+      
 
-    # - name: Build Docker image
-    #   command:
-    #     cmd: "docker build -t dashboard-ui /home/ubuntu/project/dashboard"
 
-    # ### Modify ports in docker compose yaml###############################
-    # # - name: Remove ports section from processing service
-    # #   lineinfile:
-    # #     path: /home/ubuntu/project/docker-compose.yml
-    # #     regexp: '^\s*ports:\s*\n^\s*-.*8100.*'
-    # #     state: absent
-
-    # # - name: Remove ports section from analyzer service
-    # #   lineinfile:
-    # #     path: /home/ubuntu/project/docker-compose.yml
-    # #     regexp: '^\s*ports:\s*\n^\s*-.*8111.*'
-    # #     state: absent
-
-    # # - name: Remove ports section from consistency_check service
-    # #   lineinfile:
-    # #     path: /home/ubuntu/project/docker-compose.yml
-    # #     regexp: '^\s*ports:\s*\n^\s*-.*7777.*'
-    # #     state: absent
-
-    # ### Docker Compose ####################################################
     # - name: Run Docker Compose to start the services
     #   ansible.builtin.shell:
     #     cmd: "docker compose up -d --build"
