@@ -8,8 +8,6 @@ RUN pip3 install -r requirements.txt
 
 COPY . .
 RUN mkdir config
-# RUN touch config/storage_config.yml
-# RUN touch config/logging_config.yml
 RUN mkdir logs
 
 RUN adduser kekw

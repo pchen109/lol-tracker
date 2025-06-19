@@ -8,7 +8,7 @@ services:
       - ./_config/logging_config.yml:/app/config/logging_config.yml
       - ./_logs/receiver.log:/app/logs/app.log
     environment:
-      TZ: US/Pacific
+      - TZ
     ports:
       - 8080:8080
   storage:
@@ -20,7 +20,7 @@ services:
       - ./_config/logging_config.yml:/app/config/logging_config.yml
       - ./_logs/storage.log:/app/logs/app.log
     environment:
-      TZ: US/Pacific
+      - TZ
     ports:
       - 8090:8090
     depends_on:
@@ -38,7 +38,7 @@ services:
       - ./_logs/processing.log:/app/logs/app.log
       - ./_data/processing:/app/data/processing
     environment:
-      TZ: US/Pacific
+      - TZ
     ports:
       - 8100:8100
   analyzer:
@@ -50,7 +50,7 @@ services:
       - ./_config/logging_config.yml:/app/config/logging_config.yml
       - ./_logs/analyzer.log:/app/logs/app.log
     environment:
-      TZ: US/Pacific
+      - TZ
     ports:
       - 8110:8110
   zookeeper:
@@ -65,15 +65,15 @@ services:
     ports:
       - 9092:9092
     environment:
-      KAFKA_BROKER_ID: 1
-      KAFKA_CREATE_TOPICS: events:1:1   # topic_name:partition_num:replicas_num
-      KAFKA_ADVERTISED_HOST_NAME: kafka
-      KAFKA_LISTENERS: INSIDE://:29092,OUTSIDE://:9092
-      KAFKA_INTER_BROKER_LISTENER_NAME: INSIDE
-      KAFKA_ADVERTISED_LISTENERS: INSIDE://kafka:29092,OUTSIDE://kafka:9092
-      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
-      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
-      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1     # required if running single node cluster
+      - KAFKA_BROKER_ID
+      - KAFKA_CREATE_TOPICS              # topic_name:partition_num:replicas_num
+      - KAFKA_ADVERTISED_HOST_NAME
+      - KAFKA_LISTENERS
+      - KAFKA_INTER_BROKER_LISTENER_NAME
+      - KAFKA_ADVERTISED_LISTENERS
+      - KAFKA_LISTENER_SECURITY_PROTOCOL_MAP
+      - KAFKA_ZOOKEEPER_CONNECT
+      - KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR   # required if running single node cluster
     volumes:
       # - /var/run/docker.sock:/var/run/docker.sock     # allow running docker inside Kafak → probably not needed
       - ./_data/kafka:/kafka
@@ -82,11 +82,11 @@ services:
   db:
     image: mysql
     environment:
-      MYSQL_RANDOM_ROOT_PASSWORD: 1
-      MYSQL_USER: riot
-      MYSQL_PASSWORD: riot
-      MYSQL_DATABASE: riot
-      TZ: US/Pacific
+      - MYSQL_RANDOM_ROOT_PASSWORD
+      - MYSQL_USER
+      - MYSQL_PASSWORD
+      - MYSQL_DATABASE
+      - TZ
     healthcheck:
       test: ["CMD", "mysql", "-u", "riot", "-priot", "-e", "USE riot"]
       interval: 10s
@@ -96,8 +96,8 @@ services:
     ports:
       - 3306:3306
     volumes:
-      # - my-db:/var/lib/mysql    # persistent data
+      # - my-db:/var/lib/mysql              # persistent data
       - ./_data/database:/var/lib/mysql
 
 volumes:
-  zookeeper_data:                        # volume for data persistence
+  zookeeper_data:                           # volume for data persistence

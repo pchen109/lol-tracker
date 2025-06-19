@@ -8,8 +8,6 @@ RUN pip3 install -r requirements.txt
 
 COPY . .
 RUN mkdir config
-# RUN touch config/processing_config.yml
-# RUN touch config/logging_config.yml
 RUN mkdir -p data/processing
 RUN mkdir logs
 RUN touch logs/processing.log
