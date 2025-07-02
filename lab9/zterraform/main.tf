@@ -2,10 +2,6 @@ locals {
     project_name = "lol-tracker"    # → LT
 }
 
-# resource "random_pet" "rg_name" {
-#     prefix = var.resource_group_name_prefix
-# }
-
 resource "azurerm_resource_group" "rg" {
     location    = var.resource_group_location
     name        = local.project_name
@@ -33,7 +29,7 @@ resource "azurerm_public_ip" "lt_public_ip" {
     resource_group_name     = azurerm_resource_group.rg.name
     location                = azurerm_resource_group.rg.location
     allocation_method       = "Dynamic"
-    domain_name_label       = "pchen109-lol-tracker-proj"
+    domain_name_label       = var.dns_name
 }
 
 # Create Network Security Group and Rule
@@ -50,6 +46,42 @@ resource "azurerm_network_security_group" "lt_nsg" {
         protocol                    = "Tcp"
         source_port_range           = "*"
         destination_port_range      = "22"
+        source_address_prefix       = "*"
+        destination_address_prefix  = "*"
+    }
+
+    security_rule {
+        name                        = "RECEIVER"
+        priority                    = 1002
+        direction                   = "Inbound"
+        access                      = "Allow"
+        protocol                    = "Tcp"
+        source_port_range           = "*"
+        destination_port_range      = "8080"
+        source_address_prefix       = "*"
+        destination_address_prefix  = "*"
+    }
+
+    security_rule {
+        name                        = "PROCESSING"
+        priority                    = 1003
+        direction                   = "Inbound"
+        access                      = "Allow"
+        protocol                    = "Tcp"
+        source_port_range           = "*"
+        destination_port_range      = "8100"
+        source_address_prefix       = "*"
+        destination_address_prefix  = "*"
+    }
+
+    security_rule {
+        name                        = "ANALYZER"
+        priority                    = 1004
+        direction                   = "Inbound"
+        access                      = "Allow"
+        protocol                    = "Tcp"
+        source_port_range           = "*"
+        destination_port_range      = "8110"
         source_address_prefix       = "*"
         destination_address_prefix  = "*"
     }
@@ -113,12 +145,12 @@ resource "azurerm_linux_virtual_machine" "lt_vm" {
         version     = "latest"
     }
 
-    computer_name   = "kekw"
+    computer_name   = var.username
     admin_username  = var.username
 
     admin_ssh_key {
         username        = var.username
-        public_key      = file("~/.ssh/azure_key.pub")
+        public_key      = file(var.public_key)
     }
 
     boot_diagnostics {

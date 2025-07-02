@@ -2,11 +2,8 @@
   hosts: kekw-vm
   become: true
 
-  vars:
-    repo_url: "git@github.com:pchen109/lol-tracker.git"
-    proj_det: "/home/kekw/lol-tracker"
-    git_key_loc: "/home/kekw/.ssh/github_lol_tracker"
-    proj_folder: "/home/kekw/lol-tracker/lab9"
+  vars_files:
+    - vars.yml
 
   tasks:
     - name: Install dependencies and Run apt-get update
@@ -157,22 +154,3 @@
     - name: Run Docker Containers
       community.docker.docker_compose_v2:
         project_src: "{{ proj_folder }}"
-      
-
-
-    # - name: Run Docker Compose to start the services
-    #   ansible.builtin.shell:
-    #     cmd: "docker compose up -d --build"
-    #   args:
-    #     chdir: "{{ proj_det }}"
-
-    # - name: Wait for 10 seconds before retrying Docker Compose
-    #   ansible.builtin.pause:
-    #     seconds: 10
-
-
-    # - name: Retry Docker Compose to ensure all services are up
-    #   ansible.builtin.shell:
-    #     cmd: "docker compose up -d --scale receiver=3"
-    #   args:
-    #     chdir: "{{ proj_det }}"

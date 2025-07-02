@@ -1,70 +1,88 @@
 # Lab 9 - Docker (Contanization)
-### Ansible-Playbook Run
-```
-ansible-playbook -i inventory.ini main.yml -e "ansible_host=$(cd '../zterraform' && terraform output -raw public_ip_address)"
-```
 
 ### Tasks
-- move all logs to a dedicated log folder
-- move all config files to to a dedicated config folder
-- mount Kafka, MySQL and Processing data to a dedicated data folder
-- set correct owner instead of giving permission to OTHERS 
-- add Dockerfile and requirements.txt for each services
-- **build** each service with their Dockerfile and requirements.txt
+- Provisioned a VM using Terraform on a cloud provider (Azure)
+- Used Git for version control; excluded sensitive data with .gitignore and .env
+- Deployed the full microservices project to the VM using Ansible
 
-### Result
-- All services are containizered. 
-- Kafka, MySQL and Processing have consistent data.
-- Each service has its own software installed.
-- All config files are stored in the same folder.
-- All log files are stored in the same folder.
-- All data are stored in the same folder.
-- Each service communicate with each internally → no localhost
+### Results
+- All microservices successfully deployed and running on Azure VM
+- Source code uploaded to GitHub (excluding sensitive or production configs)
+- Services accessible via public IP or DNS
 
-### How to Run
-1. clone this git repo
-2. navigate (`cd`) to lab8 direcotry 
-3. run `docker compose up -d`
+### Prerequisite
+##### Azure
+1. Create an Azure account and ensure you have an active subscription.
+2. Run `az login` in WSL to authenticate.
+##### Git Repo
+1. Clone this repository.
+2. Generate a new **SSH key pair** for Git access using:
+   1. `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+3. Add the **public key** (.pub file) to your Git account.
+4. Create your own Git repository and push the contents of the `lab9` folder to it.
+##### Terraform
+1. Generate a new **SSH key pair** for Azure VM access:
+   1. `ssh-keygen -t rsa -b 4096 -f ~/.ssh/azure_key`
+2. In `terraform.tfvars`, update:
+   1. `dns_name` with your unique DNS label.
+   2. `public_key` with the path to your public key (e.g., `~/.ssh/azure_key.pub`).
+##### Ansible 
+1. In `vars.yml`, update:
+   1. `repo_url` with your own Git repository URL.
+   2. `git_key_loc` to the path of your SSH key.
+   3. other variables as needed to match your environment
+2. Replace `ansible_host` in `inventory.ini` with your VM's DNS or public IP.
+
+### How to run
+1. Clone this repoistory.
+2. Open a terminal and navigate to the lab9 project directory:
+   1. `cd lab9`
+3. Make the deployment script executable (only needed once):
+   1. `chmod +x deploy.sh`
+4. Run the script to deploy the project:
+   1. `./deploy.sh`
 
 ### How to verify
-1. run `docker compose ps -a` to verify all services are running
-2. use JMeter to send data to Receiver
-3. access MySQL databse container to verify data are matched
-4. access `http:/localhost:8100/stats` to verify stats are matched
-5. access `http:/localhost:8110/stats` to verify stats are matched
-6. use `http:/localhost:8110/activity?index=0` to verfiy data info at index 0
-   1. change index number to check further
-7. use `http:/localhost:8110/match?index=0` to verify data info at index 0
-   1. change index number to check further
-8. check all logs in log folder to verify they are receiving logs
-
-### How to Use Swagger
-###### Receiver
-1. access Swagger UI with `http:/localhost:8080/ui`
-2. send at least one event from each event type
-###### Processing
-1. access Swagger UI with `http:/localhost:8100/ui`
-2. try `/stats` to get current stats in MySQL database
-###### Analyzer
-1. access Swagger UI with `http:/localhost:8110/ui`
-2. modify index to get info of one of events in `/activity`
-3. modify index to get info of one of events in `/match`
-4. try `/stats` to get overall info of both events
+1. **SSH** into the VM
+   1. `ssh -i <YOUR_PRIVATE_KEY_LOCATION> kekw@<YOUR_DNS>`
+2. Verify services are running
+   1. `docker compose ps -a`
+3. Send test data using **JMeter**
+4. Check **MySQL** container to confirm the received data is correctly stored
+5. Verify service stats endpoints
+   1. **Receiver** stats: `http://<YOUR_DNS>:8100/stats`
+   2. **Analyzer** stats: `http://<YOUR_DNS>:8110/stats`
+6. Verify **activity** data
+   1. View data at index 0:
+      1. `http://<YOUR_DNS>:8110/activity?index=0`
+   2. Modify index to inspect different entries
+6. Verify **match** data
+   1. View data at index 0:
+      1. `http://<YOUR_DNS>:8110/match?index=0`
+   2. Modify index to inspect different entries 
+8. Inspect logs in the logs/ directory to ensure each service is logging as expected.
 
 ### How to Use JMeter
-1. open JMeter app
-2. load `lab8_jmeter.jmx` in `~\lab8\others` directory
-3. change number of threads and loop count for your own needs
-4. press start to send events
+1. Open the **JMeter** application
+2. Load the test plan file: `jmeter.jmx` in `~\lab9\zothers` directory
+3. In both HTTP Request samplers:
+   1. Update "**Server Name or IP**" to your own DNS name.
+4. Adjust **Number of Threads** and **Loop Count** as desired to simulate different loads.
+5. Click the **Start** button (green ▶️) to begin sending events.
 
 ### How to Check Events in MySQL
-1. access MySQL DB with `docker compose exec -it db mysql -u riot -priot`
-2. run `USE riot;`
-3. run `select * from user_activity` to see the sent events
-4. run `select * from user_match` to see the sent events
+1. **SSH** into the VM
+   1. `ssh -i <YOUR_PRIVATE_KEY_LOCATION> kekw@<YOUR_DNS>`
+2. Access the MySQL container
+   1. `docker compose exec db mysql -u riot -priot`
+3. Switch to the database
+   1. `USE riot;`
+4. View user activity events
+   1. `SELECT * FROM user_activity;`
+5. View user match events
+   1. `SELECT * FROM user_match;`
 
 ### How to Close
-1. run `docker compose down -v` in lab8 directory
-2. stop (`ctrl + c`) `app.py` in both consoles
+1. run `02_end.sh` in lab9 directory
 
 # End

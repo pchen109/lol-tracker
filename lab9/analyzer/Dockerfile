@@ -4,6 +4,7 @@ LABEL maintainer="pchen109@my.bcit.ca"
 RUN mkdir app.py
 COPY ./requirements.txt /app/requirements.txt
 WORKDIR /app
+RUN apt-get update && apt-get install -y nano
 RUN pip3 install -r requirements.txt
 
 COPY . .

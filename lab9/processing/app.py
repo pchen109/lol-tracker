@@ -84,9 +84,11 @@ def populate_stats():
     content["max_login_counts"] = max(int(content["max_login_counts"]), r_max_login_counts)
     content["avg_kill"] = avg_kill
     content["last_updated"] = datetime.isoformat(t_current)
-
-    with open(full_path, "w") as f:
-        json.dump(content, f, indent=4)
+    
+    file_lock = threading.Lock()
+    with file_lock:
+        with open(full_path, "w") as f:
+            json.dump(content, f, indent=4)
     
     logger.info("==========ℹ️[processing period ended]ℹ️==========")
 

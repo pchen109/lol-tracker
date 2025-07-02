@@ -15,3 +15,13 @@ variable "username" {
     default         = "kekw"
     description     = "The username for the local account"
 }
+
+variable "dns_name"{
+    type            = string
+    description     = "The DNS name for the VM"
+}
+
+variable "public_key" {
+    type            = string
+    description     = "File path of the public key"
+}
