@@ -1,7 +1,6 @@
 import connexion
 import threading
 import httpx
-import uuid
 import yaml
 import json
 import logging.config
@@ -19,6 +18,7 @@ state_file = variables["state"]["file"]
 state_default = variables["state"]["default"]
 
 full_path = path.abspath(state_file)
+file_lock = threading.Lock()
 
 with open("./config/logging_config.yml", "r") as f:
     log_setting = yaml.safe_load(f.read())
@@ -85,7 +85,6 @@ def populate_stats():
     content["avg_kill"] = avg_kill
     content["last_updated"] = datetime.isoformat(t_current)
     
-    file_lock = threading.Lock()
     with file_lock:
         with open(full_path, "w") as f:
             json.dump(content, f, indent=4)
