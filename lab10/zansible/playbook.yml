@@ -1,0 +1,156 @@
+- name: Deplloy LOL Tracker
+  hosts: kekw-vm
+  become: true
+
+  vars_files:
+    - vars.yml
+
+  tasks:
+    - name: Install dependencies and Run apt-get update
+      ansible.builtin.apt:
+        name:
+          - git
+          - ca-certificates
+          - curl
+        state: present    
+        update_cache: yes                   # Equivlent as sudo apt-get update
+
+    ############### GITHUB ###############
+    - name: Copy GitHub SSH Key to VM
+      ansible.builtin.copy:
+        src: "{{ git_key_loc }}"
+        dest: "{{ git_key_loc }}"           # works b/c hostname is same as src
+        owner: "{{ ansible_user }}"
+        group: "{{ ansible_user }}"         # works b/c hostname is same as group name
+        mode: 0600
+
+    - name: Clone the repository from GitHub
+      ansible.builtin.git:
+        repo: "{{ repo_url }}"
+        dest: "{{ proj_det }}"
+        clone: yes                          # Clone the repository if it does not exist
+        update: yes                         # Update the repository if it exists
+        key_file: "{{ git_key_loc }}"
+        accept_hostkey: true
+        force: true                         # Match repo exactly same as the remote branch
+      become: false                         # Clon the repo as user, not root
+
+    ############### DOCKER SETUP ###############
+    - name: Docker → Create apt keyrings directory
+      ansible.builtin.file:
+        path: /etc/apt/keyrings
+        state: directory
+        mode: '0755'
+
+    - name: Docker → Download GPG key
+      ansible.builtin.get_url:
+        url: https://download.docker.com/linux/ubuntu/gpg
+        dest: /etc/apt/keyrings/docker.asc
+        mode: '0644'
+
+    - name: Docker → Add repository
+      ansible.builtin.shell:
+        cmd: |
+          echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | tee /etc/apt/sources.list.d/docker.list > /dev/null
+      become: true                        # need explicit sudo permissions
+
+    - name: Docker → Update cache after adding repo
+      ansible.builtin.apt:
+        update_cache: yes
+
+    - name: Docker → Install components   # need above first before installation
+      ansible.builtin.apt:
+        name:
+          - docker-ce
+          - docker-ce-cli
+          - containerd.io
+          - docker-buildx-plugin
+          - docker-compose-plugin
+        state: present
+
+    - name: Docker → Create group
+      ansible.builtin.group:
+        name: docker
+        state: present
+
+    - name: Docker → Add user to group
+      ansible.builtin.user:
+        name: "{{ ansible_user }}"
+        groups: docker
+        append: yes
+      become: true
+
+    ############### CONFIGURATION ###############
+    - name: Remove _config folder
+      ansible.builtin.file:
+        path: "{{ proj_folder }}/_config"
+        state: absent
+
+    - name: Recreate empty _config folder
+      ansible.builtin.file:
+        path: "{{ proj_folder }}/_config"
+        state: directory
+        mode: "0755"
+        owner: "{{ ansible_user }}"
+        group: "{{ ansible_user }}"
+
+    - name: Copy files from zprod_config folder to _config
+      ansible.builtin.copy:
+        src: "{{ proj_folder }}/zprod_config/{{ item }}"
+        dest: "{{ proj_folder }}/_config/{{ item }}"
+        owner: "{{ ansible_user }}"
+        group: "{{ ansible_user }}"
+        mode: "0644"
+      loop:
+        - analyzer_config.yml
+        - logging_config.yml
+        - processing_config.yml
+        - receiver_config.yml
+        - storage_config.yml
+
+    ############### DATA ###############
+    - name: Create empty _data/processing folder
+      ansible.builtin.file:
+        path: "{{ proj_folder }}/_data/processing"
+        state: directory
+        owner: "{{ ansible_user }}"
+        group: "{{ ansible_user }}"
+        mode: "0755"
+
+    ############### LOGS ###############
+    - name: Create empyt _logs folder
+      ansible.builtin.file:
+        path: "{{ proj_folder }}/_logs"
+        state: directory
+        owner: "{{ ansible_user }}"
+        group: "{{ ansible_user }}"
+        mode: "0755" 
+      become: true
+    
+    - name: Create empty log files
+      ansible.builtin.file:
+        path: "{{ proj_folder }}/_logs/{{ item }}"
+        state: touch
+        owner: "{{ ansible_user }}"
+        group: "{{ ansible_user }}"
+        mode: "0644"
+      loop:
+        - analyzer.log
+        - processing.log
+        - receiver.log
+        - storage.log
+      become: true
+
+    ############### ENV ###############
+    - name: Copy env file to remote node
+      ansible.builtin.copy:
+        src: "{{ proj_folder }}/.env"
+        dest: "{{ proj_folder }}/.env"
+        owner: "{{ ansible_user }}" 
+        group: "{{ ansible_user }}"
+        mode: "644"
+
+    ############### DOCKER COMPOSE ###############
+    - name: Run Docker Containers
+      community.docker.docker_compose_v2:
+        project_src: "{{ proj_folder }}"

@@ -1,0 +1,137 @@
+openapi: 3.0.0
+info:
+  version: 0.0.0
+  title: lol-tracker
+  description: track user activity and their performance
+
+paths:
+  /lol/activity:
+    get:
+      description: gets added user activities after a timestamp
+      operationId: app.get_activity
+      parameters:
+        - name: start_timestamp
+          in: query
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001-07:00
+        - name: end_timestamp
+          in: query
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001-07:00
+      responses:
+        '200':
+          description: successfully returned a list of user activities
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '$/components/schemas/LOLActivity'
+  /lol/match:
+    get:
+      description: gets added matches after a timestamp
+      operationId: app.get_match
+      parameters:
+        - name: start_timestamp
+          in: query
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001-07:00
+        - name: end_timestamp
+          in: query
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001-07:00
+      responses:
+        '200':
+          description: successfully returned a list of matches
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '$/components/schemas/LOLMatch'
+
+components:
+  schemas:
+    LOLActivity:
+      required:
+      - user_id
+      - region
+      - login_counts
+      - timestamp
+      - trace_id
+      type: object
+      properties:
+        user_id:
+          type: string
+          description: user in game name
+          format: uuid
+          example: u-d290f1ee-6c54-4b01-90e6-d701748f0851
+        region:
+          type: string
+          description: server location
+          example: EUW
+        login_counts:
+          type: integer
+          description: number of login counts per week
+          example: 3
+        timestamp:
+          type: string
+          description: last time user login
+          format: date-time
+          example: 2025-04-24T06:24:09.856-07:00
+        trace_id:
+          type: string
+          format: uuid
+          description: trace id in string
+          example: 1cd6745a-8a47-4894-9bb4-fd4b877e0b70
+        
+    LOLMatch:
+      required:
+      - match_id
+      - user_id
+      - kill
+      - death
+      - assist
+      - timestamp
+      - trace_id
+      type: object
+      properties:
+        match_id:
+          type: string
+          format: uuid
+          example: m-d290f1ee-6c54-4b01-90e6-d701748f0851
+        user_id:
+          type: string
+          description: user in game name
+          format: uuid
+          example: u-d290f1ee-6c54-4b01-90e6-d701748f0851
+        kill:
+          type: integer
+          description: number of kills in the game
+          example: 5
+        death:
+          type: integer
+          description: number of deaths in the game
+          example: 5
+        assist:
+          type: integer
+          description: number of assists in the game
+          example: 5
+        timestamp:
+          type: string
+          description: time of starting match
+          format: date-time
+          example: 2025-04-24T06:24:09.856-07:00
+        trace_id:
+          type: string
+          description: trace id in string
+          format: uuid
+          example: 1cd6745a-8a47-4894-9bb4-fd4b877e0b70
