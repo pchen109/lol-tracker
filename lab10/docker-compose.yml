@@ -53,6 +53,19 @@ services:
       - TZ
     ports:
       - 8110:8110
+  dashboard:
+    build:
+      context: dashboard
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
+    environment:
+      - TZ
+    depends_on:
+      - receiver
+      - storage
+      - processing
+      - analyzer
   zookeeper:
     image: wurstmeister/zookeeper
     volumes:

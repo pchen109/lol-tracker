@@ -1,8 +1,8 @@
 const PRO_API_STATS = "http://localhost:8100/stats";
 const ANA_APIS = {
     stats: "http://localhost:8110/stats",
-    activity: "http://localhost:8110/lol/activity?index=",
-    match: "http://localhost:8110/lol/match?index=",
+    activity: "http://localhost:8110/activity?index=",
+    match: "http://localhost:8110/match?index=",
 };
 
 // TIM: helper functions
@@ -22,7 +22,7 @@ const timUpdateErrorMessage = (message) => {
     setTimeout(() => {
         const elem = document.getElementById(`error-${id}`);
         if (elem) { elem.remove() }
-    }, 7000)
+    }, 4000)
 };
 
 // TIM: fetches and updates the general statistics
@@ -54,9 +54,9 @@ const timGetStats = () => {
 
 // TIM: update stats every 4 seconds
 const timSetup = () => {
-    getStats();
-    setInterval(() => getStats(), 4000);
+    timGetStats();
+    setInterval(() => timGetStats(), 4000);
 };
 
 // No () when passing a function reference to run later.
-document.getElementById("DOMContentLoaded", timSetup);      
+document.addEventListener("DOMContentLoaded", timSetup);      

@@ -103,6 +103,18 @@ app.add_api("openapi.yml",
             strict_validation=True,
             validate_responses=True)
 
+from connexion.middleware import MiddlewarePosition
+from starlette.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    position=MiddlewarePosition.BEFORE_EXCEPTION,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 if __name__ == "__main__":
     init_scheduler()
     app.run(port=8100, host="0.0.0.0")
