@@ -153,7 +153,7 @@
     ############### DNS ###############
     - name: replace localhost with DNS in app.js
       replace:
-        path: "{{ proj_folder }}/app.js"
+        path: "{{ proj_folder }}/dashboard/app.js"
         regexp: "localhost"
         replace: "{{ dns_name }}"
 
