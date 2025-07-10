@@ -150,6 +150,14 @@
         group: "{{ ansible_user }}"
         mode: "644"
 
+    ############### DNS ###############
+    - name: replace localhost with DNS in app.js
+      replace:
+        path: "{{ proj_folder }}/app.js"
+        regexp: "localhost"
+        replace: "{{ dns_name }}"
+
+
     ############### DOCKER COMPOSE ###############
     - name: Run Docker Containers
       community.docker.docker_compose_v2:
