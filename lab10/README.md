@@ -1,14 +1,13 @@
-# Lab 9 - Docker (Contanization)
+# Lab 10 - Dashboard
 
 ### Tasks
-- Provisioned a VM using Terraform on a cloud provider (Azure)
-- Used Git for version control; excluded sensitive data with .gitignore and .env
-- Deployed the full microservices project to the VM using Ansible
+- Create a Dashboard Service to display stats of Processing and Analysis stats. 
+- Deploy the Dabshabord in VM using Ansible
 
 ### Results
-- All microservices successfully deployed and running on Azure VM
-- Source code uploaded to GitHub (excluding sensitive or production configs)
-- Services accessible via public IP or DNS
+- The Dashboard displays Processing and Analysis stats
+- The Dashboard displays one of each event types randomly
+- The Dashboard updates stats periodically or for every 4 seconds
 
 ### Prerequisite
 ##### Azure
@@ -41,34 +40,45 @@
    1. `chmod +x deploy.sh`
 4. Run the script to deploy the project:
    1. `./deploy.sh`
+5. Enter your DNS name in your browser to display the dashboard
 
-### How to verify
+### How to verify Dashboard
 1. **SSH** into the VM
    1. `ssh -i <YOUR_PRIVATE_KEY_LOCATION> kekw@<YOUR_DNS>`
 2. Verify services are running
    1. `docker compose ps -a`
 3. Send test data using **JMeter**
-4. Check **MySQL** container to confirm the received data is correctly stored
-5. Verify service stats endpoints
+4. **Check if Dashbaord stats has changed**
+
+### How to verify other servieces (Optional)
+1. Check **MySQL** container to confirm the received data is correctly stored
+2. Verify service stats endpoints
    1. **Receiver** stats: `http://<YOUR_DNS>:8100/stats`
    2. **Analyzer** stats: `http://<YOUR_DNS>:8110/stats`
-6. Verify **activity** data
+3. Verify **activity** data
    1. View data at index 0:
       1. `http://<YOUR_DNS>:8110/activity?index=0`
    2. Modify index to inspect different entries
-6. Verify **match** data
+4. Verify **match** data
    1. View data at index 0:
       1. `http://<YOUR_DNS>:8110/match?index=0`
    2. Modify index to inspect different entries 
-8. Inspect logs in the logs/ directory to ensure each service is logging as expected.
+5.  Inspect logs in the logs/ directory to ensure each service is logging as expected.
 
-### How to Use JMeter
+### How to Use JMeter for VM
 1. Open the **JMeter** application
-2. Load the test plan file: `jmeter.jmx` in `~\lab9\zothers` directory
-3. In both HTTP Request samplers:
+2. Load the test plan file: `jmeter_vm.jmx` in `~\lab10\zothers` directory
+3. In both HTTP Request samplers under VM Group:
    1. Update "**Server Name or IP**" to your own DNS name.
 4. Adjust **Number of Threads** and **Loop Count** as desired to simulate different loads.
 5. Click the **Start** button (green ▶️) to begin sending events.
+
+### How to Use JMeter for Local (Optional)
+*Use this if running `docker compose up -d --build` locally.*
+1. Open the **JMeter** application
+2. Load the test plan file: `jmeter_local.jmx` in `~\lab10\zothers` directory
+3. Adjust **Number of Threads** and **Loop Count** as desired to simulate different loads.
+4. Click the **Start** button (green ▶️) to begin sending events.
 
 ### How to Check Events in MySQL
 1. **SSH** into the VM
