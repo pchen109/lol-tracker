@@ -1,0 +1,5 @@
+repo_url: "git@github.com:pchen109/lol-tracker.git"
+git_key_loc: "/home/kekw/.ssh/github_lol_tracker"
+proj_det: "/home/kekw/lol-tracker"
+proj_folder: "/home/kekw/lol-tracker/lab10"
+dns_name: "pchen109-lol-tracker-proj.eastus.cloudapp.azure.com"

@@ -1,0 +1,64 @@
+openapi: 3.0.0
+info:
+  version: 0.0.0
+  title: Stats API of LOL Tracker
+  description: provide stats of user activity and their performance
+  contact:
+    email: pchen109@my.bcit.ca
+
+paths:
+  /stats:
+    get:
+      description: get user activity and match stats
+      operationId: app.get_stats
+      responses:
+        '200':
+          description: successfully returned LOL stats
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/ReadingStats'
+        '404':
+          description: data file does not exist
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+components:
+  schemas:
+    ReadingStats:
+      type: object
+      required:
+      - num_activities
+      - num_matches
+      - max_login_counts
+      - avg_kill
+      - last_updated
+      properties:
+        num_activities:
+          type: integer
+          description: total number of logins
+          example: 5000
+        num_matches:
+          type: integer
+          description: total number of matches
+          example: 5000
+        max_log_counts:
+          type: integer
+          description: maximum login counts among all players
+          example: 7
+        avg_kill:
+          type: number
+          description: average kills of all games
+          example: 5.5
+        last_updated:
+          type: string
+          description: last updated time
+          format: date-time
+          example: 2025-05-05T08:17:02.041210
