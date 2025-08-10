@@ -62,42 +62,6 @@ resource "azurerm_network_security_group" "lt_nsg" {
         destination_address_prefix  = "*"
 
     }
-    
-    security_rule {
-        name                        = "RECEIVER"
-        priority                    = 1002
-        direction                   = "Inbound"
-        access                      = "Allow"
-        protocol                    = "Tcp"
-        source_port_range           = "*"
-        destination_port_range      = "8080"
-        source_address_prefix       = "*"
-        destination_address_prefix  = "*"
-    }
-
-    security_rule {
-        name                        = "PROCESSING"
-        priority                    = 1003
-        direction                   = "Inbound"
-        access                      = "Allow"
-        protocol                    = "Tcp"
-        source_port_range           = "*"
-        destination_port_range      = "8100"
-        source_address_prefix       = "*"
-        destination_address_prefix  = "*"
-    }
-
-    security_rule {
-        name                        = "ANALYZER"
-        priority                    = 1004
-        direction                   = "Inbound"
-        access                      = "Allow"
-        protocol                    = "Tcp"
-        source_port_range           = "*"
-        destination_port_range      = "8110"
-        source_address_prefix       = "*"
-        destination_address_prefix  = "*"
-    }
 }
 
 # Create Network Interface

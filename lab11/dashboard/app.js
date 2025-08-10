@@ -1,8 +1,8 @@
-const PRO_API_STATS = "http://localhost:8100/stats";
+const PRO_API_STATS = "http://localhost/processing/stats";
 const ANA_APIS = {
-    stats: "http://localhost:8110/stats",
-    activity: "http://localhost:8110/activity?index=",
-    match: "http://localhost:8110/match?index=",
+    stats: "http://localhost/analyzer/stats",
+    activity: "http://localhost/analyzer/activity?index=",
+    match: "http://localhost/analyzer/match?index=",
 };
 
 // TIM: helper functions

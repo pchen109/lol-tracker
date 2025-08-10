@@ -119,10 +119,9 @@ def get_events(start_timestamp, end_timestamp, class_name):
     return results, 200
 ### End of GET Method
 
-
-
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("openapi.yml",
+            base_path="/storage",
             strict_validation=True,
             validate_responses=True)
 

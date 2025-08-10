@@ -10,5 +10,5 @@ state:
 scheduler:
   interval: 5
 urls:
-  activity: http://storage:8090/lol/activity
-  match: http://storage:8090/lol/match
+  activity: http://storage:8090/storage/lol/activity
+  match: http://storage:8090/storage/lol/match

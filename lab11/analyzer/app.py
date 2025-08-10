@@ -73,21 +73,24 @@ def get_event_stats():
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api(
     "openapi.yml",
+    base_path="/analyzer",
     strict_validation=True,
     validate_responses=True
 )
 
 from connexion.middleware import MiddlewarePosition
 from starlette.middleware.cors import CORSMiddleware
+import os
 
-app.add_middleware(
-    CORSMiddleware,
-    position=MiddlewarePosition.BEFORE_EXCEPTION,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+if "CORS_ALLOW_ALL" is os.environ and os.environ["CORS_ALLOW_ALL"] == "yes":
+    app.add_middleware(
+        CORSMiddleware,
+        position=MiddlewarePosition.BEFORE_EXCEPTION,
+        allow_origins=["*"],
+        allow_credentials=True,
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
 
 if __name__ == "__main__":
     app.run(port=8110, host="0.0.0.0")

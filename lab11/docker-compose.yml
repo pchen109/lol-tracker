@@ -1,5 +1,7 @@
 services:
   receiver:
+    deploy:
+      replicas: 3
     build:
       context: receiver
       dockerfile: Dockerfile
@@ -9,8 +11,6 @@ services:
       - ./_logs/receiver.log:/app/logs/app.log
     environment:
       - TZ
-    ports:
-      - 8080:8080
   storage:
     build:
       context: storage
@@ -21,8 +21,6 @@ services:
       - ./_logs/storage.log:/app/logs/app.log
     environment:
       - TZ
-    ports:
-      - 8090:8090
     depends_on:
       db:
         condition: service_healthy
@@ -39,8 +37,7 @@ services:
       - ./_data/processing:/app/data/processing
     environment:
       - TZ
-    ports:
-      - 8100:8100
+      - CORS_ALLOW_ALL
   analyzer:
     build:
       context: analyzer
@@ -51,8 +48,7 @@ services:
       - ./_logs/analyzer.log:/app/logs/app.log
     environment:
       - TZ
-    ports:
-      - 8110:8110
+      - CORS_ALLOW_ALL
   dashboard:
     build:
       context: dashboard
@@ -75,8 +71,6 @@ services:
     hostname: kafka
     command: >
       sh -c "rm -f ./kafka/kafka-logs-kafka/meta.properties && start-kafka.sh"
-    ports:
-      - 9092:9092
     environment:
       - KAFKA_BROKER_ID
       - KAFKA_CREATE_TOPICS              # topic_name:partition_num:replicas_num
@@ -106,8 +100,6 @@ services:
       retries: 5  
       start_period: 30s
       timeout: 10s
-    ports:
-      - 3306:3306
     volumes:
       # - my-db:/var/lib/mysql              # persistent data
       - ./_data/database:/var/lib/mysql
