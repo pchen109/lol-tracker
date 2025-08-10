@@ -49,7 +49,7 @@ const timGetStats = () => {
     timMakeReq(PRO_API_STATS, (result) => timUpdateCodeDiv(result, "processing-value"));
     timMakeReq(ANA_APIS.stats, (result) => timUpdateCodeDiv(result, "analyzer-value"));
     timMakeReq(`${ANA_APIS.activity}${getRandomIndex()}`, (result) => timUpdateCodeDiv(result, "event-activity-value"));
-    timMakeReq(`${ANA_APIS.match}${getRandomIndex()}`, (result) => timUpdateCodeDiv(result, "event-match-value"))
+    timMakeReq(`${ANA_APIS.match}${getRandomIndex()}`, (result) => timUpdateCodeDiv(result, "event-match-value"));
 };
 
 // TIM: update stats every 4 seconds
