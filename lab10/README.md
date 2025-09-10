@@ -18,7 +18,7 @@
 2. Generate a new **SSH key pair** for Git access using:
    1. `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
 3. Add the **public key** (.pub file) to your Git account.
-4. Create your own Git repository and push the contents of the `lab9` folder to it.
+4. Create your own Git repository and push the contents of the `lab10` folder to it.
 ##### Terraform
 1. Generate a new **SSH key pair** for Azure VM access:
    1. `ssh-keygen -t rsa -b 4096 -f ~/.ssh/azure_key`
@@ -34,8 +34,8 @@
 
 ### How to run
 1. Clone this repoistory.
-2. Open a terminal and navigate to the lab9 project directory:
-   1. `cd lab9`
+2. Open a terminal and navigate to the lab10 project directory:
+   1. `cd lab10`
 3. Make the deployment script executable (only needed once):
    1. `chmod +x deploy.sh`
 4. Run the script to deploy the project:
@@ -93,6 +93,6 @@
    1. `SELECT * FROM user_match;`
 
 ### How to Close
-1. run `02_end.sh` in lab9 directory
+1. run `02_end.sh` in lab10 directory
 
 # End
