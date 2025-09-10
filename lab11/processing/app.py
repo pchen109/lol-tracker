@@ -28,23 +28,37 @@ logger = logging.getLogger("basicLogger")
 def get_stats():
     logger.info("==========ℹ️[getting stats starts]ℹ️==========")
 
-    if path.exists(full_path) and path.getsize(full_path) > 0:
+    try:
         with open (full_path, "r") as f:
             content = json.load(f)
         content_indent = json.dumps(content, indent=4)
         logger.debug("🐞[%s]🐞", content_indent)
         return content, 200
-    logger.error("==========❌[Statistics do not exist!]❌==========")
-    return {"message": "Statistics do not exist"}, 404
+    except (FileNotFoundError, json.JSONDecodeError):
+        logger.error("==========❌[Statistics do not exist!]❌==========")
+        return {"message": "Statistics do not exist"}, 404
+
+def check_initial_stats():
+    try:
+        with open (full_path, "r") as f:   
+            content = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        content = state_default
+
+    t_last = content["last_updated"]
+    t_first = state_default["last_updated"]
+
+    current_num_activities = len(httpx.get(url_activity, params={"start_timestamp": t_first, "end_timestamp": t_last}).json())
+    current_num_matches = len(httpx.get(url_match, params={"start_timestamp": t_first, "end_timestamp": t_last}).json())
+
+    if content["num_activities"] != current_num_activities or content["num_matches"] != current_num_matches:
+        content = state_default
 
 def populate_stats():
     logger.info("==========ℹ️[processing period starts]ℹ️==========")
 
-    if path.exists(full_path) and path.getsize(full_path) > 0:
-        with open (full_path, "r") as f:
-            content = json.load(f)
-    else:
-        content = state_default
+    with open (full_path, "r") as f:
+        content = json.load(f)
 
     t_current = datetime.now()
     t_last = content["last_updated"]
@@ -108,7 +122,7 @@ from connexion.middleware import MiddlewarePosition
 from starlette.middleware.cors import CORSMiddleware
 import os
 
-if "CORS_ALLOW_ALL" is os.environ and os.environ["CORS_ALLOW_ALL"] == "yes":
+if "CORS_ALLOW_ALL" in os.environ and os.environ["CORS_ALLOW_ALL"] == "yes":
     app.add_middleware(
         CORSMiddleware,
         position=MiddlewarePosition.BEFORE_EXCEPTION,
@@ -119,5 +133,6 @@ if "CORS_ALLOW_ALL" is os.environ and os.environ["CORS_ALLOW_ALL"] == "yes":
     )
 
 if __name__ == "__main__":
+    # check_initial_stats()
     init_scheduler()
     app.run(port=8100, host="0.0.0.0")

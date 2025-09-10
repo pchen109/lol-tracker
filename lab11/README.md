@@ -1,13 +1,12 @@
-# Lab 10 - Dashboard
+# Lab 11 - Reverse Proxy and Scaling
 
 ### Tasks
-- Create a Dashboard Service to display stats of Processing and Analysis stats. 
-- Deploy the Dabshabord in VM using Ansible
+- Scale Receiver and Storage with a software load balancer (NGINX)
+- Move all services to a common endpoint
 
 ### Results
-- The Dashboard displays Processing and Analysis stats
-- The Dashboard displays one of each event types randomly
-- The Dashboard updates stats periodically or for every 4 seconds
+- Single endpoint (Dashboard) for all services
+- Receiver can be scaled up
 
 ### Prerequisite
 ##### Azure
@@ -34,8 +33,8 @@
 
 ### How to run
 1. Clone this repoistory.
-2. Open a terminal and navigate to the lab9 project directory:
-   1. `cd lab9`
+2. Open a terminal and navigate to the lab11 project directory:
+   1. `cd lab11`
 3. Make the deployment script executable (only needed once):
    1. `chmod +x deploy.sh`
 4. Run the script to deploy the project:
@@ -53,21 +52,21 @@
 ### How to verify other servieces (Optional)
 1. Check **MySQL** container to confirm the received data is correctly stored
 2. Verify service stats endpoints
-   1. **Receiver** stats: `http://<YOUR_DNS>:8100/stats`
-   2. **Analyzer** stats: `http://<YOUR_DNS>:8110/stats`
+   1. **Processing** stats: `http://<YOUR_DNS>/processing/stats`
+   2. **Analyzer** stats: `http://<YOUR_DNS>/analyzer/stats`
 3. Verify **activity** data
    1. View data at index 0:
-      1. `http://<YOUR_DNS>:8110/activity?index=0`
+      1. `http://<YOUR_DNS>/analyzer/activity?index=0`
    2. Modify index to inspect different entries
 4. Verify **match** data
    1. View data at index 0:
-      1. `http://<YOUR_DNS>:8110/match?index=0`
+      1. `http://<YOUR_DNS>/analyzer/match?index=0`
    2. Modify index to inspect different entries 
 5.  Inspect logs in the logs/ directory to ensure each service is logging as expected.
 
 ### How to Use JMeter for VM
 1. Open the **JMeter** application
-2. Load the test plan file: `jmeter_vm.jmx` in `~\lab10\zothers` directory
+2. Load the test plan file: `jmeter_vm.jmx` in `~\lab11\zothers` directory
 3. In both HTTP Request samplers under VM Group:
    1. Update "**Server Name or IP**" to your own DNS name.
 4. Adjust **Number of Threads** and **Loop Count** as desired to simulate different loads.
@@ -76,14 +75,14 @@
 ### How to Use JMeter for Local (Optional)
 *Use this if running `docker compose up -d --build` locally.*
 1. Open the **JMeter** application
-2. Load the test plan file: `jmeter_local.jmx` in `~\lab10\zothers` directory
+2. Load the test plan file: `jmeter_local.jmx` in `~\lab11\zothers` directory
 3. Adjust **Number of Threads** and **Loop Count** as desired to simulate different loads.
 4. Click the **Start** button (green ▶️) to begin sending events.
 
 ### How to Check Events in MySQL
 1. **SSH** into the VM
    1. `ssh -i <YOUR_PRIVATE_KEY_LOCATION> kekw@<YOUR_DNS>`
-2. Access the MySQL container
+2. Access the **MySQL** container
    1. `docker compose exec db mysql -u riot -priot`
 3. Switch to the database
    1. `USE riot;`
@@ -93,6 +92,6 @@
    1. `SELECT * FROM user_match;`
 
 ### How to Close
-1. run `02_end.sh` in lab9 directory
+1. run `02_end.sh` in lab11 directory
 
 # End

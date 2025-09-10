@@ -82,7 +82,7 @@ from connexion.middleware import MiddlewarePosition
 from starlette.middleware.cors import CORSMiddleware
 import os
 
-if "CORS_ALLOW_ALL" is os.environ and os.environ["CORS_ALLOW_ALL"] == "yes":
+if "CORS_ALLOW_ALL" in os.environ and os.environ["CORS_ALLOW_ALL"] == "yes":
     app.add_middleware(
         CORSMiddleware,
         position=MiddlewarePosition.BEFORE_EXCEPTION,

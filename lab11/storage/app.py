@@ -107,8 +107,8 @@ def get_events(start_timestamp, end_timestamp, class_name):
     end = dt.fromisoformat(end_timestamp)
 
     statement = select(class_name)\
-        .where(class_name.date_created >= start)\
-        .where(class_name.date_created < end)
+        .where(class_name.timestamp >= start)\
+        .where(class_name.timestamp < end)
     
     results = [
         result.to_dict() for result in session.execute(statement).scalars().all()
