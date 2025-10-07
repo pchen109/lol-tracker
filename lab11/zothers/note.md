@@ -1,184 +1,134 @@
-# Lab9 - Deployment
 
-##### Purpose 
-- Automate the deployment process to a cloud VM
-- Use git to manage and version source code
+##### Purpose
+- Scale Receiver and Storage with a software load balancer (NGINX)
+- Move all services to a common endpoint
 
-##### Part 1 - Cloud VM
-- choose a cloud provider such as Azure or AWS
-- choose a recent Linux distribution (i.e., `Ubuntu 24.04`)
-- make sure you have a SSH key to SSH access
-- use Terraform to create a VM instance
-- make sure you have a DNS name for the VM
-- make sure Docker and Docker Compose are installed on the VM
+##### Part 1 - Nginx Config
+- copy `nginx.conf` from container to project folder
+	- `docker compose cp dashboard:/etc/nginx/conf.d/default.conf ./dashboard/nginx.conf`
+- modify the config file
+	- default behavior (`/`) 	→ Dashboard UI
+	- `/processing`			→ Processing
+	- `/analyzer`			→ Analyzer
+	- Example
+	```
+	location / {
+		root 	/usr/share/nginx/html;
+		index	index.html index.htm;
+	}
+	
+	location /processing {
+		proxy_pass http://processing:8100
+	}
+	
+	location /analyzer {
+		proxy_pass http://analyzer:8110
+	}
+	```
+- add this line in Dockerfile to overwrite the original `default.conf`
+	- `COPY ./nginx.conf /etc/nginx/conf.d/default.conf`
 
-##### Part 2 - Git Repo
-###### Local Repo
-- easier to have a single repo for our labs
-- use `git init` to set up the local repo
-- add `logs` and `data` in `.gitignore`
-- separate config files for development and production environment
-	- development env is local	→ dev config can go to Git
-	- production env is VM		→ prod config CANNOT go to Git
-		- add prod config in `.gitignore`
-- use this [default .ignore](https://github.com/github/gitignore/blob/main/Python.gitignore) as a template or starting point
-- add all source files and commit to the local repo
+##### Part 2 - Service Endpoints
+- change the `base_path` for **ALL** services in their app.py
+	- **current**		`app.add_api("openapi.yml", ...)`
+	- **changed to**		`app.add_api("openapi.yml", base_path="/receiver", ...) `
+- enable/disable CORS with an environment variable
+	- ***don't need CORS anymore due to Reverse Proxy Setup***
+	- `app.py`
+	```py
+	if "CORS_ALLOW_ALL" in os.environ and os.environ["CORS_ALLOW_ALL"] == "yes":
+		app.add_middleware(...)
+	```
+	- `docker-compose.yml`
+	```yaml
+	processing:
+		build: processing
+		environment:
+			CORS_ALLOW_ALL: no
+#### Other services with CORS as well
+	```
+- update config files 
+	- Processing should make request to		`http://storage:8090/storage`
+	- Dashboard should make request to		`http://cloud-vm-name/processing/stats`
+- adjust Docker Compose dependencies accordingly for Nginx service
 
-###### Remote Repo
-- create a git repo on GitHub or any other Git platform
-- (optional) make your repo private
-- set it up with SSH for pull/push
-- use [**Deploy Key**](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/managing-deploy-keys#deploy-keys) to pull/push from the VM
+##### Part 3 - Test and Clean Up
+- make following changes
+	- only expose the port for the Nginx container to the public
+		- → all other services must run using the internal network (not exposed to public)
+	- VM firewall should only allow traffic to Nginx forwarded port 
+- go through the checklist:
+	- Dashboard is accessed via `http://clud-vm-name`
+	- Dashboard makes request to the endpoints with correct prefix
+		- `http://cloud-vm-name/processing` → check inspector in browser
+	- Dashboard updates and displays correct results
+	- Services are using an internal Docker network
+	- Only accessible service outside the Docker network is Nginx service (port 80)
 
-##### Part 3 - Deployment Automation
-- use Ansible to install software and deploy tasks 
-- do NOT use relative path → able to run from any location
-- cover all edge cases
-	- missing volumes
-	- missing folders
-	- missing files
-- update the code on the server from Git with Ansible
-- verify deployment result with JMeter
+##### Part 4 - Scale and Test
+- run `docker compose up -d --scale receiver=3`
+- run `docker compose ps` to check if Receiver has 3 containers running
+- update URLs in JMeter or your HTTP test suite
+	- http://cloud-vm-name/receiver
+	- http://cloud-vm-name/processing 
+	- http://cloud-vm-name/analyzer
+- send request using JMeter
+- check if requested are load balanced
+	- `docker compose logs -f receiver`
+- change default scaling in `docker-compose.yml` with `deploy` and `replicas`
+	```yaml
+	services:
+		receiver:
+			deploy:
+				replicas: 3
+			build: receiver
+		# ...
+	```
 
-##### Ansible Modules
-- [GIT Module](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/git_module.html)
-- [Package Module](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/package_module.html#ansible-collections-ansible-builtin-package-module)
-- [File Module](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/file_module.html#ansible-collections-ansible-builtin-file-module)
-- [Copy Module](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/copy_module.html#ansible-collections-ansible-builtin-copy-module)
-
-##### Terraform & Azure Documents
-- [Terraform Installation - Linux/Ubuntu](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
-
-##### Commands
-- **Azure CLI Setup**
-	- `curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash`
-	- `az version`
-	- `az login`
-	- `az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/<subscription-id>"`
-		- Output:
-			- `appId`				- ARM Client ID
-			- `displayName`		
-			- `password`			- ARM Client Secret
-			- `tenant`			- ARM Tenant ID
-		- Note:
-			- ARM Subscription ID is the Azure Sub ID
-	- `nano ~/.bashrc`
-		```c
-		export ARM_CLIENT_ID="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
-		export ARM_CLIENT_SECRET="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
-		export ARM_SUBSCRIPTION_ID="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
-		export ARM_TENANT_ID="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
-		```
-	- `source ~/.bashrc`
-- **SSH Key Pair**
-	- `ssh-keygen -t rsa -b 4096 -f ~/.ssh/azure_key`
-		- Generates a 4096-bit RSA key pair. (GPT)
-
-##### Common AzureRM Env Variable TF
-| Env Variable          | Used for                    |
-| --------------------- | --------------------------- |
-| `ARM_CLIENT_ID`       | Service Principal Client ID |
-| `ARM_CLIENT_SECRET`   | Service Principal Secret    |
-| `ARM_SUBSCRIPTION_ID` | Azure Subscription ID       |
-| `ARM_TENANT_ID`       | Azure Tenant ID             |
-##### AZ commands differences (GPT)
-- `az account show`
-- `az logout`
-- `az login`
-
-| Command             | Origin                                      | Purpose                             | Notes                                                                              |
-| ------------------- | ------------------------------------------- | ----------------------------------- | ---------------------------------------------------------------------------------- |
-| `Connect-AzAccount` | PowerShell (`Az` module)                    | Signs in to Azure (creates session) | **Preferred**, replaces `Login-AzAccount`; standardized verb ("Connect")           |
-| `Login-AzAccount`   | PowerShell (older `AzureRM` and early `Az`) | Signs in to Azure                   | **Legacy**, deprecated — alias to `Connect-AzAccount` now                          |
-| `az login`          | Azure CLI (`az` command-line tool)          | Signs in to Azure                   | CLI-based (not PowerShell), works cross-platform, outputs tokens usable in scripts |
-##### Storage Account - AWS vs Azure (GPT)
-- **AWS** = More flexible (CloudWatch optional, basic logs always available).    
-- **Azure** = More rigid (must pre-configure storage for full diagnostics).
-
-##### Network Architecture - (DeepSeek)
-1. **Public IP** must attach to the **NIC**, not the VM directly.
-2. **NSG** can apply to _either_ NIC (single VM) or Subnet (all VMs in it).
-3. **Storage Account** is standalone but linked to the VM for logs/disks.
-```
-Storage Account (optional, for diagnostics/disks)
-│
-VM
-│
-└── NIC 
-    ├── Private IP (from Subnet)
-    ├── Public IP (optional)
-    └── NSG (firewall rules)
-        │
-Subnet → VNet
-```
+##### Rubric
+- Code
+	- single endpoint for all services
+	- updated Docker compose with a scaled up services
+- JMeter
+	- minimum of 100 concurrent threads with 
+	- new endpoints
+	- Processing and Analyzer are within 5% of the expected values 
 
 ##### Knowledge
-- warning message: "using the discovered Python interpreter"
-	- ansible: `inventory.ini`
-	```YAML
-	[all]
-	kekw-vm ansible_python_interpreter=/usr/bin/python3.10
+- The dashboard UI isn’t “inside” the container from the browser’s perspective:
+	- The **dashboard container** runs a web server that **serves the dashboard UI (HTML, JS, CSS files)**.
+	- When a user opens their browser and goes to `http://cloud-vm-name/`, the browser **downloads that UI code from the dashboard container**.
+	- But once the UI (JavaScript) is loaded in the browser, it’s running **on the user’s machine**, outside Docker entirely.
+- Proxy
+	- Code - `nginx.conf `or `default.conf`
+	```nginx
+	location /receiver {
+		proxy_pass http://receiver:8080;
+	}
 	```
-- Clone Git repo from a specific folder
-	```bash
-	git clone git@github.com:whatever folder-name
-	```
-- Specify host alternative name with multiple key pairs
-	- `~/.ssh/config`
-		```SSH
-		Host github.com_lol_tracker
-			HostName github.com
-			User git
-			IdentityFile ~/.ssh/github_lol_tracker
-			IdentitiesOnly yes
-		```
-	- → `git clone github.com_lol_tracker:pchen109/lol_tracker.git lab9`
-- Dynamic Inventory 
-	- Azure has too many issues →→→ Don't even use it
-	- **AWS**: Region is a top-level organizational concept; there's no mandatory grouping of EC2 instances.
+	- Behavior 
+		- a client sends a request to `http://<cloud-vm-name>/receiver`
+			- the request first reaches to VM
+		- the request gets forwarded to Nginx container
 		```yaml
-		plugin: amazon.aws.aws_ec2
-		regions:
-		  - us-west-2
-		compose:
-		  ansible_host: public_dns_name
-		hostnames:
-		  - name: tag:Name
-		    separator: ""
-		    prefix: ""
-		keyed_groups:
-		  - key: tags.group
-		    prefix: "group"
-		    separator: "_"
-		  - key: tags.Project
-		    prefix: "project"
-		    separator: "_"
-		  - key: tags.Role
-		    prefix: "server_role"
-		    separator: "_"
+		ports: 
+		  - "80:80"
 		```
-- Ansible → `inventory.ini`
-	- `[azure_vms]` 	→ host group
-	- `[all]`			→ all host groups
-	- `kekw-vm`		→ a host alias
-	```yaml
-	[azure_vms]
-	kekw-vm ansible_host=40.87.71.27 ansible_user=azure_vms ansible_ssh_private_key_file=~/.ssh/azure_key
-	
-	# Explicitly specify the Python interpreter version to avoid using the system default
-	[all]
-	kekw-vm ansible_python_interpreter=/usr/bin/python3.10
-	```
-- Playbook snippet 
-	- `hosts` can be either `azure_vms` or `kekw-vm`
-		- `azure_vms`	→ all hosts in this group
-		- `kekw-vm`		→ only this host
-		```yaml
-		- name: Deplloy LOL Tracker
-		  hosts: kekw-vm
-		  become: true
-		```
-- GIT URL Setup
-	- `git remote -v`
-	- `git remote set-url origin git@github.com_lol_tracker:pchen109/lol-tracker.git`
+		
+		- **proxy part is used here b/t client and VM → not VM internally**
+
+	👉 **Proxy (Nginx) is mainly used between client and VM**  
+	→ It handles incoming requests **from the outside**, then routes them **internally** to containers.
+
 # End
+
+
+- 08/27/2025 - time issue - I should use timestamp, not date_created 
+	- need to find out where date_created is coming from
+	- likely come from kafka
+	- when running docker compose up, date_created is updated using current time
+	- b/c i delete the metadata from kafak
+	- but I don't get how this change time since rest of the kafka data is still there
+	- if this change time, then do i still neeed to keep all the data?
+	- check it next
+![[Pasted image 20250827090153.png]]
